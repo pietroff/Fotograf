@@ -1,0 +1,10 @@
+.widget .widget-content .skill_clone .wp-picker-container,
+.widget .widget-content .skillGroup .wp-picker-container {
+    /*width: 100%;*/
+}
+.widget .widget-content .skill_clone > div,
+.widget .widget-content .skillGroup > div {
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}

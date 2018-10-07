@@ -1,0 +1,2222 @@
+@-moz-document url-prefix() {
+    select, select:-moz-focusring, select::-moz-focus-inner {
+        color: #444444;
+        text-shadow: 0 0 0 #444;
+        background-image: none;
+        border: 0;
+    }
+}
+a {
+    text-decoration: none;
+}
+.hide {
+    display: none !important;
+}
+.required_field {
+    color: red;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+.padding_left_0 {
+    padding-left: 0 !important;
+}
+.pdl-list-body li span.pdl-list-row.col3 {
+    width: 25%;
+    padding: 0 15px;
+}
+.pdl-list-body li span.pdl-list-row.col4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+.pdl-list-body li span.pdl-list-row.col5 {
+    width: 41.6667%;
+    padding: 0 15px;
+}
+.pdl-admin * {
+    box-sizing: border-box;
+}
+.pdl-admin {
+    margin: 10px auto 0 auto;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.pdl-review-link,
+.pdl-review-link:hover {
+    text-decoration: none !important;
+}
+.pdl-admin .pdl-logo {
+    margin-bottom: 20px;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px 10px;
+    min-height: 95px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.pdl-admin .pdl-logo a:hover,
+.pdl-admin .pdl-logo a:focus,
+.pdl-admin .pdl-logo a:active {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.pdl-admin .pdl-header-meta {
+    float: right;
+    font-size: 14px;
+    margin-top: -3px;
+    text-align: right;
+}
+.pdl-admin .pdl-home .pdl-list {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #dddddd;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+.pdl-admin .pdl-home .pdl-list-header {
+    border-bottom: 1px solid #dddddd;
+    float: left;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.pdl-admin .pdl-home .pdl-list-header h4 {
+    float: left;
+    line-height: 32px;
+    margin: 0;
+    font-size: 18px;
+}
+.pdl-admin .pdl-home .pdl-list-header span {
+    line-height: 25px;
+    margin-right: 5px;
+}
+.pdl-admin .pdl-home .pdl-list-footer {
+    border-top: 1px solid #dddddd;
+    float: left;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.pdl-admin .pdl-right {
+    float: right;
+}
+.pdl-admin .pdl-home .pdl-list-body {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.pdl-list-body > ul {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    width: 100%;
+}
+.pdl-list-body li {
+    background: none repeat scroll 0 0 #fafafa;
+    border-left: 5px solid #2980b9;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 10px;
+    padding: 8px 0;
+    float: left;
+    width: 100%;
+}
+.pdl-list-body li:first-child {
+    border-color: #fafafa;
+    font-weight: bolder;
+}
+.pdl-list-body li:last-child {
+    margin: 0;
+}
+.pdl-list-body li span.pdl-list-row {
+    line-height: 32px;
+    width: 16.6667%;
+    float: left;
+    padding: 0 15px;
+    position: relative;
+}
+.pdl-list-body li span.pdl-list-shortcode {
+    line-height: 24px;
+}
+.pdl-list-body li span.pdl-list-shortcode input {
+    width: 85%;
+}
+.pdl-list-body li span.pdl-list-srno {
+    margin-right: 10px;
+}
+.post_type_icon_td > label {
+    margin-right: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.pdl-admin input[type="checkbox"],
+.pdl-admin input[type="radio"] {
+    margin: -1px 5px 0 0;
+}
+.button.set_custom_images {
+    margin-top: 5px;
+}
+/* ====================================== */
+/* 	Portfolio button START
+/* ====================================== */
+.pdl-admin .pdl-button {
+    position: relative;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px 14px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #FFFFFF;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    white-space: normal;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    cursor: pointer;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    opacity: 1;
+    width: auto;
+}
+.pdl-admin .pdl-button:hover,
+.pdl-button:focus {
+    outline: 0;
+    text-decoration: none;
+}
+.pdl-admin .pdl-button:active,
+.pdl-button.pdl-is-active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+.pdl-admin .pdl-button[disabled],
+.pdl-admin .pdl-button.pdl-is-disabled {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.pdl-admin .pdl-button.pdl-is-default {
+    border-color: #656d78;
+    background-color: #f5f7fa;
+    color: #434a54;
+}
+.pdl-admin .pdl-button.pdl-is-default:hover,
+.pdl-button.pdl-is-default:focus {
+    border-color: #737c89;
+    background-color: #FFF;
+}
+.pdl-admin .pdl-button.pdl-is-default:active,
+.pdl-admin .pdl-button.pdl-is-default.pdl-is-active {
+    border-color: #575e67;
+    background-color: #e1e7f0;
+}
+.pdl-admin .pdl-button.pdl-is-primary {
+    border-color: #2494be;
+    background-color: #3bafda;
+    color: #FFF;
+}
+.pdl-admin .portfolio-shortcode-name {
+    float: right;
+    height: 32px;
+    margin-right: 15px;
+}
+.pdl-admin .pdl-button.pdl-is-primary:hover,
+.pdl-admin .pdl-button.pdl-is-primary:focus {
+    border-color: #0785b7;
+    background-color: #0785b7;
+}
+.pdl-admin .pdl-button.pdl-is-primary:active,
+.pdl-admin .pdl-button.pdl-is-primary.pdl-is-active {
+    border-color: #1f80a4;
+    background-color: #27a2cf;
+}
+.pdl-admin .pdl-button.pdl-is-secondary {
+    border-color: #7652d1;
+    background-color: #967adc;
+    color: #FFF;
+}
+.pdl-admin .pdl-button.pdl-is-secondary:hover,
+.pdl-admin .pdl-button.pdl-is-secondary:focus {
+    border-color: #896ad7;
+    background-color: #a992e2;
+}
+.pdl-admin .pdl-button.pdl-is-secondary:active,
+.pdl-admin .pdl-button.pdl-is-secondary.pdl-is-active {
+    border-color: #633acb;
+    background-color: #8362d6;
+}
+.pdl-admin .pdl-button.pdl-is-success {
+    border-color: #72a53b;
+    background-color: #8cc152;
+    color: #FFF;
+}
+.pdl-admin .pdl-button.pdl-is-success:hover,
+.pdl-admin .pdl-button.pdl-is-success:focus {
+    border-color: #82bc43;
+    background-color: #9bc969;
+}
+.pdl-admin .pdl-button.pdl-is-success:active,
+.pdl-admin .pdl-button.pdl-is-success.pdl-is-active {
+    border-color: #628e33;
+    background-color: #7db440;
+}
+.pdl-admin .pdl-button.pdl-is-green {
+    border-color: #28c163;
+    background-color: #42c574;
+    color: #FFF;
+}
+.pdl-admin .pdl-button.pdl-is-green:hover,
+.pdl-admin .pdl-button.pdl-is-green:focus {
+    border-color: #0c6f32;
+    background-color: #108b40;
+}
+.pdl-admin .pdl-button.pdl-is-green:active,
+.pdl-admin .pdl-button.pdl-is-green.pdl-is-active {
+    border-color: #0c6f32;
+    background-color: #108b40;
+}
+.pdl-admin .pdl-button.pdl-is-orange {
+    border-color: #e8a115;
+    background-color: #f1a40c;
+    color: #FFF;
+}
+.pdl-admin .pdl-button.pdl-is-orange:hover,
+.pdl-admin .pdl-button.pdl-is-orange:focus {
+    border-color: #f7b025;
+    background-color: #f7b32f;
+}
+.pdl-admin .pdl-button.pdl-is-orange:active,
+.pdl-admin .pdl-button.pdl-is-orange.pdl-is-active {
+    border-color: #f7b025;
+    background-color: #f7b32f;
+}
+.pdl-admin .pdl-button.pdl-is-danger {
+    border-color: #c42737;
+    background-color: #da4453;
+    color: #FFF;
+}
+.pdl-admin .pdl-button.pdl-is-danger:hover,
+.pdl-admin .pdl-button.pdl-is-danger:focus {
+    border-color: #d63344;
+    background-color: #df5e6a;
+}
+.pdl-admin .pdl-button.pdl-is-danger:active,
+.pdl-admin .pdl-button.pdl-is-danger.pdl-is-active {
+    border-color: #aa2230;
+    background-color: #d52a3c;
+}
+.pdl-admin .pdl-button.pdl-is-inverse {
+    border-color: #434a54;
+    background-color: #656d78;
+    color: #FFF;
+}
+.pdl-admin .pdl-button.pdl-is-inverse:hover,
+.pdl-admin .pdl-button.pdl-is-inverse:focus {
+    border-color: #515965;
+    background-color: #737c89;
+}
+.pdl-admin .pdl-button.pdl-is-inverse:active,
+.pdl-admin .pdl-button.pdl-is-inverse.pdl-is-active {
+    border-color: #353b43;
+    background-color: #575e67;
+}
+/* ====================================== */
+/* 	Portfolio button END
+/* ====================================== */
+/* ====================================== */
+/* 	Portfolio Setting START
+/* ====================================== */
+#poststuff .pdltab .inside {
+    margin-top: 0;
+}
+.pdltab .inside select,
+.pdltab .inside input[type="text"],
+.pdltab .inside input[type="number"],
+.pdltab .inside input[type="url"] {
+    color: #444444;
+    min-height: 43px;
+    padding: 12px 15px;
+    width: 100%;
+}
+.pdltab textarea {
+    width: 100%;
+    min-height: 100px;
+    resize: vertical;
+}
+#pdl_add_portfolio .wp-core-ui .button-group.button-small .button,
+#pdl_add_portfolio .wp-core-ui .button.button-small,
+.portfolio_single_post_style .wp-core-ui .button-group.button-small .button,
+.portfolio_single_post_style .wp-core-ui .button.button-small {
+    font-size: 15px;
+    height: 40px;
+    line-height: 35px;
+}
+.wp-core-ui .button-group.button-small .button,
+.wp-core-ui .button.button-small {
+    font-size: 14px;
+    height: 42px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.pdltab .inside label.desc_checkbox {
+    font-size: 14px;
+    color: #999999;
+    font-weight: normal;
+}
+.pdltab .inside label input[type="checkbox"] {
+    margin: -4px 4px 0 0;
+}
+.pdltab .inside p {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: #999999;
+}
+.pdltab .inside table {
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0 5px;
+    width: 100%;
+}
+.pdltab .inside table.pdl_font_style_options {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.pdltab .inside table td {
+    width: 60px;
+    padding: 20px 10px;
+    position: relative;
+}
+.pdltab .inside table.pdl_font_style_options td,
+.pdltab .inside table.pdl_font_style_options td:first-child {
+    width: auto;
+}
+.pdltab .inside table.pdl_font_style_options td {
+    padding: 0 0 20px 10px;
+}
+.pdltab .inside table td .portfolio_facebook_link_with_count,
+.pdltab .inside table td .portfolio_google_link_with_count,
+.pdltab .inside table td .portfolio_linkedin_link_with_count,
+.pdltab .inside table td .portfolio_pinterest_link_with_count,
+.pdltab .inside table td .facebook_link_with_count,
+.pdltab .inside table td .google_link_with_count,
+.pdltab .inside table td .linkedin_link_with_count,
+.pdltab .inside table td .pinterest_link_with_count {
+    position: relative;
+    top: -13px;
+    color: #999999;
+}
+.pdltab .inside table td:first-child {
+    vertical-align: top;
+    width: 40%;
+}
+.portfolio_default_image_holder img {
+    height: 100px;
+    margin-right: 15px;
+    width: 100px;
+}
+#poststuff .pdl-remove_image_button {
+    margin-top: 35px;
+}
+#pdlsocial .inside td:nth-child(2) label {
+    font-weight: normal;
+    margin: 0px;
+    line-height: 30px;
+}
+.ui-buttonset .ui-button.ui-state-default {
+    border: 1px solid #cccccc;
+}
+.ui-buttonset .ui-button.ui-state-default.ui-corner-right .ui-button-text {
+    border-right: 1px solid #cccccc;
+}
+.ui-buttonset .ui-button.ui-state-default.ui-corner-left {
+    border-left: 1px solid #cccccc;
+}
+.pdl-social-options label {
+    margin: 0px !important;
+}
+.pdltab .filter_text_padding > input {
+    width: 22% !important;
+}
+.pdltab .filter_text_padding > span {
+    display: inline-block;
+    text-align: right;
+}
+.pdltab .filter_text_border {
+    position: relative;
+}
+.pdltab .filter_text_border > input[type="number"] {
+    display: inline-block;
+    width: 31%;
+}
+.pdltab .filter_text_border > select1 {
+    display: inline-block;
+    width: 33%;
+}
+.pdltab .filter_text_border > .set-background {
+    position: relative;
+    width: 28%;
+    margin-left: 10px;
+}
+.pdltab .filter_text_border > div {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.pdltab .filter_text_border > span {
+    position: relative;
+    display: inline-block;
+    padding-top: 12px;
+}
+/* ====================================== */
+/* 	Portfolio Setting END
+/* ====================================== */
+/* ====================================== */
+/* 	Portfolio Chosen Select START
+/* ====================================== */
+.pdl-form-class .chosen-container {
+    width: 100% !important;
+}
+.select-cover .chosen-container-single .chosen-single {
+    background: #ffffff none repeat scroll 0 0;
+    border-color: #dddddd;
+    border-radius: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+    height: auto;
+    line-height: 40px;
+    min-height: 40px;
+    padding: 1px 0 1px 15px;
+}
+.chosen-container-active.chosen-with-drop .chosen-single {
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+}
+.chosen-container-single .chosen-drop {
+    border-radius: 0;
+}
+.select-cover .chosen-container-single .chosen-single div b {
+    background-position: 0 10px;
+}
+.select-cover .chosen-container-active.chosen-with-drop .chosen-single div b {
+    background-position: -18px 10px;
+}
+.pdl-form-class .chosen-container .chosen-results li.highlighted {
+    color: #666 !important;
+    background: transparent !important;
+}
+.pdl-form-class .chosen-container-multi .chosen-choices {
+    background-color: #ffffff;
+    background-image: none;
+    border-color: #e5e5e5;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+    padding: 0 13px;
+}
+.pdl-form-class .chosen-container-multi .chosen-choices li.search-choice {
+    line-height: 22px;
+    margin: 6px 3px;
+}
+.pdl-form-class .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+    top: 9px;
+    bottom: auto;
+}
+.pdl-form-class .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    width: 100% !important;
+}
+/* ====================================== */
+/* 	Portfolio Chosen Select END
+/* ====================================== */
+
+/* ====================================== */
+/* 	Portfolio Layout Preview START
+/* ====================================== */
+.preview-screen {
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url("../../images/loading.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 52px 52px;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    display: none;
+}
+#pdl-show-preview {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 100;
+    font-size: 20px;
+}
+.pdl_page_add_portfolio .ui-widget-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.pdl_template_preview_model.ui-dialog {
+    border: medium none;
+    left: 120px !important;
+    padding: 0;
+    position: fixed !important;
+    top: 55px !important;
+    z-index: 9999 !important;
+}
+.pdl_template_preview_model.ui-dialog .ui-dialog-content {
+    padding: 1em;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.pdl_template_preview_model.ui-dialog .ui-dialog-titlebar {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #16a085;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: #ffffff;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+.pdl_template_preview_model.ui-dialog .ui-dialog-title {
+    font-size: 16px;
+    float: none;
+    text-shadow: none;
+}
+.ui-dialog.pdl_template_preview_model .ui-dialog-titlebar-close {
+    background: #ffffff none repeat scroll 0 0 !important;
+    border: medium none;
+    right: 20px;
+}
+.ui-dialog.pdl_template_preview_model .ui-dialog-titlebar-close span.ui-icon-closethick {
+    background-image: url("chosen-sprite.png");
+    background-position: -39px 4px !important;
+    background-repeat: no-repeat;
+    display: block;
+    height: 15px;
+    margin-left: 0;
+    margin-top: 0;
+    text-indent: 0;
+    width: 16px;
+    z-index: 99999;
+    position: unset;
+}
+/* ====================================== */
+/* 	Portfolio Layout Preview END
+/* ====================================== */
+/* ====================================== */
+/* 	Portfolio Font Size Slider
+/* ====================================== */
+.grid_col_space.ui-slider {
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    width: 97%;
+}
+.grid_col_space .ui-slider-handle.ui-state-default.ui-corner-all {
+    background: none repeat scroll 0 0 #696969 !important;
+    border: 0 none;
+    border-radius: 10px;
+    box-shadow: none;
+    display: inline-block;
+    height: 18px;
+    position: absolute;
+    top: -5px;
+    width: 18px;
+    margin-left: -5px;
+}
+.slide_val {
+    display: inline-block;
+    width: 75px;
+    position: relative;
+    margin-left: 10px;
+}
+input[type=number] {
+    height: 28px;
+    line-height: inherit;
+    width: 100px;
+    margin: 0;
+}
+.grid_col_space {
+    position: relative;
+    border-radius: 3px;
+}
+.grid_col_space .ui-corner-all {
+    height: 10px;
+    border-radius: 0;
+}
+.pdl-header-wrapper {
+    align-items: center;
+    border-bottom: 2px solid #e5e5e5;
+    box-sizing: border-box;
+    display: flex;
+    padding: 18px;
+    background: #ffffff;
+    vertical-align: middle;
+    width: 100%;
+}
+.pdl-header-wrapper .pull-left {
+    width: 50%;
+    line-height: 0;
+}
+.pdl-header-wrapper .pull-right {
+    width: 50%;
+    text-align: right;
+}
+.pdl-header-wrapper .button {
+    margin-left: 10px !important;
+    padding: 5px 10px;
+    height:auto;
+    line-height: 20px;
+}
+.pdl-header-wrapper .button span {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.pdl-header-wrapper #pdl-btn-reset-submit.button span {
+    color: #696969;
+}
+
+.postbox-container {
+    background: #ffffff;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.pdl-menu-setting {
+    background: #ffffff;
+    max-width: 250px;
+    min-height: 495px;
+    display: inline-block;
+}
+#pdl_add_cpts .pdl-menu-setting {
+    max-width: 300px;
+    min-height: 250px !important
+}
+.pdl-menu-setting > ul {
+    margin: 0;
+}
+.pdl-menu-setting > ul > li {
+    cursor: pointer;
+    display: inline-block;
+    line-height: 40px;
+    position: relative;
+    margin-bottom: 0;
+    padding: 22px 10px;
+    text-align: left;
+    vertical-align: middle;
+    width: 100%;
+    background: #898989;
+    border-bottom: 2px solid #ffffff;
+}
+.pdl-menu-setting > ul > li i {
+    color: #ffffff;
+    float: left;
+    font-size: 15px;
+    line-height: normal;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 20px;
+}
+.pdl-menu-setting > ul > li.port-active-tab {
+    background: #3BC391;
+}
+.pdl-menu-setting > ul > li span {
+    color: #ffffff;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0;
+    width: calc(100% - 35px);
+}
+.pdl-settings-wrappers .postbox strong,
+.pdl-settings-wrappers .postbox b {
+    color: #ff4c4c;
+}
+#pdl_add_cpts .pdl-settings-wrappers .postbox {
+    width: calc(100% - 300px);
+    min-height: 250px;
+}
+.pdl-settings-wrappers .postbox {
+    border: medium none;
+    display: none;
+    float: right;
+    width: calc(100% - 250px);
+    margin: 0;
+    box-sizing: border-box;
+    border-bottom: 0;
+    min-height: 305px;
+    box-shadow: none;
+    color: #666666;
+}
+/* Style for input type number start */
+.pdl-admin .input-number-cover {
+    border: 1px solid #dddddd !important;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+.pdl-admin input[type=number]::-webkit-inner-spin-button,
+.pdl-admin input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.pdl-admin input[type=number] {
+    -moz-appearance: textfield;
+}
+.pdl-admin .input-number-cover input {
+    border: medium none;
+    display: block;
+    float: left;
+    height: 43px;
+    margin: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+}
+.chosen-container-single .chosen-search input[type="text"] {
+    padding: 4px 20px 4px 5px !important;
+    min-height: 10px;
+}
+.pdl-admin .input-number-cover input:focus {
+    outline: 0;
+}
+.pdl-admin .input-number-nav {
+    float: left;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    height: 43px;
+}
+.pdl-admin .input-number-button {
+    position: relative;
+    cursor: pointer;
+    border-left: 1px solid #dddddd;
+    width: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+    line-height: 19px;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.pdl-admin .input-number-button.number-up {
+    position: absolute;
+    height: 50%;
+    top: 0;
+}
+.pdl-admin .input-number-button.number-down {
+    position: absolute;
+    border-top: 1px solid #dddddd;
+    bottom: 0;
+    height: 50%;
+}
+/* Style for input type number end */
+/* Style for select start */
+.font_size_cover {
+    width: 100%;
+    display: inline-block;
+}
+.pdl-settings-wrappers .small-select,
+.font_size_cover .font-size-cover {
+    margin-left: 10px;
+}
+.select-cover.font-size-cover {
+    float: right;
+    min-width: 70px;
+}
+.pdl-settings-wrappers .small-select,
+.pdl-settings-wrappers .font_size_cover .select-cover,
+.pdl-settings-wrappers .font_size_cover .input-number-cover {
+    width: 100px;
+}
+.pdl-settings-wrappers .portfolio_simple_layout .small-select {
+    float: right;
+}
+.pdl-settings-wrappers .font_size_cover .font-size-cover {} .pdl-settings-wrappers .large-input {
+    width: calc(100% - 114px);
+}
+.button.pdl-upload_image_button {
+    background: #ffffff none repeat scroll 0 0;
+    height: auto;
+    min-height: 43px;
+    padding: 7px 15px;
+    border-radius: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+}
+.filter_text_border .input-number-cover,
+.filter_text_padding .input-number-cover {
+    width: 20%;
+    margin-right: 2%;
+}
+/* Style for select end */
+
+.pdl-menu-setting > ul > li.clickDisable {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+#TB_ajaxContent .modal-footer {
+    border-top: 2px solid #eee;
+    margin-top: 25px;
+    padding-top: 20px;
+}
+#TB_ajaxContent .modal-footer button {
+    float: right;
+}
+#required_fields_alert .notice.notice-error.is-dismissible,
+.pdl_page_add_portfolio .notice.notice-success.is-dismissible {
+    margin-left: 0;
+    margin-top: 35px;
+}
+.pdl_page_add_portfolio .pdl-list {
+    margin-top: 20px;
+}
+fieldset.pdl-social-options {
+    display: inline-block;
+}
+.pdl-admin .wp-picker-container input.wp-color-picker[type="text"] {
+    width: 149px;
+}
+.pdl-admin .wp-color-result:after {
+    font-size: 14px;
+    line-height: 38px;
+}
+.pdl-admin .wp-color-result,
+.pdl-admin .wp-color-result {
+    height: 40px !important;
+    margin: 0 !important;
+    padding-left: 6px !important;
+    padding-right: 30px !important;
+}
+.pdl-admin .wp-color-result:hover,
+.pdl-admin .wp-color-result:focus {
+    text-decoration: none;
+    outline: none;
+}
+.pdl-admin .wp-picker-input-wrap {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+.pdl-admin button.wp-color-result span.wp-color-result-text{
+    background-color: #ffffff !important;
+    background-image: none !important;
+    border-left: none !important;
+    font-size: 14px;
+    line-height: 38px;
+}
+.pdl-admin button.wp-color-result span.color-alpha {
+    border-radius: 100% !important;
+    box-shadow: 0 0 2px 1px #cccccc;
+    height: 12px !important;
+    margin: 12px 12px 12px 0;
+    width: 12px !important;
+    right: 0 !important;
+    left: auto !important;
+}
+.pdl-admin .wp-color-result::after,
+.pdl-admin button.wp-color-result {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    min-width: 150px;
+}
+.pdl-admin .wp-color-result::after {
+    border-left: none;
+}
+.pdl-admin .wp-picker-container a:hover,
+.pdl-admin .wp-picker-container a:focus,
+.pdl-admin .wp-picker-container a:active {
+    text-decoration: none;
+    outline: none;
+}
+.pdl-admin .pdltab .filter_text_border > .set-background .wp-picker-container {
+    left: 0;
+    overflow: visible;
+    position: absolute;
+    width: 350px;
+    z-index: 50;
+}
+.pdl-admin table tbody tr.section-seprator {
+    outline: 2px solid #cccccc !important;
+}
+
+.pdl-admin .wp-picker-container, .wp-picker-container:active {
+    
+}
+.pdltab .inside table.pdl-social-theme{
+    width:100%
+}
+.pdltab .inside table.pdl-social-theme td:first-child{
+    width:25%;
+}
+.ui-widget-overlay{
+    position:fixed!important;
+}
+.pdl-settings-wrappers .postbox table tr td.social-share-td {
+    max-width: 600px;
+}
+/* Social Icon theme */
+.social-share-theme {
+    display: table;
+    width: 100%;
+}
+.social-share-theme label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.social-cover {
+    background: #f2f2f2;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 10px 7px;
+    margin: 0 5px 10px;
+}
+#pdlsocial .inside .social-cover label {
+    line-height: 0 !important;
+}
+#pdlsocial .inside .social-cover input[type="radio"],
+#portdesignsinglesocial .inside .social-cover input[type="radio"] {
+    position: relative;
+    top: -15px;
+}
+.pdl-social-icons {
+    background-image: url("../../images/social-share-theme.png");
+    height: 38px;
+    width: 38px;
+    display: inline-block;
+}
+
+/*********** First*******/
+.social_share_theme_1 .pdl-social-icons.facebook-icon {
+    background-position: -10px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.gmail-icon {
+    background-position: -58px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.linkdin-icon {
+    background-position: -106px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.pin-icon {
+    background-position: -154px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.twitter-icon {
+    background-position: -202px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.mail-icon {
+    background-position: -250px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.whatsup-icon {
+    background-position: -298px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.website-icon {
+    background-position: -346px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.pocket-icon {
+    background-position: -394px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.telegram-icon {
+    background-position: -442px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.reddit-icon {
+    background-position: -490px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.tumblr-icon {
+    background-position: -586px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.wordpress-icon {
+    background-position: -970px -10px;
+    background-color: transparent;
+}
+.social_share_theme_1 .pdl-social-icons.skype-icon {
+    background-position: -1066px -10px;
+    background-color: transparent;
+}
+
+/*********** secound*******/
+.social_share_theme_2 .pdl-social-icons.facebook-icon {
+    background-position: -10px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.gmail-icon {
+    background-position: -58px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.linkdin-icon {
+    background-position: -106px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.pin-icon {
+    background-position: -154px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.twitter-icon {
+    background-position: -202px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.mail-icon {
+    background-position: -250px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.whatsup-icon {
+    background-position: -298px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.website-icon {
+    background-position: -346px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.pocket-icon {
+    background-position: -394px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.telegram-icon {
+    background-position: -442px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.reddit-icon {
+    background-position: -490px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.tumblr-icon {
+    background-position: -586px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.wordpress-icon {
+    background-position: -970px -58px;
+    background-color: transparent;
+}
+.social_share_theme_2 .pdl-social-icons.skype-icon {
+    background-position: -1066px -58px;
+    background-color: transparent;
+}
+/*********** Third*******/
+.social_share_theme_3 .pdl-social-icons.facebook-icon {
+    background-position: -10px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.gmail-icon {
+    background-position: -58px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.linkdin-icon {
+    background-position: -106px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.pin-icon {
+    background-position: -154px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.twitter-icon {
+    background-position: -202px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.mail-icon {
+    background-position: -250px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.whatsup-icon {
+    background-position: -298px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.website-icon {
+    background-position: -346px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.pocket-icon {
+    background-position: -394px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.telegram-icon {
+    background-position: -442px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.reddit-icon {
+    background-position: -490px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.tumblr-icon {
+    background-position: -586px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.wordpress-icon {
+    background-position: -970px -106px;
+    background-color: transparent;
+}
+.social_share_theme_3 .pdl-social-icons.skype-icon {
+    background-position: -1066px -106px;
+    background-color: transparent;
+}
+/*********** for*******/
+.social_share_theme_4 .pdl-social-icons.facebook-icon {
+    background-position: -10px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.gmail-icon {
+    background-position: -58px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.linkdin-icon {
+    background-position: -106px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.pin-icon {
+    background-position: -154px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.twitter-icon {
+    background-position: -202px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.mail-icon {
+    background-position: -250px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.whatsup-icon {
+    background-position: -298px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.website-icon {
+    background-position: -346px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.pocket-icon {
+    background-position: -394px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.telegram-icon {
+    background-position: -442px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.reddit-icon {
+    background-position: -490px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.tumblr-icon {
+    background-position: -586px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.wordpress-icon {
+    background-position: -970px -154px;
+    background-color: transparent;
+}
+.social_share_theme_4 .pdl-social-icons.skype-icon {
+    background-position: -1066px -154px;
+    background-color: transparent;
+}
+/*********** Five*******/
+.social_share_theme_5 .pdl-social-icons.facebook-icon {
+    background-position: -10px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.gmail-icon {
+    background-position: -58px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.linkdin-icon {
+    background-position: -106px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.pin-icon {
+    background-position: -154px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.twitter-icon {
+    background-position: -202px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.mail-icon {
+    background-position: -250px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.whatsup-icon {
+    background-position: -298px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.website-icon {
+    background-position: -346px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.pocket-icon {
+    background-position: -394px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.telegram-icon {
+    background-position: -442px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.reddit-icon {
+    background-position: -490px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.tumblr-icon {
+    background-position: -586px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.wordpress-icon {
+    background-position: -970px -202px;
+    background-color: transparent;
+}
+.social_share_theme_5 .pdl-social-icons.skype-icon {
+    background-position: -1066px -202px;
+    background-color: transparent;
+}
+/*********** six*******/
+.social_share_theme_6 .pdl-social-icons.facebook-icon {
+    background-position: -10px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.gmail-icon {
+    background-position: -58px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.linkdin-icon {
+    background-position: -106px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.pin-icon {
+    background-position: -154px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.twitter-icon {
+    background-position: -202px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.mail-icon {
+    background-position: -250px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.whatsup-icon {
+    background-position: -298px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.website-icon {
+    background-position: -346px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.pocket-icon {
+    background-position: -394px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.telegram-icon {
+    background-position: -442px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.reddit-icon {
+    background-position: -490px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.tumblr-icon {
+    background-position: -586px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.wordpress-icon {
+    background-position: -970px -250px;
+    background-color: transparent;
+}
+.social_share_theme_6 .pdl-social-icons.skype-icon {
+    background-position: -1066px -250px;
+    background-color: transparent;
+}
+/*********** seven *******/
+.social_share_theme_7 .pdl-social-icons.facebook-icon {
+    background-position: -10px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.gmail-icon {
+    background-position: -58px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.linkdin-icon {
+    background-position: -106px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.pin-icon {
+    background-position: -154px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.twitter-icon {
+    background-position: -202px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.mail-icon {
+    background-position: -250px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.whatsup-icon {
+    background-position: -298px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.website-icon {
+    background-position: -346px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.pocket-icon {
+    background-position: -394px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.telegram-icon {
+    background-position: -442px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.reddit-icon {
+    background-position: -490px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.tumblr-icon {
+    background-position: -586px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.wordpress-icon {
+    background-position: -970px -298px;
+    background-color: transparent;
+}
+.social_share_theme_7 .pdl-social-icons.skype-icon {
+    background-position: -1066px -298px;
+    background-color: transparent;
+}
+/*********** eight *******/
+.social_share_theme_8 .pdl-social-icons.facebook-icon {
+    background-position: -10px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.gmail-icon {
+    background-position: -58px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.linkdin-icon {
+    background-position: -106px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.pin-icon {
+    background-position: -154px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.twitter-icon {
+    background-position: -202px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.mail-icon {
+    background-position: -250px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.whatsup-icon {
+    background-position: -298px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.website-icon {
+    background-position: -346px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.pocket-icon {
+    background-position: -394px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.telegram-icon {
+    background-position: -442px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.reddit-icon {
+    background-position: -490px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.tumblr-icon {
+    background-position: -586px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.wordpress-icon {
+    background-position: -970px -346px;
+    background-color: transparent;
+}
+.social_share_theme_8 .pdl-social-icons.skype-icon {
+    background-position: -1066px -346px;
+    background-color: transparent;
+}
+/*********** nine*******/
+.social_share_theme_9 .pdl-social-icons.facebook-icon {
+    background-position: -10px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.gmail-icon {
+    background-position: -58px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.linkdin-icon {
+    background-position: -106px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.pin-icon {
+    background-position: -154px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.twitter-icon {
+    background-position: -202px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.mail-icon {
+    background-position: -250px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.whatsup-icon {
+    background-position: -298px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.website-icon {
+    background-position: -346px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.pocket-icon {
+    background-position: -394px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.telegram-icon {
+    background-position: -442px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.reddit-icon {
+    background-position: -490px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.tumblr-icon {
+    background-position: -586px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.wordpress-icon {
+    background-position: -970px -394px;
+    background-color: transparent;
+}
+.social_share_theme_9 .pdl-social-icons.skype-icon {
+    background-position: -1066px -394px;
+    background-color: transparent;
+}
+/*********** Ten *******/
+.social_share_theme_10 .pdl-social-icons.facebook-icon {
+    background-position: -10px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.gmail-icon {
+    background-position: -58px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.linkdin-icon {
+    background-position: -106px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.pin-icon {
+    background-position: -154px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.twitter-icon {
+    background-position: -202px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.mail-icon {
+    background-position: -250px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.whatsup-icon {
+    background-position: -298px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.website-icon {
+    background-position: -346px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.pocket-icon {
+    background-position: -394px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.telegram-icon {
+    background-position: -442px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.reddit-icon {
+    background-position: -490px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.tumblr-icon {
+    background-position: -586px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.wordpress-icon {
+    background-position: -970px -442px;
+    background-color: transparent;
+}
+.social_share_theme_10 .pdl-social-icons.skype-icon {
+    background-position: -1066px -442px;
+    background-color: transparent;
+}
+
+.pro-feature ,
+.pdl-header-wrapper .pro-feature.pdl-button {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.toplevel_page_pdl_settings .ui-widget-overlay {
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9998;
+}
+.pdl-advertisement-ui-dialog.ui-dialog {
+    border: medium none;
+    height: 450px;
+    line-height: 0;
+    position: fixed;
+    width: 820px;
+    z-index: 100000;
+}
+.ui-widget-overlay.ui-front {
+    position: fixed;
+}
+#pdl-advertisement-popup {
+    display: none;
+    line-height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.pdl-table-title {
+    color: #666666;
+    margin: 25px 15px 30px;
+}
+.pdltab .inside table.pdl-typography tr td {
+    display: inline-block;
+    padding: 5px 15px;
+    position: relative;
+    width: 235px;
+}
+.pdltab .inside table.pdl-typography {
+    width: 100%;
+}
+.pdl-typography-cover .pdl-label {
+    margin-bottom: 10px;
+    color: #666666;
+}
+.pdltab .inside table.pdl-typography tr td:first-child {
+    padding-left: 0;
+}
+.pdltab .inside table .table-column > td {
+    padding: 0;
+}
+.pdltab .inside table.pdl-typography tr td:last-child {
+    padding-right: 0;
+}
+.pdl-settings-wrappers .font_size_cover .pull-left.padding_0{
+    padding-top:0px;
+}
+
+.pdl-typography-wrapper .pdl-typography-cover {
+    display: inline-block;
+    float: left;
+    margin: 10px 0 15px;
+    position: relative;
+    min-height: 80px;
+}
+.pdl-typography-wrapper .slide_val.input-number-cover {
+    margin-right: 20px;
+    width: 100px;
+}
+#portdesignstyle .inside table tr td:first-child {
+    width: 30%;
+}
+.pdl-advertisement-ui-dialog .ui-dialog-buttonset .pdl-btn.pdl-btn-gray {
+    background: #ffffff none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    position: absolute;
+    right: 8px;
+    top: 25px;
+}
+.pdl-advertisement-ui-dialog .ui-dialog-buttonset .pdl-btn.pdl-btn-gray {
+    background: #ffffff none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px #ccc inset;
+    font-size: 15px;
+    line-height: 17px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    vertical-align: middle;
+    width: 25px;
+}
+.pdl-advertisement-ui-dialog .ui-dialog-buttonset .pdl-btn.pdl-btn-gray span {
+    line-height: 25px !important;
+    height: 25px;
+    min-width: 25px;
+    padding: 0!important;
+    width: 25px;
+}
+.pdl-advertisement-ui-dialog.ui-dialog .ui-dialog-buttonpane {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border:none;
+}
+
+/* About Us page */
+.wrap.about-us-section-pdl {
+    position: relative;
+}
+.about-us-section-pdl .pdl-info-heading {
+    background: #ffffff none repeat scroll 0 0;
+    border-bottom: 1px solid #dddddd;
+    box-sizing: border-box;
+    color: #464646;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 15px;
+    width: 100%;
+    font-weight: bold;
+}
+.about-us-section-pdl .pdl-info-content {
+    background: #ffffff none repeat scroll 0 0;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 15px;
+    width: 100%;
+}
+.pdl-our-other-work .pdl-info-content ul li {
+    display: inline-block;
+}
+.pdl-our-other-work .pdl-info-content ul li a {
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    line-height: 1.42857;
+    margin-right: 2px;
+    color: #337ab7;
+    text-decoration: none !important;
+    padding: 10px 15px;
+    position: relative;
+    font-size: 14px;
+}
+.pdl-our-other-work .pdl-info-content ul li.active > a,
+.pdl-our-other-work .pdl-info-content ul li.active > a:focus,
+.pdl-our-other-work .pdl-info-content ul li.active > a:hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #ddd #ddd transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #555;
+    cursor: default;
+}
+.image_div_upper img {
+    max-width: 100%;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -o-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+}
+#plugins .image_div_upper a:hover img,
+#themes .image_div_upper a:hover img {
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+}
+#plugins .image_div_upper,
+#themes .image_div_upper {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    margin: 0 24px 30px;
+    text-align: center;
+    width: 28%;
+}
+#plugins .image_div_upper a,
+#themes .image_div_upper a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    overflow: hidden;
+}
+#plugins .image_div_upper a:hover .pdl_theme_plugin_name span,
+#themes .image_div_upper a:hover .pdl_theme_plugin_name span {
+    color: #f55e4f;
+}
+#plugins .image_div_upper .pdl_theme_plugin_name span,
+#themes .image_div_upper span {
+    color: #444;
+    display: table-cell;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    height: 60px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#plugins .image_div_upper .pdl_theme_plugin_desc span,
+#themes .image_div_upper .pdl_theme_plugin_desc span {
+    border-top: 1px solid #ddd;
+    color: #444;
+    display: table-cell;
+    height: 100px;
+    vertical-align: middle;
+}
+#plugins .image_div_upper .pdl_theme_plugin_desc span,
+#themes .image_div_upper .pdl_theme_plugin_desc span {
+    font-size: 15px;
+    padding: 5px 10px;
+    line-height: 1.5;
+}
+.image_div_upper .pdl_theme_plugin_desc {
+    min-height: 125px;
+    display: inline-block;
+    vertical-align: top;
+}
+.pdl-info-content > div#plugins,
+.pdl-info-content > div#themes {
+    border: 1px solid #ddd;
+    float: left;
+    padding: 25px 0 0;
+    width: 100%;
+}
+.pdl_theme_plugin {
+    margin-bottom: 4px;
+}
+.pdl_theme_plugin_name {
+    display: table;
+    min-height: 60px;
+    width: 100%;
+}
+.pdl-info-content .pdl-feature-upper > p {
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.pdl-info-content .pdl-feature-upper {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    width: 48%;
+}
+.pdl-info-content .pdl-feature-upper strong {
+    font-size: 15px;
+    line-height: normal;
+    padding-left: 30px;
+    position: relative;
+    vertical-align: middle;
+}
+.pdl-info-content .pdl-feature-upper strong i {
+    color: #f55e4f;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+}
+.pdl-info-content .pdl-feature-upper:nth-child(odd) {
+    clear: both;
+}
+.pdl_text_header .pdl-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding-right: 25px;
+    width: 100%;
+}
+.pdl_text_header {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.pdl-feature-upper strong.highlight_pro {
+    background: #277232;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 8px;
+    padding: 1px 5px;
+}
+.pdl-feature-upper .view-all-features {
+    background: #8cc152;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+}
+.pdl-feature-upper .view-all-features:hover {
+    background: #6ea334 !important;
+}
+.subscribe_widget {
+    margin: 10px;
+}
+.sub_row {
+    margin: 10px 0;
+    line-height: 1.7;
+}
+.sub_row label {
+    display: inline-block;
+    min-width: 100px;
+}
+.success_msg {
+    color: green;
+}
+.sub_row > input {
+    height: 37px;
+    width: 327px;
+}
+.sub_row > input {
+    height: 37px;
+    width: 310px;
+}
+.subscribe_widget .button.button-primary {
+    font-size: 16px;
+    height: 40px;
+    width: 240px;
+}
+.subscribe_widget .button.button-delete {
+    font-size: 16px;
+    height: 40px;
+    width: 167px;
+}
+.sub_row .sub_checkbox {
+    width: 15px;
+    height: auto;
+    margin: 0 6px 0 0;
+}
+.sub_row_checkbox {
+    margin: 15px 0;
+}
+#pdlsocial .typo-field{
+    width:25%;
+}
+#notice-2 {
+    position: relative!important;
+}
+
+/*
+** Optin Form
+*/
+#frmDeactivationpdl {
+    width: 64%;
+    float: left;
+}
+.pdl_header_wizard {
+    width: 50%;
+    display: table;
+    background-color: #fff;
+    padding: 0 15px;
+    position: relative;
+    margin: 15px;
+}
+.pdl_header_wizard p {
+    font-size: 16px;
+    color: #444;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.pdl_header_wizard p input {
+    width: 100%;
+    height: 34px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-left: 2px;
+}
+.pdl_header_wizard p input.pdl_agree {
+    width: auto;
+    height: auto;
+}
+.pdl_header_wizard p.pdl_permission {
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+.pdl_header_wizard p.pdl_permission b {
+    color: #f69837;
+}
+.pdl_permission_cover {
+    display: inline-block;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.pdl_permission_cover .pdl_permission_row .pdl_50 {
+    width: 50%;
+    float: left;
+    margin: 10px 0;
+}
+.pdl_permission_cover .pdl_permission_row .pdl_50 .dashicons {
+    float: left;
+    font-size: 45px;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+.pdl_50_inner label:first-of-type {
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+}
+.pdl_50_inner label {
+    margin: 0px;
+    font-size: 12px;
+}
+.pdl_header_wizard p.pdl_buttons {
+    padding: 0;
+}
+.pdl_header_wizard p.pdl_buttons .button-secondary {
+    color: #fff;
+    background: #C0C7CA;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 15px;
+    display: inline-block;
+    position: relative;
+    font-weight: 800;
+    height: 100%;
+    box-shadow: none;
+    border-width: 0;
+    line-height: 30px;
+}
+.pdl_header_wizard p.pdl_buttons .button-secondary:hover {
+    background: #C0C7CA;
+    color: #fff;
+    border: none;
+}
+.pdl_header_wizard p.pdl_buttons .button-primary {
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 800;
+    height: 100%;
+    line-height: 30px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    float: right;
+    position: relative;
+    text-shadow: none;
+    box-shadow: none;
+}
+.support-ticket-section {
+    width: 22%;
+    background: #fafafa;
+    padding: 19px 40px 40px;
+    text-align: center;
+    border: 1px dashed #d6d6d6;
+    float: right;
+    margin-top: 20px;
+}
+.support-ticket-section a {
+    display: block;
+    margin-top: 10px;
+    color: #444;
+}
+.support-ticket-section h3 {
+    line-height: 22px;
+}
+.pdl-deactivation {
+    padding-top: 5px;
+    display: inline-block;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.pdl-settings-wrappers .pd-form-control {
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+    vertical-align: top;
+}
+.pd-form-control .pd-selected-icon {
+    background-color: #e6e6e6;
+    border: 1px solid #adadad;
+    font-size: 25px;
+    height: 56px;
+    line-height: 56px;
+    margin: 2px;
+    text-align: center;
+    width: 56px;
+}
+.portfolio_popup_tr .button {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+    height: auto;
+    padding: 5px 15px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.pdl-typography-wrapper {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.pdl-typography-wrapper.filter_data_tr {
+    margin-bottom: 0;
+}
+.pdl-typography-cover {
+    display: inline-block;
+    padding: 15px;
+    width: 33%;
+}
+.pdl-typography-cover:nth-child(3n + 1) {
+    clear: left;
+}
+.pdl-typography-cover:nth-child(3n) {
+    padding-right: 0;
+}
+.pdl-typography-cover .pdl-label {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 10px;
+    position: relative;
+}
+.pdl-admin .section-seprator {
+    outline: 2px solid #cccccc !important;
+}
+
+@media screen and (min-width: 1400px) {
+    .pdl-settings-wrappers .font_size_cover .pull-left {
+        padding-top: 15px;
+        width: calc(100% - 225px);
+    }    
+    .pdl-admin .section-seprator,
+    .pdl-typography-wrapper,
+    .portdesigntab .inside table {
+        width: 75%;
+    }
+
+}
+@media screen and (max-width: 1400px) {
+    .pdl-settings-wrappers .font_size_cover .pull-left {
+        width:100%;
+    }
+    .pdl-settings-wrappers .font_size_cover .pull-right {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .slide_val {
+        margin: 0;
+    }
+    .pdl-typography-wrapper .pdl-typography-cover {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1201px) {
+    .pdltab .inside table {
+        width: 75%;
+    }
+    .pdl-settings-wrappers .postbox {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    #pdl_add_cpts .pdl-menu-setting {
+        max-width: 200px;
+    }
+    #pdl_add_cpts .pdl-settings-wrappers .postbox {
+        width: calc(100% - 200px);
+    }
+    .pdl-menu-setting > ul > li span {
+        width: calc(100% - 35px);
+    }
+    .pdl-typography-wrapper .pdl-typography-cover {
+        width: 100%;
+    }
+    .pdl-typography-wrapper .pdl-typography-cover .pdl-label,
+    .pdl-typography-wrapper .pdl-typography-cover .select-cover,
+    .pdl-typography-wrapper .pdl-typography-cover .font_size_cover{
+        width:50%;
+        float: left;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .pdl-list-body li span.pdl-list-row,
+    .pdl-list-body li span.pdl-list-row.col3,
+    .pdl-list-body li span.pdl-list-row.col4,
+    .pdl-list-body li span.pdl-list-row.col5 {
+        width: 100%;
+    }
+    .pdl-typography-wrapper .pdl-typography-cover {
+        width: 100%;
+    }
+
+    .pdl-typography-wrapper .pdl-typography-cover .pdl-label,
+    .pdl-typography-wrapper .pdl-typography-cover .select-cover,
+    .pdl-typography-wrapper .pdl-typography-cover .font_size_cover{
+        width:50%;
+        float: left;
+    }
+}

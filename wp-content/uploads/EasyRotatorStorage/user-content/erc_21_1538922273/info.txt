@@ -1,0 +1,1 @@
+a:9:{s:4:"name";s:5:"Gorny";s:11:"description";N;s:12:"isCheckedOut";b:0;s:19:"checkedOutMachineID";s:30:"brL2GwLH5sRt8gje5zTdlBGwbcz1k3";s:14:"checkedOutTime";i:1538922273;s:10:"checkOutID";s:30:"BjnMH2ImfmeRdnE80XOC3iRr4Y2XZv";s:13:"checkedInTime";i:1538923116;s:18:"checkedInMachineID";s:30:"brL2GwLH5sRt8gje5zTdlBGwbcz1k3";s:9:"checkInID";s:30:"bCMQRFvl5mHb0biuEe6Ymrg3qrSI8J";}

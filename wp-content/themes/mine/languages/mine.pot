@@ -1,0 +1,1110 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mine Theme\n"
+"POT-Creation-Date: 2018-01-09 13:39+0530\n"
+"PO-Revision-Date: 2017-06-17 12:19+0530\n"
+"Last-Translator: \n"
+"Language-Team: Solwin Infotech <info@solwininfotech.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n;_x;_ex;_nx;esc_attr_e;esc_attr__;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "404 Page not found"
+msgstr ""
+
+#: 404.php:22
+msgid "Oops! That page can't be found."
+msgstr ""
+
+#: 404.php:25
+msgid "It looks like nothing was found at this location. Please try again."
+msgstr ""
+
+#: comments.php:32
+msgid "1 Review"
+msgstr ""
+
+#: comments.php:35
+msgid "Reviews"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:66
+msgid "Proudly powered by WordPress. Designed by"
+msgstr ""
+
+#: footer.php:66
+msgid "Solwin Infotech"
+msgstr ""
+
+#: functions.php:90
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:91
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:148 functions.php:163
+msgid "News From Solwin Infotech"
+msgstr ""
+
+#: functions.php:160
+msgid "Solwin Infotech News"
+msgstr ""
+
+#: functions.php:177
+msgid "Latest Product"
+msgstr ""
+
+#: functions.php:181
+msgid "Something went wrong:"
+msgstr ""
+
+#: functions.php:254
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:256
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:264
+msgid "Skill Section"
+msgstr ""
+
+#: functions.php:266
+msgid "Add widgets here to appear in your about us page template."
+msgstr ""
+
+#: functions.php:274
+msgid "Contact Us Page Sidebar"
+msgstr ""
+
+#: functions.php:276
+msgid "Add widgets here display in Contact Us Page."
+msgstr ""
+
+#: functions.php:305 functions.php:310 functions.php:315 inc/template-tags.php:43
+#: inc/template-tags.php:443
+msgid "on"
+msgstr ""
+
+#: functions.php:380
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:381
+msgid "collapse child menu"
+msgstr ""
+
+#: functions.php:419 inc/widgets/widget-skill.php:167
+#: inc/widgets/widget-skill.php:251
+msgid "Remove"
+msgstr ""
+
+#: functions.php:420 inc/widgets/widget-skill.php:152
+#: inc/widgets/widget-skill.php:209 inc/widgets/widget-skill.php:231
+msgid "Skill Title"
+msgstr ""
+
+#: functions.php:421 inc/widgets/widget-skill.php:156
+#: inc/widgets/widget-skill.php:213 inc/widgets/widget-skill.php:236
+msgid "Skill Percentage"
+msgstr ""
+
+#: functions.php:422 inc/widgets/widget-skill.php:160
+#: inc/widgets/widget-skill.php:217 inc/widgets/widget-skill.php:241
+msgid "Skill Bar Background"
+msgstr ""
+
+#: functions.php:423 inc/widgets/widget-skill.php:164
+#: inc/widgets/widget-skill.php:221 inc/widgets/widget-skill.php:246
+msgid "Skill Title Background"
+msgstr ""
+
+#: functions.php:704
+msgid "Posts navigation"
+msgstr ""
+
+#: functions.php:765
+msgid "gallery image"
+msgstr ""
+
+#: functions.php:860 functions.php:1021 inc/template-tags.php:450
+#: template-parts/content-page.php:32 template-parts/content-single.php:38
+msgid "Edit"
+msgstr ""
+
+#: functions.php:1009
+msgid "says"
+msgstr ""
+
+#: functions.php:1017
+msgid "at "
+msgstr ""
+
+#: functions.php:1025
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:1159
+msgid "Read More"
+msgstr ""
+
+#: functions.php:1173
+msgid ""
+"In order to use the home page of Mine, you need to create a new page from "
+"Pages > Add New, in your WordPress Dashboard."
+msgstr ""
+
+#: functions.php:1175
+msgid ""
+"In the page editing screen, choose the 'Home Page Template' from the Page "
+"templates. After that, set it as your home page from Settings > Reading "
+"settings."
+msgstr ""
+
+#: functions.php:1184
+msgid ""
+"The main content of this section is customizable in: Posts > Add New, in your "
+"WordPress dashboard."
+msgstr ""
+
+#: functions.php:1210
+msgid "All Posts"
+msgstr ""
+
+#: functions.php:1240
+msgid "Date"
+msgstr ""
+
+#: functions.php:1241 inc/widgets/widget-blog_post.php:149
+#: inc/widgets/widget-skill.php:121
+msgid "Title"
+msgstr ""
+
+#: functions.php:1242
+msgid "Modified"
+msgstr ""
+
+#: functions.php:1243
+msgid "Random"
+msgstr ""
+
+#: functions.php:1267
+msgid "Descending"
+msgstr ""
+
+#: functions.php:1268
+msgid "Ascending"
+msgstr ""
+
+#: functions.php:1279
+msgid "Configure Your Home page"
+msgstr ""
+
+#: functions.php:1297
+msgid "Header"
+msgstr ""
+
+#: functions.php:1301
+msgid "Front page settings"
+msgstr ""
+
+#: functions.php:1320
+msgid "General Settings"
+msgstr ""
+
+#: functions.php:1321
+msgid "This section allows you to configure general settings."
+msgstr ""
+
+#: functions.php:1326
+msgid "Home Page Settings"
+msgstr ""
+
+#: functions.php:1327 functions.php:1333
+msgid "This section allows you to configure about us page settings."
+msgstr ""
+
+#: functions.php:1332
+msgid "About Us Page Settings"
+msgstr ""
+
+#: functions.php:1338 functions.php:1390
+msgid "Blog Settings"
+msgstr ""
+
+#: functions.php:1339
+msgid "This section allows you to configure blog settings."
+msgstr ""
+
+#: functions.php:1345
+msgid "Intro Section"
+msgstr ""
+
+#: functions.php:1346
+msgid "This section allows you to configure Intro section."
+msgstr ""
+
+#: functions.php:1351 functions.php:1424
+msgid "Preloader"
+msgstr ""
+
+#: functions.php:1356
+msgid "Footer Social Icons"
+msgstr ""
+
+#: functions.php:1363
+msgid "Blog Grid Layout"
+msgstr ""
+
+#: functions.php:1364
+msgid "This section allows you to configure grid layout for Blog section."
+msgstr ""
+
+#: functions.php:1370
+msgid "Blog Column Layout"
+msgstr ""
+
+#: functions.php:1371
+msgid "This section allows you to configure column layout for Blog section."
+msgstr ""
+
+#: functions.php:1377
+msgid "About Us Section"
+msgstr ""
+
+#: functions.php:1378
+msgid "This section allows you to configure About Us section."
+msgstr ""
+
+#: functions.php:1384
+msgid "Portfolio Section"
+msgstr ""
+
+#: functions.php:1385
+msgid "This section allows you to configure portfolio section."
+msgstr ""
+
+#: functions.php:1401
+msgid "Disable Preloader"
+msgstr ""
+
+#: functions.php:1412
+msgid "Disable Breadcrumbs"
+msgstr ""
+
+#: functions.php:1437 functions.php:1659
+msgid "Facebook URL"
+msgstr ""
+
+#: functions.php:1438 functions.php:1660
+msgid "Enter your Facebook URL."
+msgstr ""
+
+#: functions.php:1458 functions.php:1681
+msgid "Twitter URL"
+msgstr ""
+
+#: functions.php:1459 functions.php:1682
+msgid "Enter your Twitter URL."
+msgstr ""
+
+#: functions.php:1471 functions.php:1694
+msgid "Google Plus URL"
+msgstr ""
+
+#: functions.php:1472 functions.php:1695
+msgid "Enter your Google Plus URL."
+msgstr ""
+
+#: functions.php:1484 functions.php:1707
+msgid "Instagram URL"
+msgstr ""
+
+#: functions.php:1485 functions.php:1708
+msgid "Enter your Instagram URL."
+msgstr ""
+
+#: functions.php:1497 functions.php:1720
+msgid "Linkedin URL"
+msgstr ""
+
+#: functions.php:1498 functions.php:1721
+msgid "Enter your Linkedin URL."
+msgstr ""
+
+#: functions.php:1510
+msgid "Disable Intro Section ?"
+msgstr ""
+
+#: functions.php:1517 functions.php:1903
+msgid "Hello, Albert here..."
+msgstr ""
+
+#: functions.php:1523 functions.php:1910
+msgid "Name"
+msgstr ""
+
+#: functions.php:1537 functions.php:1924
+msgid "Passionate Blogger"
+msgstr ""
+
+#: functions.php:1544 functions.php:1931
+msgid "Position"
+msgstr ""
+
+#: functions.php:1559 functions.php:1945
+msgid ""
+"I am here to help you become a better blogger. I share proven and tested "
+"techniques on my blogs to help you achieve the success. Lorem Ipsum is simply "
+"dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: functions.php:1565 functions.php:1952
+msgid "Content"
+msgstr ""
+
+#: functions.php:1586
+msgid "Disable Read More ?"
+msgstr ""
+
+#: functions.php:1601
+msgid "Know more"
+msgstr ""
+
+#: functions.php:1607
+msgid "Read More Text"
+msgstr ""
+
+#: functions.php:1627
+msgid "Read More Link"
+msgstr ""
+
+#: functions.php:1639
+msgid "Image"
+msgstr ""
+
+#: functions.php:1660 functions.php:1682 functions.php:1695 functions.php:1708
+#: functions.php:1721 functions.php:2034 functions.php:2057 functions.php:2071
+#: inc/widgets/widget-skill.php:198
+msgid "Note"
+msgstr ""
+
+#: functions.php:1660 functions.php:1682 functions.php:1695 functions.php:1708
+#: functions.php:1721
+msgid "This URL is also used in about us page."
+msgstr ""
+
+#: functions.php:1733 functions.php:1825
+msgid "Disable Blog Section"
+msgstr ""
+
+#: functions.php:1738
+msgid "Latest From The Blog"
+msgstr ""
+
+#: functions.php:1745 functions.php:1836
+msgid "Section Title"
+msgstr ""
+
+#: functions.php:1765
+msgid "Number of Items"
+msgstr ""
+
+#: functions.php:1787 functions.php:1857
+msgid "Display Posts From(Select post category):"
+msgstr ""
+
+#: functions.php:1800 functions.php:1870
+msgid "Sort post order by:"
+msgstr ""
+
+#: functions.php:1813 functions.php:1883
+msgid "Sort post order:"
+msgstr ""
+
+#: functions.php:1896
+msgid "Disable About Us Section ?"
+msgstr ""
+
+#: functions.php:1966
+msgid "Portfolio"
+msgstr ""
+
+#: functions.php:1973
+msgid "Portfolio Title"
+msgstr ""
+
+#: functions.php:1986 functions.php:1993
+msgid "Portfolio Content"
+msgstr ""
+
+#: functions.php:2013
+msgid "Portfolio Shortcode"
+msgstr ""
+
+#: functions.php:2014
+msgid "Enter your shortcode here, to display portfolios on about us page."
+msgstr ""
+
+#: functions.php:2014
+msgid "You can use"
+msgstr ""
+
+#: functions.php:2014 inc/register-plugins.php:53
+msgid "Portfolio Designer Lite"
+msgstr ""
+
+#: functions.php:2014
+msgid "plugin to showcase your portfolio section"
+msgstr ""
+
+#: functions.php:2014
+msgid "Shortcode for this plugin is"
+msgstr ""
+
+#: functions.php:2034
+msgid "This option is for single blog page."
+msgstr ""
+
+#: functions.php:2035
+msgid "Disable Related Posts"
+msgstr ""
+
+#: functions.php:2045
+msgid "Default Image"
+msgstr ""
+
+#: functions.php:2057
+msgid "Enable/Disable author biography on author page and single post page."
+msgstr ""
+
+#: functions.php:2058
+msgid "Disable Author Biography"
+msgstr ""
+
+#: functions.php:2069
+msgid "Layout"
+msgstr ""
+
+#: functions.php:2071
+msgid "This layout is apply on single blog page."
+msgstr ""
+
+#: functions.php:2074
+msgid "Full Width"
+msgstr ""
+
+#: functions.php:2075
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions.php:2076
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:2153 template-parts/content.php:35 template-parts/content.php:48
+msgid "Featured"
+msgstr ""
+
+#: image.php:46
+msgid "Pages:"
+msgstr ""
+
+#: image.php:50
+msgid "Page"
+msgstr ""
+
+#: image.php:58 single.php:43
+msgid "Published in"
+msgstr ""
+
+#: image.php:66
+msgid "Full size"
+msgstr ""
+
+#: image.php:78
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:81
+msgid "Next Image"
+msgstr ""
+
+#: inc/breadcrumb.php:49
+msgid "Date Archives"
+msgstr ""
+
+#: inc/breadcrumb.php:51
+msgid "Monthly Archives"
+msgstr ""
+
+#: inc/breadcrumb.php:53
+msgid "Yearly Archives"
+msgstr ""
+
+#: inc/breadcrumb.php:229
+msgid "Error 404"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:334 inc/register-plugins.php:76
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335 inc/register-plugins.php:77
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:337 inc/register-plugins.php:78
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:340 inc/register-plugins.php:79
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:374 inc/register-plugins.php:90
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:375
+#: inc/class-tgm-plugin-activation.php:893
+#: inc/class-tgm-plugin-activation.php:2568
+#: inc/class-tgm-plugin-activation.php:3616
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:376
+#: inc/class-tgm-plugin-activation.php:3193 inc/register-plugins.php:91
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:377
+#: inc/class-tgm-plugin-activation.php:2980
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:379
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:381
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:383
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:384
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:386
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:587
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:587
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:703
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1000
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1000
+#: inc/class-tgm-plugin-activation.php:1003
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1003
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1185
+#: inc/class-tgm-plugin-activation.php:2977
+msgid "and"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2029
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2325
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2328
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2344
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2347
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2350
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2367
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2371
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2373
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2379
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2381
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2383
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2436
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2440
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2444
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2448
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2522
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2530
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2536
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2568
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2582
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2583
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2584
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2588
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2589
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2638
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2643
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2649
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2715
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2748
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2754
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2790
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2831
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2833
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2937
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2963
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3192
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3535
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3538
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3540
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3544
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3546
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3546
+#: inc/class-tgm-plugin-activation.php:3554
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3546
+#: inc/class-tgm-plugin-activation.php:3554
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3547
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3549
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3552
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3554
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3555
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3557
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/customizer.php:64
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/customizer.php:144
+msgid "Base Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:159
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer.php:171
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Content Color"
+msgstr ""
+
+#: inc/customizer.php:195
+msgid "Meta Color"
+msgstr ""
+
+#: inc/customizer.php:280
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:291
+msgid "Blue"
+msgstr ""
+
+#: inc/customizer.php:302
+msgid "Mandalay"
+msgstr ""
+
+#: inc/customizer.php:313
+msgid "Bronzetone"
+msgstr ""
+
+#: inc/customizer.php:324
+msgid "Claret"
+msgstr ""
+
+#: inc/register-plugins.php:48
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/register-plugins.php:92
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Author"
+msgstr ""
+
+#: inc/template-tags.php:33
+msgid "Format"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:69
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:87
+msgid "Categories"
+msgstr ""
+
+#: inc/template-tags.php:93
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:177
+msgid "Continue reading"
+msgstr ""
+
+#: inc/template-tags.php:306 inc/template-tags.php:320
+msgid " By: "
+msgstr ""
+
+#: inc/template-tags.php:315 inc/template-tags.php:329 inc/template-tags.php:390
+msgid " Comments: "
+msgstr ""
+
+#: inc/template-tags.php:430
+msgid "Posted in"
+msgstr ""
+
+#: inc/template-tags.php:436
+msgid "Tagged"
+msgstr ""
+
+#: inc/template-tags.php:443
+msgid "Leave a Comment"
+msgstr ""
+
+#: inc/widgets/widget-blog_post.php:31
+msgid ""
+"This widget for display Blog Posts of category wise and order by date, title "
+"etc."
+msgstr ""
+
+#: inc/widgets/widget-blog_post.php:34
+msgid "Blog Posts"
+msgstr ""
+
+#: inc/widgets/widget-blog_post.php:154
+msgid "Number of posts to show"
+msgstr ""
+
+#: inc/widgets/widget-blog_post.php:159
+msgid "Display post date?"
+msgstr ""
+
+#: inc/widgets/widget-skill.php:31
+msgid "This widget for display skills section."
+msgstr ""
+
+#: inc/widgets/widget-skill.php:34
+msgid "Skills Section"
+msgstr ""
+
+#: inc/widgets/widget-skill.php:125
+msgid "Description"
+msgstr ""
+
+#: inc/widgets/widget-skill.php:196
+msgid "Skills"
+msgstr ""
+
+#: inc/widgets/widget-skill.php:199
+msgid "Percentage should be in between 30 to 100."
+msgstr ""
+
+#: inc/widgets/widget-skill.php:258
+msgid "Add new"
+msgstr ""
+
+#: page-templates/about-me-page.php:24 page-templates/home-page.php:23
+msgid ""
+"I am here to help you become a better blogger. I share proven and tested "
+"techniques on my blogs to help you achieve the success. Lorem  Ipsum is simply "
+"dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: search.php:13
+msgid "Search Results for"
+msgstr ""
+
+#: single.php:48
+msgid "Next Post"
+msgstr ""
+
+#: single.php:49
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:84
+msgid "Related Posts"
+msgstr ""
+
+#: template-parts/biography.php:15
+msgid "About The Author"
+msgstr ""
+
+#: template-parts/biography.php:37
+msgid "View all posts by"
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-single.php:54
+msgid "Share it"
+msgstr ""
