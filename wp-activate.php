@@ -5,6 +5,8 @@
  *
  * @package WordPress
  */
+//tratatatatatatat jakaś zamiana
+
 
 define( 'WP_INSTALLING', true );
 
