@@ -3031,13 +3031,14 @@ a.post-thumbnail:focus {
 }
 
 .page-header {
+    background: #fff;
     background-position: center bottom;
     background-size: cover;
     border: medium none;
     display: inline-block;  
     margin-top : 0;
     min-height: 94px;
-    padding-top: 175px;
+    padding-top: 81px;
     padding-bottom: 40px;
     position: relative;
     width: 100%;
@@ -3277,7 +3278,7 @@ a.post-thumbnail:focus {
 /* home page author detail */
 .about_portfolio,
 .about_author {
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 
 .page-template-about-me-page .about_portfolio {
@@ -3296,7 +3297,7 @@ a.post-thumbnail:focus {
 .home .about_portfolio  .page-title,
 .home .about_author .page-title {
     border: none;
-    padding: 30px 0 10px;
+    padding: 5px 0 10px !important;
     display: block;
 }
 
@@ -3309,7 +3310,8 @@ a.post-thumbnail:focus {
 .about_portfolio .author-bio ,
 .about_author .author-bio {    
     display: block;
-    margin-top: 35px;    
+    margin-top: 2px;
+    font-size: 15px;   
 }
 
 .about_portfolio .author-bio .read_more a,
@@ -4606,3 +4608,13 @@ p > video {
 /**
  * 14.10 - <= 360px
  */
+.duze-logo{
+    max-width: 75%;
+}
+
+.set-color{
+    color: #da700f;
+}
+.duze-logo-position {
+    padding: 75px 0px 0px 0px;
+}

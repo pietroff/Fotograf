@@ -60,9 +60,10 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
     <div class="container">
         <div class="row">
             <?php if ($mine_disable_intro != '1') { ?>
-                <div class="col-xs-12 <?php echo esc_attr($class); ?>">
-                    <h1 class="page-title"><?php print_r($mine_intro_name); ?></h1>
-                    <span class="user_designation"><?php print_r($mine_about_position); ?></span>
+                <div class="col-xs-12 col-sm-4 col-md-4 duze-logo-position">
+                <img src="<?php echo esc_attr($mine_about_avatar); ?>" class="duze-logo" />
+                    <span class="user_designation set-color"><?php print_r($mine_about_position); ?></span>
+                    <h1 class="page-title set-color"><?php print_r($mine_intro_name); ?></h1>
                     <div class="author-bio">
                         <?php
                         print_r($mine_about_content);
@@ -112,8 +113,8 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                 </div>
                 <?php
                 if(isset($mine_about_avatar) && $mine_about_avatar != ''){ ?>
-                    <div class="col-xs-12 col-sm-5 col-md-5 author_image">
-                        <img src="<?php echo esc_attr($mine_about_avatar); ?>" />
+                    <div class="col-xs-12 col-sm-8 col-md-8 author_image">
+                        <?php easyrotator_display_rotator('erc_21_1538922273');?>
                     </div><?php
                 }
             }
