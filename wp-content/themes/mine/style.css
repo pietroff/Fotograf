@@ -2845,7 +2845,7 @@ a.post-thumbnail:focus {
 }
 
 .read_more a {
-    background-color: #000000;
+    /* background-color: #000000; */
     border: 1px solid #000000;
     border-radius: 0;
     color: #ffffff;
