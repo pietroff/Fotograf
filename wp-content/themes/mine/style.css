@@ -2845,11 +2845,11 @@ a.post-thumbnail:focus {
 }
 
 .read_more a {
-    /* background-color: #000000; */
-    border: 1px solid #000000;
+    background-color: #fff;
+    border: 0px solid #da700f;
     border-radius: 0;
-    color: #ffffff;
-    font-family: 'Philosopher-Regular';    
+    color: #da700f;
+    font-family: 'Philosopher-Regular';
     line-height: 1.5;
     padding: 8px 30px;
     text-transform: capitalize;
