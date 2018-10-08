@@ -104,24 +104,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * 1.0 - Normalize
  */
 
-/*@import url('https://fonts.googleapis.com/css?family=Philosopher:400,700');*/
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
 
-@font-face {
-    font-family: 'Philosopher-Regular';
-    src: url('fonts/philosopher/Philosopher-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Philosopher-Bold';
-    src: url('fonts/philosopher/Philosopher-Bold.ttf') format('truetype');   
-    font-weight: normal;
-    font-style: normal;
-}
 
 html {
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-box-sizing: border-box;
@@ -137,7 +124,7 @@ body {
     background-color: #ffffff;    
     line-height: 1.5;
     font-size: 18px;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
 }
 
 article,
@@ -329,7 +316,7 @@ optgroup {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
-    font-family: 'FontAwesome';
+    font-family: 'PT Serif', serif;
     font-size: 16px;
     font-style: normal;
     font-variant: normal;
@@ -352,7 +339,7 @@ input,
 select,
 textarea {
     color: #000000;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-size: 14px;
     line-height: 1.5;
     font-weight: normal;
@@ -365,7 +352,7 @@ h4,
 h5,
 h6 {
     clear: both;
-    font-family: 'Philosopher-Bold';
+    font-family: 'PT Serif', serif;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 15px;
@@ -473,7 +460,7 @@ tt,
 var,
 samp,
 pre {
-    font-family: Inconsolata, monospace;
+    font-family: 'PT Serif', serif;
 }
 
 pre {
@@ -649,7 +636,7 @@ td {
 /* Placeholder text color -- selectors need to be separate to work. */
 ::-webkit-input-placeholder {
     color: #777777;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-size: 14px;
     opacity: 0.7;    
 }
@@ -657,7 +644,7 @@ td {
 :-moz-placeholder,
 ::-moz-placeholder {
     color: #777777;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-size: 14px;
     opacity: 0.7;   
 
@@ -666,7 +653,7 @@ td {
 
 :-ms-input-placeholder {
     color: #777777;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-size: 14px;
     opacity: 0.7;    
 }
@@ -697,7 +684,7 @@ input[type="submit"][disabled]:focus {
     border: 1px solid #000000;
     border-radius: 0;
     color: #ffffff;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
     line-height: 1.5;
     padding: 8px 30px;
@@ -765,7 +752,7 @@ textarea {
     border-top: none;
     border-radius: 0;
     color: #000000;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-size: 14px;
     padding: 10px 0;
     width: 100%;
@@ -846,7 +833,7 @@ a:active {
 }
 
 .main-navigation {
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
     font-size: 14px;
     margin: 0;
@@ -895,7 +882,7 @@ a:active {
 
 .main-navigation ul li a {
     border-bottom: 2px solid transparent;
-    color: #000000;
+    color: #fff;
     display: block;
     font-size: 18px;
     letter-spacing: 0;
@@ -906,8 +893,8 @@ a:active {
 .main-navigation ul.nav li:hover > a,
 .main-navigation ul.nav li.current-menu-item > a,
 .main-navigation ul.nav li.current-menu-ancestor > a {
-    color: #000000;
-    border-color: #000000;
+    color: #d9700f;
+    border-color: #d9700f;
     background: transparent;
 }
 
@@ -1161,7 +1148,7 @@ a:active {
     border-radius: 100%;
     color: #000000;
     display: inline-block;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;    
     font-weight: normal;
     font-size: 14px;
     height: 35px;
@@ -1231,7 +1218,7 @@ a:active {
     color: #000000;
     display: block;
     padding: 15px;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;    
     font-weight: normal;
     font-size: 18px;
     line-height: 1.5;
@@ -1245,7 +1232,7 @@ a:active {
     color: #777777;
     font-size: 14px;
     line-height: 1.5;  
-    font-family: 'Philosopher-Regular';    
+    font-family: 'PT Serif', serif;
 }
 
 .post-navigation a:hover .post-title,
@@ -1561,7 +1548,7 @@ body.attachment .post-navigation a span.meta-nav {
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
     color: #000000;
     display: block;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-size: 14px;
     font-weight: normal;
     left: -9999em;
@@ -1574,7 +1561,7 @@ body.attachment .post-navigation a span.meta-nav {
 
 .logged-in .site .skip-link {
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
 }
 
@@ -1671,7 +1658,7 @@ blockquote:after,
     color: #000000;
     display: block;
     float: left;
-    font-family: "Philosopher-Regular";
+    font-family: 'PT Serif', serif;
     font-size: 16px;    
     line-height: 1.5;
     margin-bottom: 40px;
@@ -1687,7 +1674,7 @@ blockquote:after,
 
 .widget .widget-title {
     color: #000000;
-    font-family: "Philosopher-Regular";
+    font-family: 'PT Serif', serif;
     margin: 0 0 15px;
     padding-bottom: 15px;    
     text-align: left;
@@ -1925,7 +1912,7 @@ blockquote:after,
 .widget.widget_recent_entries ul li a {
     color: #000000;
     display: block;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
 }
 
@@ -1953,7 +1940,7 @@ blockquote:after,
 */
 
 .widget.widget_recent_comments ul li.recentcomments a {
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.6);
 }
@@ -1986,7 +1973,7 @@ blockquote:after,
 
 .widget.widget_rss ul li .rsswidget {
     color: #000000;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
 }
 
@@ -2081,7 +2068,7 @@ input[type="search"].search-field {
     line-height: 1.5;
     padding: 10px;
     width: 100%;
-    font-family: 'Philosopher-Regular';    
+    font-family: 'PT Serif', serif;
     max-width: 100%;
 }
 
@@ -2120,7 +2107,7 @@ input[type="search"].search-field {
 .widget.widget_wysija .formError .formErrorContent {
     font-size: 14px;
     color: #ffffff;
-    font-family: 'Philosopher-Regular';    
+    font-family: 'PT Serif', serif;
 }
 
 .widget.widget_wysija form.widget_wysija {
@@ -2194,7 +2181,7 @@ input[type="search"].search-field {
     margin-bottom: 0;
     width: 100%;
     color: #000000;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
 }
 
@@ -2215,7 +2202,7 @@ input[type="search"].search-field {
 
 .contact-form-title {
     color: #000000;
-    font-family: "Philosopher-Regular";
+    font-family: 'PT Serif', serif;
     margin: 0 0 30px;
     padding-bottom: 15px;    
     text-align: left;   
@@ -2384,6 +2371,10 @@ input[type="search"].search-field {
     float: left;
     width: 100%;
     display: table;
+
+}
+.site-header-main{
+    border-bottom: 1px solid #999999;
 }
 
 .site-branding {   
@@ -2394,7 +2385,7 @@ input[type="search"].search-field {
 }
 
 .site-title {
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
     margin: 0;
     line-height: 1;
@@ -2425,8 +2416,10 @@ input[type="search"].search-field {
 .site-header-menu {
     display: table-cell;
     float: none;
-    text-align: right;
+    text-align: center;
     vertical-align: bottom;
+    background: #000;
+    padding-bottom: 12px;
 }
 
 .menu-toggle {
@@ -2468,11 +2461,12 @@ input[type="search"].search-field {
 .header-image img {
     display: block;
     max-width: 109px;
+    padding-top: 10px;
 }
 
 .site-header-text {
     color: #000000;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
     margin: 15px 0;
     word-break: break-all;
@@ -2505,7 +2499,7 @@ input[type="search"].search-field {
     background: #000000;
     color: #ffffff;
     float: left;
-    font-family: 'Philosopher-Regular';    
+    font-family: 'PT Serif', serif;
     font-size: 14px;
     width: 100%;
 }
@@ -2561,7 +2555,7 @@ input[type="search"].search-field {
 
 .header-top-bar .main-navigation li.menu-item > a {
     color: #ffffff;
-    font-family: 'Philosopher-Regular';    
+    font-family: 'PT Serif', serif;  
     padding: 12px 8px;
 }
 
@@ -2588,7 +2582,7 @@ input[type="search"].search-field {
 
 .top-bar-text {
     color: #ffffff;
-    font-family: 'Philosopher-Regular';    
+    font-family: 'PT Serif', serif;
     line-height: 1.5;
     padding: 12px 0;
     word-break: break-all;
@@ -2688,7 +2682,7 @@ article > *:last-child {
 }
 
 .entry-title {
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
     line-height: 1.2;
     margin-bottom: 10px;    
@@ -2729,7 +2723,7 @@ a.post-thumbnail:focus {
 .entry-content {
     margin-bottom: 15px;
     display: block;
-    font-family: 'Philosopher-Regular';    
+    font-family: 'PT Serif', serif;
     font-size: 18px;
     color: #000000;
 }
@@ -2814,7 +2808,7 @@ a.post-thumbnail:focus {
 }
 
 .author-title {
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
     margin-bottom: 20px;
 }
@@ -2849,7 +2843,7 @@ a.post-thumbnail:focus {
     border: 0px solid #da700f;
     border-radius: 0;
     color: #da700f;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     line-height: 1.5;
     padding: 8px 30px;
     text-transform: capitalize;
@@ -2900,7 +2894,7 @@ a.post-thumbnail:focus {
 .entry-footer .post-meta {
     display: block;
     margin-bottom: 10px;
-    font-family: 'Philosopher-Regular';    
+    font-family: 'PT Serif', serif;
     font-size: 14px;
     color: #777777;
 }
@@ -3002,7 +2996,7 @@ a.post-thumbnail:focus {
     background-color: #000000;
     color: #ffffff;
     display: inline-block;
-    font-family: 'Philosopher-Regular';    
+    font-family: 'PT Serif', serif;
     font-size: 14px;
     left: 0;
     line-height: 1.5;
@@ -3060,7 +3054,7 @@ a.post-thumbnail:focus {
     border: 2px solid #000000;
     color: #000000;
     display: inline-block;
-    font-family: "Philosopher-Regular";      
+    font-family: 'PT Serif', serif;
     line-height: 1;
     margin-bottom: 0;
     padding: 15px 50px;
@@ -3069,7 +3063,7 @@ a.post-thumbnail:focus {
 
 .page-links {
     clear: both;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
     margin: 0 0 15px;
 }
@@ -3156,7 +3150,7 @@ a.post-thumbnail:focus {
 .post-password-form label {
     color: #000000;
     display: block;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-size: 14px;
     line-height: 1.5;
     margin-bottom: 15px;
@@ -3331,6 +3325,7 @@ a.post-thumbnail:focus {
 
 .single-blog-social.author_socialicon_block {
     float: right;
+    padding-top: 10px !important;
 }
 
 .single-blog-social li {
@@ -3360,12 +3355,12 @@ a.post-thumbnail:focus {
     background-color: #000000;
     border: 1px solid #000000;
     display: inline-flex;
-    height: 40px;
+    height: 35px;
     list-style: outside none none;
     margin-left: 5px;
     text-align: center;
     transition: all 0.3s ease 0s;
-    width: 40px;
+    width: 35px;
     padding: 0;
 }
 
@@ -3374,28 +3369,28 @@ a.post-thumbnail:focus {
 }
 
 .author_socialicon_block ul.social-media li.facebook {
-    background-color: #3D5988;
-    border-color: #3D5988;
+    background-color: #dadada;
+    border-color: #dadada;
 }
 
 .author_socialicon_block ul.social-media li.twitter {
-    background-color: #29C5F6;
-    border-color: #29C5F6;
+    background-color: #dadada;
+    border-color: #dadada;
 }
 
 .author_socialicon_block ul.social-media li.linkedin {
-    background-color: #006DC0;
-    border-color: #006DC0;
+    background-color: #dadada;
+    border-color: #dadada;
 }
 
 .author_socialicon_block ul.social-media li.google-plus {
-    background-color: #DB5049;
-    border-color: #DB5049;
+    background-color: #dadada;
+    border-color: #dadada;
 }
 
 .author_socialicon_block ul.social-media li.instagram {
-    background-color: #AA856A;
-    border-color: #AA856A;
+    background-color: #dadada;
+    border-color: #dadada;
 }
 
 .author_socialicon_block ul.social-media li:hover {
@@ -3420,7 +3415,7 @@ a.post-thumbnail:focus {
 
 .author_socialicon_block ul.social-media li i {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 38px;
     transition: all 0.3s ease 0s;
 }
@@ -3640,7 +3635,7 @@ a.post-thumbnail:focus {
     color: #000000;                
     display: inline-block;
     width: 100%;    
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
     line-height: 1.2;
     margin-bottom: 50px;   
@@ -3689,7 +3684,7 @@ a.post-thumbnail:focus {
 .comment-metadata,
 .pingback .edit-link {
     color: #777777;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-size: 14px;
 }
 
@@ -3721,7 +3716,7 @@ a.post-thumbnail:focus {
 .pingback,
 .comment-content {
     color: #000000;
-    font-family: 'Philosopher-Regular';    
+    font-family: 'PT Serif', serif;
     font-size: 18px;
     text-align: left;
     padding-left: 90px;
@@ -3734,7 +3729,7 @@ a.post-thumbnail:focus {
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-size: 14px;    
     line-height: 1;
     padding: 8px 10px;
@@ -3787,7 +3782,7 @@ a.post-thumbnail:focus {
 .comment-form label {
     color: #000000;
     display: block;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 5px;
@@ -3825,7 +3820,7 @@ a.post-thumbnail:focus {
     border-bottom: 1px solid rgba(44, 44, 44, 0.1);
     border-top: 1px solid rgba(44, 44, 44, 0.1);
     display: inline-block;
-    font-family: 'Philosopher-Bold';
+    font-family: 'PT Serif', serif;
     font-weight: bold;
     margin: 0 0 25px;
     padding: 10px 0;
@@ -3838,7 +3833,7 @@ a.post-thumbnail:focus {
 }
 
 .form-allowed-tags code {
-    font-family: Inconsolata, monospace;
+    font-family: 'PT Serif', serif;
 }
 
 .form-submit {
@@ -3847,7 +3842,7 @@ a.post-thumbnail:focus {
 
 .required {
     color: #ff0000;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-weight: normal;
 }
 
@@ -4388,7 +4383,7 @@ p > video {
 .widecolumn label,
 .widecolumn .mu_register label {
     color: #000000;
-    font-family: 'Philosopher-Regular';
+    font-family: 'PT Serif', serif;
     font-size: 14px;
     font-weight: normal;
     line-height: 1.5;
@@ -4473,6 +4468,9 @@ p > video {
     .about_author {
         padding-bottom: 0px;
     }
+    .site-header-main {
+        border-bottom: 1px solid transparent;
+    }
 }
 
 /**
@@ -4536,6 +4534,7 @@ p > video {
 
     .single-blog-social.author_socialicon_block {
         float: none;
+        
     }
 
     .page-header.header_bg_image,
@@ -4617,4 +4616,12 @@ p > video {
 }
 .duze-logo-position {
     padding: 75px 0px 0px 0px;
+}
+
+.site-header-menu, .col-xs-12, .col-sm-4, .col-md-4{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.social-media-padding{
+    padding-top: 22px;
 }

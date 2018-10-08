@@ -8,6 +8,11 @@
  * @subpackage Mine
  * @since 1.0
  */
+$mine_social_facebook = get_theme_mod('mine_social_facebook');
+$mine_social_twitter = get_theme_mod('mine_social_twitter');
+$mine_social_google_plus = get_theme_mod('mine_social_google_plus');
+$mine_social_instagram = get_theme_mod('mine_social_instagram');
+$mine_social_linkedin = get_theme_mod('mine_social_linkedin');
 ?>
 
 <!DOCTYPE html>
@@ -37,7 +42,8 @@
                     <div class="site-header-main">
                         <div class="container">
                             <div class="header_wrap">
-                                <div class="site-header-logo pull-left">
+                            <div class="row">
+                                <div class="site-header-logo pull-left col-xs-12 col-sm-2 col-md-2">
                                     <div class="site-branding">
                                         <div class="header-image main-logo">
                                             <?php
@@ -58,7 +64,45 @@
                                         ?>
                                     </div><!-- .site-branding -->
                                 </div>
-                                <div class="site-header-menu">
+                                <div class="col-xs-12 col-sm-2 col-md-2 pull-left social-media-padding">
+                                <div class="author_socialicon_block">
+                            <ul class="social-media">
+                                <?php 
+                                if ($mine_social_facebook != '') { ?>
+                                    <li class="circle facebook">
+                                        <a href="<?php echo esc_html($mine_social_facebook); ?>" target="_blank"><i class="fa text-center fa-facebook"></i></a>
+                                    </li><?php
+                                }
+                                if ($mine_social_twitter != '') {
+                                    ?>
+                                    <li class="circle twitter">
+                                        <a href="<?php echo esc_html($mine_social_twitter); ?>" target="_blank"><i class="fa text-center fa-twitter"></i></a>
+                                    </li><?php
+                                }
+                                if ($mine_social_google_plus != '') {
+                                    ?>
+                                    <li class="circle google-plus">
+                                        <a href="<?php echo esc_html($mine_social_google_plus); ?>" target="_blank"><i class="fa text-center fa-google-plus"></i></a>
+                                    </li><?php
+                                }
+                                if ($mine_social_instagram != '') {
+                                    ?>
+                                    <li class="circle instagram">
+                                        <a href="<?php echo esc_html($mine_social_instagram); ?>" target="_blank"><i class="fa text-center fa-instagram"></i></a>
+                                    </li><?php
+                                }
+                                if ($mine_social_linkedin != '') {
+                                    ?>
+                                    <li class="circle linkedin">
+                                        <a href="<?php echo esc_html($mine_social_linkedin); ?>" target="_blank"><i class="fa text-center fa-linkedin"></i></a>
+                                    </li><?php
+                                }
+                                ?>
+                            </ul>
+                        </div>
+                                </div>
+                                
+                                <div class="site-header-menu col-xs-12 col-sm-4 col-md-4">
                                     <div class="site-menu-container">
                                         <nav id="site-navigation" class="primary-navigation navbar main-navigation" role="navigation">
                                             <?php
@@ -67,6 +111,7 @@
                                         </nav>
                                     </div>
                                 </div>
+                            </div>
                             </div>
                         </div>
                     </div>

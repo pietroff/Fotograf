@@ -74,41 +74,7 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                             </div><?php
                         }
                         ?>
-                        <div class="author_socialicon_block">
-                            <ul class="social-media">
-                                <?php 
-                                if ($mine_social_facebook != '') { ?>
-                                    <li class="circle facebook">
-                                        <a href="<?php echo esc_html($mine_social_facebook); ?>" target="_blank"><i class="fa text-center fa-facebook"></i></a>
-                                    </li><?php
-                                }
-                                if ($mine_social_twitter != '') {
-                                    ?>
-                                    <li class="circle twitter">
-                                        <a href="<?php echo esc_html($mine_social_twitter); ?>" target="_blank"><i class="fa text-center fa-twitter"></i></a>
-                                    </li><?php
-                                }
-                                if ($mine_social_google_plus != '') {
-                                    ?>
-                                    <li class="circle google-plus">
-                                        <a href="<?php echo esc_html($mine_social_google_plus); ?>" target="_blank"><i class="fa text-center fa-google-plus"></i></a>
-                                    </li><?php
-                                }
-                                if ($mine_social_instagram != '') {
-                                    ?>
-                                    <li class="circle instagram">
-                                        <a href="<?php echo esc_html($mine_social_instagram); ?>" target="_blank"><i class="fa text-center fa-instagram"></i></a>
-                                    </li><?php
-                                }
-                                if ($mine_social_linkedin != '') {
-                                    ?>
-                                    <li class="circle linkedin">
-                                        <a href="<?php echo esc_html($mine_social_linkedin); ?>" target="_blank"><i class="fa text-center fa-linkedin"></i></a>
-                                    </li><?php
-                                }
-                                ?>
-                            </ul>
-                        </div>
+                        
                     </div>                
                 </div>
                 <?php
