@@ -92,86 +92,15 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
     <main id="main" class="site-main" role="main">  
         <div class="container">
             <?php if ($mine_disable_blogposts != '1') { ?>
-                <div class="widget widget_related_post text-center">
+            <div class="row  col-sm-8 col-md-8 text-center">
+                <div class="widget widget_related_post text-center ">
                     <?php 
                     if(isset($mine_blogposts_title) && $mine_blogposts_title != ''){ ?>
-                        <h2 id="related_post_title" class="widget-title"><?php print_r($mine_blogposts_title); ?></h2><?php
+                        <h2 id="related_post_title" class="widget-title text-center"><?php print_r($mine_blogposts_title); ?></h2><?php
                     }
                     ?>
-                    <div class="row text-left">
-                        <?php
-                        $post_perpage = $mine_blogposts_items;
-                        $block_class = 'col-sm-4 col-md-4';
-                        $clear_count = '3';
-                        $i = 0;
-
-                        if ($post_perpage % 3 == 0) {
-                            $block_class = 'col-sm-4 col-md-4';
-                            $clear_count = '3';
-                        } elseif ($post_perpage % 2 == 0) {
-                            if ($post_perpage == 2) {
-                                $block_class = 'col-sm-6 col-md-6';
-                                $clear_count = '2';
-                            } else {
-                                $block_class = 'col-sm-3 col-md-3';
-                                $clear_count = '4';
-                            }
-                        }
-
-                        $args = array();
-                        global$wp_query, $post;
-                        $args = array(
-                            'post_type' => 'post',
-                            'orderby' => $mine_blogposts_orderby,
-                            'order' => $mine_blogposts_order,
-                            'post_status' => 'publish',
-                            'ignore_sticky_posts' => true,
-                            'posts_per_page' => $post_perpage
-                        );
-                        if ($mine_blogposts_category != 0) {
-                            $args['category__in'] = array($mine_blogposts_category);
-                        }
-                        $my_query = new wp_query($args);
-                        if ($my_query->have_posts()) {
-                            while ($my_query->have_posts()) {
-                                $my_query->the_post();
-                                $clear_class = ($i == $clear_count) ? 'clearleft' : '';
-                                $i++;
-                                ?>
-                                <div class="col-xs-12 text-center <?php echo esc_html($block_class) . ' ' . esc_html($clear_class); ?>">
-                                    <div class="related_post">
-                                        <?php 
-                                        if (!post_password_required() && has_post_thumbnail()) { ?>
-                                            <div class="post-thumbnail">
-                                                <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-                                                    <?php the_post_thumbnail('mine-blog-thumbnail'); ?>
-                                                </a>           
-                                            </div><?php
-                                        } elseif(isset($blog_default_image) && $blog_default_image != ""){ ?>
-                                            <div class="post-thumbnail">
-                                                <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php 
-                                                    echo "<img src='".esc_html($blog_default_image)."' alt='". get_the_title()."'>"; ?>
-                                                </a>           
-                                            </div><?php
-                                        }
-                                        if (get_the_title()) { ?>
-                                            <header class="entry-header">
-                                                <?php the_title(sprintf('<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h3>'); ?>
-                                            </header><?php
-                                        } ?>
-                                        <footer class="entry-footer">
-                                            <div class="post-meta">
-                                                <?php mine_blog_posted_on(); ?>
-                                                <?php mine_get_blog_post_meta(); ?>
-                                            </div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <?php
-                            }
-                            wp_reset_postdata();
-                        }
-                        ?>
+                    <div class="line_title text-center"></div>
+                    
                     </div>
                 </div><?php
             }
