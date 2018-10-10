@@ -118,51 +118,24 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                     }
                     ?>
                     <div class="col-sm-8 col-xs-12">
-                        <?php
-                        global $wp_query, $post;
-                        $paged = get_query_var('page') ? intval(get_query_var('page')) : 1;
-                        $posts_per_page = get_option('posts_per_page');
-                        $offset = ( $paged - 1) * $posts_per_page;
-                        
-                        $args = array(
-                            'post_type' => 'post',
-                            'post_status' => 'publish',
-                            'ignore_sticky_posts' => true,
-                            'orderby' => $mine_blog_posts_orderby,
-                            'order' => $mine_blog_posts_order,
-                            'paged' => $paged,
-                            'offset' => $offset,
-                            'posts_per_page' => $posts_per_page
-                        );
-                        
-                        if ($mine_blog_posts_category != 0) {
-                            $args['category__in'] = array($mine_blog_posts_category);
-                        }
+<a href="http://www.skfotografia.pl/architektura-wnetrz/">
+<img class="size-full wp-image-5231 alignleft" src="http://www.skfotografia.pl/wp-content/uploads/2015/12/architektura-wnetrz.jpg" alt="architektura wnetrz" width="400" height="400" padding="5px" srcset="http://www.skfotografia.pl/wp-content/uploads/2015/12/architektura-wnetrz.jpg 400w, http://www.skfotografia.pl/wp-content/uploads/2015/12/architektura-wnetrz-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+ <a href="http://www.skfotografia.pl/fotografia-dziecieca/">
+ <img class="size-full wp-image-5232 alignleft" src="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiadzieciecia.jpg" alt="fotografiadzieciecia" width="400" height="400"  padding="5px" srcset="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiadzieciecia.jpg 400w, http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiadzieciecia-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+ <a href="http://www.skfotografia.pl/fotografia-eventowa/">
+ <img class="size-full wp-image-5233 alignleft" src="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiaeventowa.jpg" alt="fotografiaeventowa" width="400" height="400"  padding="5px" srcset="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiaeventowa.jpg 400w, http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiaeventowa-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+ <a href="http://www.skfotografia.pl/fotografia-kulinarna/">
+ <img class="size-full wp-image-5234 alignleft" src="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiakulinarna.jpg" alt="fotografiakulinarna" width="400" height="400"  padding="5px" srcset="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiakulinarna.jpg 400w, http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiakulinarna-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+ <a href="http://www.skfotografia.pl/fotografia-portretowa/">
+ <img class="size-full wp-image-5235 alignleft" src="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiaportretowa.jpg" alt="fotografiaportretowa" width="400" height="400"  padding="5px" srcset="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiaportretowa.jpg 400w, http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiaportretowa-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+ <a href="http://www.skfotografia.pl/fotografia-reklamowa/">
+ <img class="size-full wp-image-5236 alignleft" src="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiareklamowa.jpg" alt="fotografiareklamowa" width="400" height="400"  padding="5px" srcset="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiareklamowa.jpg 400w, http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiareklamowa-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a>
 
-                        $my_query = new wp_query($args);
-                        if ($my_query->have_posts()) :
-                            while ($my_query->have_posts()) :
-                                $my_query->the_post();
-
-                                /*
-                                 * Include the Post-Format-specific template for the content.
-                                 * If you want to override this in a child theme, then include a file
-                                 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-                                 */
-                                get_template_part('template-parts/content', get_post_format());
-
-                            // End the loop.
-                            endwhile;
-                            // Previous/next page navigation.
-                            mine_paging_nav();
-                            // If no content, include the "No posts found" template.
-                        else :
-                            get_template_part('template-parts/content', 'none');
-                        endif;
-                        ?>
+							
                     </div><!-- .content-area -->
                     
                     <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
+                    <div class="line_title_small text-center"></div>
                         <?php dynamic_sidebar('primary-sidebar'); ?>
                     </div>
                 </div><?php
