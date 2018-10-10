@@ -102,7 +102,10 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                     <div class="line_title text-center"></div>
                     
                     </div>
-                </div><?php
+                    
+                </div>
+                
+                <?php
             }
             if ($mine_disable_blog_posts != '1') {
                 ?>
@@ -158,6 +161,7 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                         endif;
                         ?>
                     </div><!-- .content-area -->
+                    
                     <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
                         <?php dynamic_sidebar('primary-sidebar'); ?>
                     </div>

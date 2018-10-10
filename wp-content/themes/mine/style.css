@@ -1702,6 +1702,7 @@ h2.widget-title {
     border-bottom: 2px solid #d9700f; 
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 70px;
 }
 .line_title::after{
     content: " ";
