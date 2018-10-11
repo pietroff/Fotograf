@@ -1720,7 +1720,7 @@ h2.widget-title {
     width: 54px;
     height: 40px;
     /* margin: 49px -63px; */
-    top: 89px;
+    top: 35px;
     right: 17px;
 }
 .line_title::before{
@@ -1732,7 +1732,7 @@ h2.widget-title {
     width: 54px;
     height: 40px;
     /* margin: 49px -63px; */
-    top: 69px;
+    top: 12px;
     left: 17px;
 }
 
@@ -4667,4 +4667,22 @@ p > video {
 }
 .social-media-padding{
     padding-top: 22px;
+}
+
+.tytul-obrazka{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.obrazek-menu{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+.ustawienia-menu-obrazkowego{
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
 }

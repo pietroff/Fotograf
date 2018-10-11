@@ -88,6 +88,66 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
         </div>
     </div>
 </div>
+
+<div id="primary" class="content-area home-content-area">
+    <main id="main" class="site-main" role="main">  
+        <div class="container">
+            <div class="row">
+            
+            <div class="col-sm-8 col-xs-12 text-center ustawienia-menu-obrazkowego">
+            <h2 id="related_post_title" class="widget-title text-center">Fotografia Ślubna</h2>
+            <div class="line_title text-center"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Przygotowania</div>
+                    <a href="http://127.0.0.1/Fotografik/?p=52">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0054-1000x668.jpg" alt="Przygotowania" class="obrazek-menu">
+                    </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Ceremonia</div>
+                    <a href="http://127.0.0.1/Fotografik/?p=55">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0838-1000x667.jpg" alt="Ceremonia" class="obrazek-menu">
+                    </a>
+                    </div>	
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Wesela</div>
+                    <a href="http://127.0.0.1/Fotografik/?p=57">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0718-1-1000x667.jpg" alt="Wesela" class="obrazek-menu">
+                    </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Sesje</div>
+                    <a href="http://127.0.0.1/Fotografik/?p=59">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKF4700-2-1000x668.jpg" alt="Sesje" class="obrazek-menu">
+                    </a>
+                    </div>
+                    </div><!-- .content-area -->
+                    
+                    <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
+                        <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/circle-black-header.png" class="line_title_small text-center" alt="">
+                    <div class="line_title_small text-center"></div>
+                        <?php dynamic_sidebar('primary-sidebar'); ?>
+                    </div>
+        
+        
+        
+        
+            </div>
+        </div>
+    </main>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 <div id="primary" class="content-area home-content-area">
     <main id="main" class="site-main" role="main">  
         <div class="container">
@@ -117,23 +177,37 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                         </div><?php
                     }
                     ?>
-                    <div class="col-sm-8 col-xs-12">
-<a href="http://www.skfotografia.pl/architektura-wnetrz/">
-<img class="size-full wp-image-5231 alignleft" src="http://www.skfotografia.pl/wp-content/uploads/2015/12/architektura-wnetrz.jpg" alt="architektura wnetrz" width="400" height="400" padding="5px" srcset="http://www.skfotografia.pl/wp-content/uploads/2015/12/architektura-wnetrz.jpg 400w, http://www.skfotografia.pl/wp-content/uploads/2015/12/architektura-wnetrz-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a>
- <a href="http://www.skfotografia.pl/fotografia-dziecieca/">
- <img class="size-full wp-image-5232 alignleft" src="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiadzieciecia.jpg" alt="fotografiadzieciecia" width="400" height="400"  padding="5px" srcset="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiadzieciecia.jpg 400w, http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiadzieciecia-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a>
- <a href="http://www.skfotografia.pl/fotografia-eventowa/">
- <img class="size-full wp-image-5233 alignleft" src="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiaeventowa.jpg" alt="fotografiaeventowa" width="400" height="400"  padding="5px" srcset="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiaeventowa.jpg 400w, http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiaeventowa-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a>
- <a href="http://www.skfotografia.pl/fotografia-kulinarna/">
- <img class="size-full wp-image-5234 alignleft" src="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiakulinarna.jpg" alt="fotografiakulinarna" width="400" height="400"  padding="5px" srcset="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiakulinarna.jpg 400w, http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiakulinarna-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a>
- <a href="http://www.skfotografia.pl/fotografia-portretowa/">
- <img class="size-full wp-image-5235 alignleft" src="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiaportretowa.jpg" alt="fotografiaportretowa" width="400" height="400"  padding="5px" srcset="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiaportretowa.jpg 400w, http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiaportretowa-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a>
- <a href="http://www.skfotografia.pl/fotografia-reklamowa/">
- <img class="size-full wp-image-5236 alignleft" src="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiareklamowa.jpg" alt="fotografiareklamowa" width="400" height="400"  padding="5px" srcset="http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiareklamowa.jpg 400w, http://www.skfotografia.pl/wp-content/uploads/2015/12/fotografiareklamowa-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+                    <div class="col-sm-8 col-xs-12 text-center ustawienia-menu-obrazkowego">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Przygotowania</div>
+                    <a href="http://127.0.0.1/Fotografik/?p=52">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0054-1000x668.jpg" alt="Przygotowania" class="obrazek-menu">
+                    </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Ceremonia</div>
+                    <a href="http://127.0.0.1/Fotografik/?p=55">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0838-1000x667.jpg" alt="Ceremonia" class="obrazek-menu">
+                    </a>
+                    </div>	
+                    </div><!-- .content-area -->
 
+                    <div class="col-sm-8 col-xs-12 text-center ustawienia-menu-obrazkowego">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Wesela</div>
+                    <a href="http://127.0.0.1/Fotografik/?p=57">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0718-1-1000x667.jpg" alt="Wesela" class="obrazek-menu">
+                    </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Sesje</div>
+                    <a href="http://127.0.0.1/Fotografik/?p=59">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKF4700-2-1000x668.jpg" alt="Sesje" class="obrazek-menu">
+                    </a>
+                    </div>
 							
                     </div><!-- .content-area -->
-                    
+                   
                     <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
                     <div class="line_title_small text-center"></div>
                         <?php dynamic_sidebar('primary-sidebar'); ?>
