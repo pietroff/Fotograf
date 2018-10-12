@@ -97,6 +97,7 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
             <div class="col-sm-8 col-xs-12 text-center ustawienia-menu-obrazkowego">
             <h2 id="related_post_title" class="widget-title text-center">Fotografia Ślubna</h2>
             <div class="line_title text-center"></div>
+                    <div class="line-first col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="tytul-obrazka">Przygotowania</div>
                     <a href="http://127.0.0.1/Fotografik/?p=52">
@@ -109,6 +110,8 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                     <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0838-1000x667.jpg" alt="Ceremonia" class="obrazek-menu">
                     </a>
                     </div>	
+                    </div>
+                    <div class="line-second col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="tytul-obrazka">Wesela</div>
                     <a href="http://127.0.0.1/Fotografik/?p=57">
@@ -121,11 +124,13 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                     <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKF4700-2-1000x668.jpg" alt="Sesje" class="obrazek-menu">
                     </a>
                     </div>
+                    </div>
                     </div><!-- .content-area -->
                     
                     <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
-                        <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/circle-black-header.png" class="line_title_small text-center" alt="">
-                    <div class="line_title_small text-center"></div>
+                        <div class="text-center">
+                        <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/circle-black-header.png"  alt="">
+                        </div>
                         <?php dynamic_sidebar('primary-sidebar'); ?>
                     </div>
         

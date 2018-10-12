@@ -4662,9 +4662,10 @@ p > video {
 }
 
 .site-header-menu, .col-xs-12, .col-sm-4, .col-md-4{
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
+
 .social-media-padding{
     padding-top: 22px;
 }
@@ -4677,12 +4678,19 @@ p > video {
     text-transform: uppercase;
 }
 .obrazek-menu{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 30px;
+       /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    /* padding-bottom: 30px; */
+    margin-bottom: 33px;
 }
 .ustawienia-menu-obrazkowego{
     position: relative;
     margin: 0 auto;
     display: inline-block;
+}
+.obrazek-menu{
+    border: 3px solid transparent;
+}
+.obrazek-menu:hover{
+    border: 3px solid #da700f;
 }
