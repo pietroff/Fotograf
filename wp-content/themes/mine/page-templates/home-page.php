@@ -100,128 +100,127 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                     <div class="line-first col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="tytul-obrazka">Przygotowania</div>
-                    <a href="http://127.0.0.1/Fotografik/?p=52">
+                    <figure class="gallery_hover">
                     <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0054-1000x668.jpg" alt="Przygotowania" class="obrazek-menu">
-                    </a>
+                            <figcaption>
+                                <h3>Przejdź do galerii</h3>
+                            </figcaption>
+                        <a href="http://127.0.0.1/Fotografik/?p=52"></a>
+                    </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="tytul-obrazka">Ceremonia</div>
-                    <a href="http://127.0.0.1/Fotografik/?p=55">
+                    <figure class="gallery_hover">
                     <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0838-1000x667.jpg" alt="Ceremonia" class="obrazek-menu">
-                    </a>
-                    </div>	
+                            <figcaption>
+                                <h3>Przejdź do galerii</h3>
+                            </figcaption>
+                        <a href="http://127.0.0.1/Fotografik/?p=55"></a>
+                    </figure>
                     </div>
+                    </div>  
                     <div class="line-second col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="tytul-obrazka">Wesela</div>
-                    <a href="http://127.0.0.1/Fotografik/?p=57">
+                    <figure class="gallery_hover">
                     <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0718-1-1000x667.jpg" alt="Wesela" class="obrazek-menu">
-                    </a>
+                            <figcaption>
+                                <h3>Przejdź do galerii</h3>
+                            </figcaption>
+                        <a href="http://127.0.0.1/Fotografik/?p=57"></a>
+                    </figure>
                     </div>
-                    <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="tytul-obrazka">Sesje</div>
-                    <a href="http://127.0.0.1/Fotografik/?p=59">
+                    <figure class="gallery_hover">
                     <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKF4700-2-1000x668.jpg" alt="Sesje" class="obrazek-menu">
-                    </a>
+                            <figcaption>
+                                <h3>Przejdź do galerii</h3>
+                            </figcaption>
+                        <a href="http://127.0.0.1/Fotografik/?p=59"></a>
+                    </figure>
                     </div>
+                    </div>  
+                    <h2 id="related_post_title" class="widget-title-down text-center">Pozostałe usługi</h2>
+                    <div class="line_title_down text-center"></div>
+                    <div class="line-first col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Przygotowania</div>
+                    <figure class="gallery_hover">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0054-1000x668.jpg" alt="Przygotowania" class="obrazek-menu">
+                            <figcaption>
+                                <h3>Przejdź do galerii</h3>
+                            </figcaption>
+                        <a href="http://127.0.0.1/Fotografik/?p=52"></a>
+                    </figure>
                     </div>
-                    </div><!-- .content-area -->
-                    
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Ceremonia</div>
+                    <figure class="gallery_hover">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0838-1000x667.jpg" alt="Ceremonia" class="obrazek-menu">
+                            <figcaption>
+                                <h3>Przejdź do galerii</h3>
+                            </figcaption>
+                        <a href="http://127.0.0.1/Fotografik/?p=55"></a>
+                    </figure>
+                    </div>
+                    </div>  
+                    <div class="line-second col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Wesela</div>
+                    <figure class="gallery_hover">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0718-1-1000x667.jpg" alt="Wesela" class="obrazek-menu">
+                            <figcaption>
+                                <h3>Przejdź do galerii</h3>
+                            </figcaption>
+                        <a href="http://127.0.0.1/Fotografik/?p=57"></a>
+                    </figure>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Sesje</div>
+                    <figure class="gallery_hover">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKF4700-2-1000x668.jpg" alt="Sesje" class="obrazek-menu">
+                            <figcaption>
+                                <h3>Przejdź do galerii</h3>
+                            </figcaption>
+                        <a href="http://127.0.0.1/Fotografik/?p=59"></a>
+                    </figure>
+                    </div>
+                    </div>  
+                    <div class="line-second col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Wesela</div>
+                    <figure class="gallery_hover">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0718-1-1000x667.jpg" alt="Wesela" class="obrazek-menu">
+                            <figcaption>
+                                <h3>Przejdź do galerii</h3>
+                            </figcaption>
+                        <a href="http://127.0.0.1/Fotografik/?p=57"></a>
+                    </figure>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka">Sesje</div>
+                    <figure class="gallery_hover">
+                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKF4700-2-1000x668.jpg" alt="Sesje" class="obrazek-menu">
+                            <figcaption>
+                                <h3>Przejdź do galerii</h3>
+                            </figcaption>
+                        <a href="http://127.0.0.1/Fotografik/?p=59"></a>
+                    </figure>
+                    </div>
+                    </div>  
+
+                    </div><!-- .content-area -->                                   
                     <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
                         <div class="text-center">
                         <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/circle-black-header.png"  alt="">
                         </div>
                         <?php dynamic_sidebar('primary-sidebar'); ?>
-                    </div>
-        
-        
-        
-        
+                    </div>       
             </div>
         </div>
     </main>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-<div id="primary" class="content-area home-content-area">
-    <main id="main" class="site-main" role="main">  
-        <div class="container">
-            <?php if ($mine_disable_blogposts != '1') { ?>
-            <div class="row  col-sm-8 col-md-8 text-center">
-                <div class="widget widget_related_post text-center ">
-                    <?php 
-                    if(isset($mine_blogposts_title) && $mine_blogposts_title != ''){ ?>
-                        <h2 id="related_post_title" class="widget-title text-center"><?php print_r($mine_blogposts_title); ?></h2><?php
-                    }
-                    ?>
-                    <div class="line_title text-center"></div>
-                    
-                    </div>
-                    
-                </div>
-                
-                <?php
-            }
-            if ($mine_disable_blog_posts != '1') {
-                ?>
-                <div class="row">
-                    <?php 
-                    if(isset($mine_grid_blogposts_title) && $mine_grid_blogposts_title != ''){ ?>
-                        <div class="widget widget_latest_post text-center">
-                            <h2 class="widget-title"><?php print_r($mine_grid_blogposts_title); ?></h2>
-                        </div><?php
-                    }
-                    ?>
-                    <div class="col-sm-8 col-xs-12 text-center ustawienia-menu-obrazkowego">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Przygotowania</div>
-                    <a href="http://127.0.0.1/Fotografik/?p=52">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0054-1000x668.jpg" alt="Przygotowania" class="obrazek-menu">
-                    </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Ceremonia</div>
-                    <a href="http://127.0.0.1/Fotografik/?p=55">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0838-1000x667.jpg" alt="Ceremonia" class="obrazek-menu">
-                    </a>
-                    </div>	
-                    </div><!-- .content-area -->
-
-                    <div class="col-sm-8 col-xs-12 text-center ustawienia-menu-obrazkowego">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Wesela</div>
-                    <a href="http://127.0.0.1/Fotografik/?p=57">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0718-1-1000x667.jpg" alt="Wesela" class="obrazek-menu">
-                    </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Sesje</div>
-                    <a href="http://127.0.0.1/Fotografik/?p=59">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKF4700-2-1000x668.jpg" alt="Sesje" class="obrazek-menu">
-                    </a>
-                    </div>
-							
-                    </div><!-- .content-area -->
-                   
-                    <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
-                    <div class="line_title_small text-center"></div>
-                        <?php dynamic_sidebar('primary-sidebar'); ?>
-                    </div>
-                </div><?php
-            }
-            ?>
-        </div>
-    </main>
-</div>
 <?php
 get_footer();
