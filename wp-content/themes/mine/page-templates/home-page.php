@@ -140,7 +140,15 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                         <a href="http://127.0.0.1/Fotografik/?p=59"></a>
                     </figure>
                     </div>
-                    </div>  
+                    </div> 
+                    </div><!-- .content-area -->                                   
+                    <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
+                        <div class="text-center">
+                        <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/circle-black-header.png"  alt="">
+                        </div>
+                        <?php dynamic_sidebar('primary-sidebar'); ?>
+                    </div> 
+                    <div class="col-sm-8 col-xs-12 text-center ustawienia-menu-obrazkowego">
                     <h2 id="related_post_title" class="widget-title-down text-center">Pozostałe usługi</h2>
                     <div class="line_title_down text-center"></div>
                     <div class="line-first col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -209,14 +217,7 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                     </figure>
                     </div>
                     </div>  
-
-                    </div><!-- .content-area -->                                   
-                    <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
-                        <div class="text-center">
-                        <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/circle-black-header.png"  alt="">
-                        </div>
-                        <?php dynamic_sidebar('primary-sidebar'); ?>
-                    </div>       
+                    </div><!-- .content-area -->                                       
             </div>
         </div>
     </main>

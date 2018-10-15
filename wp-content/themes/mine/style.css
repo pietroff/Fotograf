@@ -1661,11 +1661,11 @@ blockquote:after,
     font-family: 'PT Serif', serif;
     font-size: 16px;    
     line-height: 1.5;
-    margin-bottom: 40px;
+    margin-bottom: 4px;
     position: relative;
     width: 100%;
     padding: 15px;
-    border: 1px solid rgba(44, 44, 44, 0.1);
+    /* border: 1px solid rgba(44, 44, 44, 0.1); */
 }
 
 .site-footer .widget {
@@ -4809,7 +4809,7 @@ p > video {
 .site-header-menu, .col-xs-12, .col-sm-4, .col-md-4{
     padding-left: 7px;
     padding-right: 7px;
-    margin-bottom: 30px;
+    margin-bottom: 13px;
 }
 
 .social-media-padding{
