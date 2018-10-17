@@ -1755,7 +1755,7 @@ h2.widget-title-down {
     width: 54px;
     height: 40px;
     right: 17px;
-    /* bottom: 0px; */
+    top: 35px;
    
 }
 .line_title_down::before{
@@ -1767,7 +1767,7 @@ h2.widget-title-down {
     width: 54px;
     height: 40px;
     left: 17px;
-    /* bottom: 63px; */
+    top: 9px;
     transform: rotate(180deg);
 }
 .gallery_hover {
