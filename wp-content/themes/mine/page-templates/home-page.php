@@ -144,6 +144,7 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                     </div><!-- .content-area -->                                   
                     <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
                         <div class="text-center">
+                        <h3>Ostatnio na blogu</h3>
                         <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/circle-black-header.png"  alt="">
                         </div>
                         <?php dynamic_sidebar('primary-sidebar'); ?>

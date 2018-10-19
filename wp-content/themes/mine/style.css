@@ -746,15 +746,15 @@ input[type="tel"],
 input[type="number"],
 textarea {
     background-color: #ffffff;
-    border-bottom: 2px solid rgba(44, 44, 44, 0.1);
-    border-left: none;
-    border-right: none;
-    border-top: none;
+    border: 2px solid #d9700f;
+    /* border-left: none; */
+    /* border-right: none; */
+    /* border-top: none; */
     border-radius: 0;
     color: #000000;
     font-family: 'PT Serif', serif;
     font-size: 14px;
-    padding: 10px 0;
+    padding: 4px 0;
     width: 100%;
     line-height: 1.5;
     font-weight: normal;
