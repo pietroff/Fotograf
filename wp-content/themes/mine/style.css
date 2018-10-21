@@ -835,11 +835,12 @@ a:active {
 .main-navigation {
     font-family: 'PT Serif', serif;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 11px;
+    text-transform: uppercase;
     margin: 0;
     border: medium none;
     min-height: 1px;
-    float: left;
+    /* float: left; */
     vertical-align: middle;
 }
 
@@ -856,13 +857,13 @@ a:active {
 
 .main-navigation ul {
     list-style: none;
-    margin: 0;
+    /* margin-left: 4%; */
 }
 
 .main-navigation ul > li {
     display: inline-block;   
     float: none;
-    padding: 20px 15px;
+    padding: 13px 15px;
 }
 
 .main-navigation ul.sub-menu > li {
@@ -896,10 +897,10 @@ a:active {
         /* border-bottom: 2px solid transparent; */
         color: #fff;
         display: block;
-        font-size: 18px;
+        font-size: 13px;
         letter-spacing: 0;
         line-height: 1.5;
-        padding: 0;
+        /* padding: 0; */
 }
 
 .main-navigation ul.nav li:hover > a,
@@ -970,6 +971,10 @@ a:active {
 }
 .main-navigation ul.nav.navbar-nav ul{
     border: 2px solid #da700f;
+    margin-left: -75px;
+}
+.main-navigation ul.nav.navbar-nav li:hover > a{
+    padding: 13px 15px;
 }
 
 .main-navigation li:hover > ul,
@@ -2622,8 +2627,8 @@ input[type="search"].search-field {
     float: none;
     text-align: center;
     vertical-align: bottom;
-    background: #000;
-    padding-bottom: 13px;
+    background: #fff;
+    padding-bottom: 0px;
 }
 
 .menu-toggle {
@@ -2678,9 +2683,10 @@ input[type="search"].search-field {
 
 .site-menu-container {
     display: inline-block;
-    position: relative;
     width: 100%;
     vertical-align: middle;
+    background: #000;
+    padding-bottom: 9px;
 }
 
 .header_wrap.header_layout_5 {
@@ -3044,7 +3050,7 @@ a.post-thumbnail:focus {
 
 .read_more a {
     background-color: #fff;
-    border: 0px solid #da700f;
+    border: 2px solid #da700f;
     border-radius: 0;
     color: #da700f;
     font-family: 'PT Serif', serif;
@@ -3063,10 +3069,23 @@ a.post-thumbnail:focus {
     margin-top: 15px;
 }
 
+.read_more::before{
+    content: " ";
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    position: absolute;
+    border: 3px solid #d9700f;
+    border-radius:50%;
+    margin-top: 65px;
+    margin-left: 8px;
+}
+
 .read_more a:focus,
 .read_more a:hover {
     background-color: #ffffff !important;
-    color: #000000;
+    color: #d9700f;
+    border: 2px solid #d9700f;
 }
 
 .entry-footer {
@@ -4666,6 +4685,9 @@ p > video {
 @media screen and (max-width: 1024px) {
     .menu-item:hover > .sub-menu {
         width: 100%;
+    }
+    .site-menu-container{
+        display: none;
     }
 
     .about_portfolio,

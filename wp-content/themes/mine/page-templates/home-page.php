@@ -57,7 +57,7 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
 }
 ?>
 <div class="page-header about_author">
-    <div class="container">
+    <div class="container" style="margin-top: -12px;">
         <div class="row">
             <?php if ($mine_disable_intro != '1') { ?>
                 <div class="col-xs-12 col-sm-4 col-md-4 duze-logo-position">
