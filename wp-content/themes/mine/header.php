@@ -102,7 +102,7 @@ $mine_social_linkedin = get_theme_mod('mine_social_linkedin');
                         </div>
                                 </div>
                                 
-                                <div class="site-header-menu col-xs-12 col-sm-4 col-md-4">
+                                <div class="site-header-menu col-xs-12 col-sm-4 col-md-4 ustawienia-menu">
                                     <div class="site-menu-container">
                                         <nav id="site-navigation" class="primary-navigation navbar main-navigation" role="navigation">
                                             <?php

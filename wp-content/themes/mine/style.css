@@ -868,6 +868,18 @@ a:active {
 .main-navigation ul.sub-menu > li {
     padding: 0;
     width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-navigation ul.sub-menu > li a{
+    text-align: center;
+}
+.main-navigation ul.sub-menu > li a:hover{
+    color: #fff !important;
+    background-color: #d9700f !important;
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
 }
 
 .main-navigation ul li.highlight.menu-item {
@@ -881,13 +893,13 @@ a:active {
 }
 
 .main-navigation ul li a {
-    border-bottom: 2px solid transparent;
-    color: #fff;
-    display: block;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: 1.5;
-    padding: 0;
+        /* border-bottom: 2px solid transparent; */
+        color: #fff;
+        display: block;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 1.5;
+        padding: 0;
 }
 
 .main-navigation ul.nav li:hover > a,
@@ -899,16 +911,16 @@ a:active {
 }
 
 .main-navigation ul ul {
-    display: none;
-    border-bottom: 1px solid rgba(44, 44, 44, 0.1);
-    border-top: 3px solid #000000;
+    /* display: none; */
+    /* border-bottom: 1px solid rgba(44, 44, 44, 0.1); */
+    /* border-top: 3px solid #000000; */
     left: -999em;
     position: absolute;
     z-index: 2;
     color: #000000;
     font-size: 14px;
     text-align: left;
-    margin-top: -2px;
+    /* margin-top: -2px; */
 }
 
 .no-js .main-navigation ul ul {
@@ -917,12 +929,13 @@ a:active {
 
 .main-navigation ul ul a {
     color: #000000;
-    padding: 10px 15px;
+    padding: 9px 45px;
     white-space: pre;
     width: 100%;
     min-width: 100px;
     font-size: 14px;
     line-height: 1.5;
+    text-align: center;
 }
 
 .menu-item:hover > .sub-menu {
@@ -950,10 +963,13 @@ a:active {
 
 .main-navigation ul ul li {
     background-color: #ffffff;
-    border-left: 1px solid rgba(44, 44, 44, 1);
-    border-right: 1px solid rgba(44, 44, 44, 1);
-    border-top: 1px solid rgba(44, 44, 44, 1);
+    /* border-left: 1px solid rgba(44, 44, 44, 1); */
+    /* border-right: 1px solid rgba(44, 44, 44, 1); */
+    /* border-top: 1px solid rgba(44, 44, 44, 1); */
     position: relative;
+}
+.main-navigation ul.nav.navbar-nav ul{
+    border: 2px solid #da700f;
 }
 
 .main-navigation li:hover > ul,
@@ -2607,7 +2623,7 @@ input[type="search"].search-field {
     text-align: center;
     vertical-align: bottom;
     background: #000;
-    padding-bottom: 12px;
+    padding-bottom: 13px;
 }
 
 .menu-toggle {
@@ -2663,7 +2679,7 @@ input[type="search"].search-field {
 .site-menu-container {
     display: inline-block;
     position: relative;
-    width: auto;
+    width: 100%;
     vertical-align: middle;
 }
 
@@ -4806,11 +4822,12 @@ p > video {
     padding: 75px 0px 0px 0px;
 }
 
-.site-header-menu, .col-xs-12, .col-sm-4, .col-md-4{
+ /* .site-header-menu, .col-xs-12, .col-sm-4, .col-md-4{
     padding-left: 7px;
     padding-right: 7px;
-    margin-bottom: 13px;
-}
+    padding-bottom: 14px;
+    margin-bottom: -1px;
+}  */
 
 .social-media-padding{
     padding-top: 22px;
