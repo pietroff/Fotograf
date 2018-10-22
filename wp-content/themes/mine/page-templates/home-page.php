@@ -142,13 +142,6 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                     </div>
                     </div> 
                     </div><!-- .content-area -->                                   
-                    <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
-                        <div class="text-center">
-                        <h3>Ostatnio na blogu</h3>
-                        <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/circle-black-header.png"  alt="">
-                        </div>
-                        <?php dynamic_sidebar('primary-sidebar'); ?>
-                    </div> 
                     <div class="col-sm-8 col-xs-12 text-center ustawienia-menu-obrazkowego">
                     <h2 id="related_post_title" class="widget-title-down text-center">Pozostałe usługi</h2>
                     <div class="line_title_down text-center"></div>
@@ -160,7 +153,7 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                             <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href="http://127.0.0.1/Fotografik/?p=52"></a>
+                        <a href="http://127.0.0.1/Fotografik/?page_id=67"></a>
                     </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -218,7 +211,14 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                     </figure>
                     </div>
                     </div>  
-                    </div><!-- .content-area -->                                       
+                    </div><!-- .content-area -->     
+                    <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
+                        <div class="text-center">
+                        <h3>Ostatnio na blogu</h3>
+                        <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/circle-black-header.png"  alt="">
+                        </div>
+                        <?php dynamic_sidebar('primary-sidebar'); ?>
+                    </div>                                   
             </div>
         </div>
     </main>

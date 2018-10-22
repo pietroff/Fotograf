@@ -1699,7 +1699,7 @@ blockquote:after,
     margin: 0 0 15px;
     padding-bottom: 15px;    
     text-align: left;
-    border-bottom: 1px solid rgba(44, 44, 44, 0.1);
+    /* border-bottom: 1px solid rgba(44, 44, 44, 0.1); */
 }
 
 .home-content-area .widget.widget_latest_post .widget-title,
@@ -2395,8 +2395,8 @@ input[type="search"].search-field {
 }
 
 .wpcf7 .wpcf7-form .wpcf7-form-control:not(.wpcf7-submit) {    
-    margin-bottom: 20px;
-    padding-left: 0;
+    margin-bottom: 12px;
+    padding-left: 5px;
     padding-right: 0;
 }
 
@@ -4874,3 +4874,61 @@ p > video {
 .obrazek-menu:hover{
     border: 3px solid #da700f;
 } */
+::-webkit-input-placeholder {
+    color: #d9700f;
+    margin-left: 5px;
+    font-size: 12px;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+        color: #d9700f;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        color: #d9700f;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    :-ms-input-placeholder {
+        color: #d9700f;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+    .button, .widget a.button, button, button[disabled]:hover, button[disabled]:focus, input[type="button"], input[type="button"][disabled]:hover, input[type="button"][disabled]:focus, input[type="reset"], input[type="reset"][disabled]:hover, input[type="reset"][disabled]:focus, input[type="submit"], input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus{
+        background-color: #da700f;
+    border: 1px solid #da700f;
+    border-radius: 0;
+    color: #ffffff;
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+    line-height: 1.5;
+    padding: 8px 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -mos-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -webkit-appearance: button;
+    cursor: pointer;
+    display: inline-block;
+    }
+    .button:hover, .widget a.button:hover, .button:focus, .widget a.button:focus, button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+        background-color: #d89657 !important;
+        border: 1px solid #d89657;
+        color: #fff;
+        outline: none;
+    }
+    .wpcf7-form-control-wrap input::before {
+        content: " ";
+        width: 15px;
+        height: 15px;
+        background: #d9700f;
+        position: absolute;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        margin-top: 65px;
+        margin-left: 8px;
+    }
