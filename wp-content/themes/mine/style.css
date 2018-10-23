@@ -4124,8 +4124,8 @@ a.post-thumbnail:focus {
 }
 
 .site-footer {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #fff;
+    color: #000;
     float: left;
     font-size: 16px;
     opacity: 1;
@@ -4133,6 +4133,13 @@ a.post-thumbnail:focus {
     position: relative;
     width: 100%;
     text-align: center;
+    border-top: 1px solid #ccc;
+}
+.site-footer .copyright a:hover, .site-footer .footer-area .copyright a:hover{
+    color: #000 !important;
+}
+.site-footer a, .site-footer .footer-area a{
+    color: #000 !important;
 }
 
 .site-info {
@@ -4246,7 +4253,7 @@ a.arrow-up:focus {
 }
 
 .site-footer ul.social-media li {
-    border: 1px solid #333333;
+    border: 1px solid #dadada;
     display: inline-flex;
     height: 40px;
     list-style: outside none none;
@@ -4254,7 +4261,7 @@ a.arrow-up:focus {
     text-align: center;
     transition: all 0.3s ease 0s;
     width: 40px;
-    background-color: #333333;
+    background-color: #dadada;
 }
 
 .site-footer ul.social-media li:first-child {
@@ -4268,28 +4275,28 @@ a.arrow-up:focus {
 }
 
 .site-footer ul.social-media li.facebook:hover {
-    border: 1px solid #3D5988;
-    background: #3D5988;
+    border: 1px solid #000;
+    background: #000;
 }
 
 .site-footer ul.social-media li.twitter:hover {
-    border: 1px solid #29C5F6;
-    background: #29C5F6;
+    border: 1px solid #000;
+    background: #000;
 }
 
 .site-footer ul.social-media li.google-plus:hover {
-    border: 1px solid #DB5049;
-    background: #DB5049;
+    border: 1px solid #000;
+    background: #000;
 }
 
 .site-footer ul.social-media li.instagram:hover {
-    border: 1px solid #AA856A;
-    background: #AA856A;
+    border: 1px solid #000;
+    background: #000;
 }
 
 .site-footer ul.social-media li.linkedin:hover {
-    border: 1px solid #006DC0;
-    background: #006DC0;
+    border: 1px solid #000;
+    background: #000;
 }
 
 .site-footer ul.social-media li.circle {
@@ -4857,9 +4864,9 @@ p > video {
 
 .tytul-obrazka{
     text-align: center;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 24px;
     text-transform: uppercase;
 }
 
@@ -4931,4 +4938,10 @@ p > video {
         border-radius: 50%;
         margin-top: 65px;
         margin-left: 8px;
+    }
+    .szerokosc-galerii{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
     }

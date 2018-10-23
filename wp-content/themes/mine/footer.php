@@ -63,7 +63,7 @@ if (!defined('ABSPATH')) {
                 } ?>
             </div>                   
             <div id="txtCopyright" class="copyright col-xs-12 col-sm-12 col-md-12">
-                <?php esc_html_e('Proudly powered by WordPress. Designed by', 'mine'); ?> <a target="_blank" href="<?php echo esc_url("https://www.solwininfotech.com/"); ?>"><?php esc_html_e('Solwin Infotech', 'mine'); ?></a>
+                <?php esc_html_e('Proudly powered by WordPress. Designed by', 'mine'); ?> <a target="_blank" href="<?php echo esc_url("http://www.home-tec.pl/"); ?>"><?php esc_html_e('Home-TEC Piotr Nowicki', 'mine'); ?></a>
             </div>       
         </div>       
     </div>       
