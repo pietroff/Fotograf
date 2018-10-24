@@ -863,7 +863,7 @@ a:active {
 .main-navigation ul > li {
     display: inline-block;   
     float: none;
-    padding: 13px 15px;
+    padding: 13px 0px;
 }
 
 .main-navigation ul.sub-menu > li {
@@ -4750,6 +4750,10 @@ p > video {
  */
 
 @media screen and (max-width: 767px) {
+    .read_more::before {
+        margin-top: 45px;
+       
+    }
     .about_author .author-bio .read_more a,
     .about_author .author-bio .author_socialicon_block {
         margin-top: 30px;
@@ -4831,7 +4835,16 @@ p > video {
         word-break: break-all;
         font-size: 14px;
     }
+    .line_title {
+        margin-left: 22%;
+        margin-right: 22%;
+    }
+    .line_title_down {
+        margin-left: 22%;
+        margin-right: 22%;
+    }
 }
+
 
 /**
  * 14.9 - <= 400px
