@@ -105,7 +105,7 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                             <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href="http://127.0.0.1/Fotografik/?p=52"></a>
+                        <a href=" http://127.0.0.1/Fotografik/?page_id=105"></a>
                     </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -115,7 +115,7 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                             <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href="http://127.0.0.1/Fotografik/?p=55"></a>
+                        <a href="http://127.0.0.1/Fotografik/?page_id=111"></a>
                     </figure>
                     </div>
                     </div>  
@@ -127,7 +127,7 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                             <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href="http://127.0.0.1/Fotografik/?p=57"></a>
+                        <a href=" http://127.0.0.1/Fotografik/?page_id=114"></a>
                     </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -137,7 +137,7 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                             <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href="http://127.0.0.1/Fotografik/?p=59"></a>
+                        <a href=" http://127.0.0.1/Fotografik/?page_id=117"></a>
                     </figure>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="margin-bottom:-15px; margin-top:20px;">

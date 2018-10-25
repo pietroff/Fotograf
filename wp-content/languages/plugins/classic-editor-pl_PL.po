@@ -1,0 +1,480 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Polish
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-22 18:58:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Classic Editor"
+msgstr "Klasyczny edytor"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org"
+msgstr "https://pl.wordpress.org/"
+
+#. Author of the plugin/theme
+msgid "WordPress Contributors"
+msgstr "Kontrybutorzy WordPressa"
+
+#: classic-editor.php:453
+msgid "Permalink saved"
+msgstr "Bezpośredni odnośnik został zapisany"
+
+#: classic-editor.php:452
+msgid "Saving Draft&#8230;"
+msgstr "Zapisywanie szkicu&#8230;"
+
+#: classic-editor.php:451
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "Jeżeli opuścisz tę stronę, wprowadzone zmiany zostaną utracone."
+
+#: classic-editor.php:450
+msgid "Published"
+msgstr "Opublikowano"
+
+#: classic-editor.php:449
+msgid "Privately Published"
+msgstr "Opublikowano jako prywatne"
+
+#: classic-editor.php:448
+msgid "Password Protected"
+msgstr "Zabezpieczony hasłem"
+
+#: classic-editor.php:447
+msgid "Public, Sticky"
+msgstr "Publiczne, przyklejone"
+
+#: classic-editor.php:446
+msgid "Public"
+msgstr "Publiczne"
+
+#: classic-editor.php:445
+msgid "Private"
+msgstr "Prywatne"
+
+#: classic-editor.php:444
+msgid "Save Draft"
+msgstr "Zapisz szkic"
+
+#: classic-editor.php:443
+msgid "Save as Pending"
+msgstr "Zapisz jako oczekującą na przegląd"
+
+#: classic-editor.php:442
+msgid "Update"
+msgstr "Zaktualizuj"
+
+#: classic-editor.php:441
+msgid "Schedule"
+msgstr "Zaplanuj"
+
+#: classic-editor.php:439
+msgid "No more comments found."
+msgstr "Nie znaleziono więcej komentarzy."
+
+#: classic-editor.php:438
+msgid "Show more comments"
+msgstr "Pokaż więcej komentarzy"
+
+#. translators: 1: month, 2: day, 3: year, 4: hour, 5: minute
+#: classic-editor.php:437
+msgid "%1$s %2$s, %3$s @ %4$s:%5$s"
+msgstr "%2$s-%1$s-%3$s o %4$s:%5$s"
+
+#: classic-editor.php:435
+msgid "Published on:"
+msgstr "Opublikowany:"
+
+#: classic-editor.php:434
+msgid "Schedule for:"
+msgstr "Zaplanuj na:"
+
+#: classic-editor.php:433
+msgid "Publish on:"
+msgstr "Opublikuj:"
+
+#: classic-editor.php:432
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: classic-editor.php:431
+msgid "OK"
+msgstr "OK"
+
+#. translators: %s: post title
+#: classic-editor.php:371
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "Edytuj &#8220;%s&#8221; w klasycznym edytorze"
+
+#: classic-editor.php:329
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: classic-editor.php:317 classic-editor.php:374
+msgid "Edit (Classic)"
+msgstr "Edytuj (klasyczny edytor)"
+
+#: classic-editor.php:172
+msgid "Classic editor settings"
+msgstr "Ustawienia klasycznego edytora"
+
+#. translators: 1: Post edited date, 2: Post edited time
+#: classic-edit-form-advanced.php:702
+msgid "Last edited on %1$s at %2$s"
+msgstr "Ostatnio edytowano %1$s o %2$s"
+
+#: classic-edit-form-advanced.php:699 classic-edit-form-advanced.php:702
+msgid "g:i a"
+msgstr "H:i"
+
+#: classic-edit-form-advanced.php:699 classic-edit-form-advanced.php:702
+msgid "F j, Y"
+msgstr "j F Y"
+
+#. translators: 1: Name of most recent post author, 2: Post edited date, 3:
+#. Post edited time
+#: classic-edit-form-advanced.php:699
+msgid "Last edited by %1$s on %2$s at %3$s"
+msgstr "Autorem ostatniej edycji jest %1$s, została ona wykonana %2$s o %3$s"
+
+#: classic-edit-form-advanced.php:691
+msgid "Word count: %s"
+msgstr "Liczba słów: %s"
+
+#: classic-edit-form-advanced.php:642
+msgid "Get Shortlink"
+msgstr "Pobierz skrócony odnośnik"
+
+#: classic-edit-form-advanced.php:617
+msgid "Enter title here"
+msgstr "Wprowadź tytuł"
+
+#: classic-edit-form-advanced.php:553
+msgid "We&#8217;re backing up this post in your browser, just in case."
+msgstr "Na wszelki wypadek, utworzono kopię z danych znajdujących się przeglądarce."
+
+#: classic-edit-form-advanced.php:552
+msgid "<strong>Connection lost.</strong> Saving has been disabled until you&#8217;re reconnected."
+msgstr "<strong>Stracono połączenie.</strong> Zapisywanie będzie wyłączone dopóki nie będzie połączenia."
+
+#: classic-edit-form-advanced.php:524
+msgid "Page Attributes"
+msgstr "Atrybuty strony"
+
+#: classic-edit-form-advanced.php:520
+msgid "<strong>Order</strong> &mdash; Pages are usually ordered alphabetically, but you can choose your own order by entering a number (1 for first, etc.) in this field."
+msgstr "<strong>Kolejność</strong> &mdash; Strony są zwykle wyświetlane w porządku alfabetycznym, ale możesz w tym polu wprowadzić liczbę, aby to zmienić (1 oznacza pozycję pierwszą itd.)."
+
+#: classic-edit-form-advanced.php:519
+msgid "<strong>Template</strong> &mdash; Some themes have custom templates you can use for certain pages that might have additional features or custom layouts. If so, you&#8217;ll see them in this dropdown menu."
+msgstr "<strong>Szablon</strong> – Niektóre motywy posiadają własne szablony przeznaczone do wykorzystania na stronach, które dodają do nich dodatkowe funkcje lub formatują ich treść w specyficzny sposób. Jeżeli używany motyw posiada takie szablony, zostaną one wyświetlone w tym rozwijalnym menu."
+
+#: classic-edit-form-advanced.php:518
+msgid "<strong>Parent</strong> &mdash; You can arrange your pages in hierarchies. For example, you could have an &#8220;About&#8221; page that has &#8220;Life Story&#8221; and &#8220;My Dog&#8221; pages under it. There are no limits to how many levels you can nest pages."
+msgstr "<strong>Rodzic</strong> – Strony mogą zostać uporządkowane w hierarchię. Na przykład: możesz utworzyć stronę &#8222;O mnie&#8221;, której podstronami będą &#8222;Historia mojego życia&#8221; oraz &#8222;Mój pies&#8221;. Nie ma ograniczeń co do ilości poziomów hierarchii."
+
+#: classic-edit-form-advanced.php:514
+msgid "Discussion Settings"
+msgstr "Ustawienia dyskusji"
+
+#: classic-edit-form-advanced.php:510
+msgid "<strong>Discussion</strong> &mdash; You can turn comments and pings on or off, and if there are comments on the post, you can see them here and moderate them."
+msgstr "<strong>Dyskusja</strong> – W tym miejscu możesz włączyć lub wyłączyć możliwość przysyłania komentarzy oraz pingów, a jeśli wpis został już skomentowany, możesz również zobaczyć i moderować komentarze do niego."
+
+#: classic-edit-form-advanced.php:509
+msgid "<strong>Send Trackbacks</strong> &mdash; Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. Enter the URL(s) you want to send trackbacks. If you link to other WordPress sites they&#8217;ll be notified automatically using pingbacks, and this field is unnecessary."
+msgstr "<strong>Wyślij trackbacki</strong> – Trackbacki są sposobem na powiadomienie starszych systemów blogowych o tym, że odnośnik do nich został dodany w twojej treści. Podaj adresy URL, na które wysłać trackbacki. Jeżeli w edytorze treści dodasz odnośnik do innej witryny opartej na WordPressie, zostanie ona automatycznie powiadomiona przy pomocy pingbacku – wtedy tego pola nie trzeba uzupełniać."
+
+#: classic-edit-form-advanced.php:505
+msgid "Publish Settings"
+msgstr "Ustawienia publikacji"
+
+#. translators: %s: Featured Image
+#: classic-edit-form-advanced.php:498
+msgid "<strong>%s</strong> &mdash; This allows you to associate an image with your post without inserting it. This is usually useful only if your theme makes use of the image as a post thumbnail on the home page, a custom header, etc."
+msgstr "<strong>%s</strong> – Pozwala na przypisanie wpisowi obrazka bez wstawiania go do treści wpisu. Jest to zwykle użyteczne tylko wtedy, gdy używany motyw wyświetla obrazki wyróżniające jako miniatury na stronie głównej, jako nagłówki na podstronie z treścią wpisu itp..."
+
+#: classic-edit-form-advanced.php:487
+msgid "Several boxes on this screen contain settings for how your content will be published, including:"
+msgstr "Moduły zawierają ustawienia tego jak będzie się wyświetlać treść w witrynie, włączając w to:"
+
+#: classic-edit-form-advanced.php:481
+msgid "Inserting Media"
+msgstr "Dodawanie mediów"
+
+#: classic-edit-form-advanced.php:477
+msgid "You can also embed media from many popular websites including Twitter, YouTube, Flickr and others by pasting the media URL on its own line into the content of your post/page. Please refer to the Codex to <a href=\"https://codex.wordpress.org/Embeds\">learn more about embeds</a>."
+msgstr "Możesz również dodawać materiały z popularnych serwisów, takich jak Twitter, YouTube czy Flickr, wklejając do wpisu lub strony odnośnik prowadzący do wybranej treści. Taki odnośnik musi być umieszczony w osobnej linii. Więcej o <a href=\"https://codex.wordpress.org/Embeds\">osadzaniu treści</a> można przeczytać w Kodeksie (po angielsku)."
+
+#: classic-edit-form-advanced.php:470
+msgid "<a href=\"https://codex.wordpress.org/Media_Add_New_Screen#Edit_Media\">Documentation on Edit Media</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Media_Add_New_Screen#Edit_Media\">Dokumentacja: edytowanie mediów</a>"
+
+#: classic-edit-form-advanced.php:465
+msgid "Remember to click Update Media to save metadata entered or changed."
+msgstr "Pamiętaj, aby kliknąć przycisk &#8222;Zaktualizuj media&#8221;, aby zapisać wprowadzone lub zmienione metadane."
+
+#: classic-edit-form-advanced.php:464
+msgid "Note that you crop the image by clicking on it (the Crop icon is already selected) and dragging the cropping frame to select the desired part. Then click Save to retain the cropping."
+msgstr "Obrazki przycina się poprzez kliknięcie na nich (przycisk włączający tryb przycinania jest już wciśnięty) i przeciągnięcie ramki wyznaczającej wycinany obszar, aby wybrać pożądany fragment, a następnie kliknięcie &#8222;Zapisz&#8221;, aby zachować zmiany."
+
+#: classic-edit-form-advanced.php:493
+msgid "<strong>Format</strong> &mdash; Post Formats designate how your theme will display a specific post. For example, you could have a <em>standard</em> blog post with a title and paragraphs, or a short <em>aside</em> that omits the title and contains a short text blurb. Please refer to the Codex for <a href=\"https://codex.wordpress.org/Post_Formats#Supported_Formats\">descriptions of each post format</a>. Your theme could enable all or some of 10 possible formats."
+msgstr "<strong>Format wpisu</strong> – ustawienie służy do określenia, w jaki sposób motyw ma wyświetlać wpis. Przykładowo: na witrynie można mieć <em>zwykłe wpisy</em>, które składają się z tytułu i akapitów, jak i <em>krótkie notatki</em> na marginesie, które nie mają tytułu, i które są tylko krótkimi fragmentami tekstu. Więcej informacji na temat <a href=\"https://codex.wordpress.org/Post_Formats#Supported_Formats\">dostępnych formatów wpisów</a> znajduje się w Kodeksie. Używany przez ciebie motyw może obsługiwać część lub wszystkie 10 formatów wpisów."
+
+#: classic-edit-form-advanced.php:489
+msgid "<strong>Publish</strong> &mdash; You can set the terms of publishing your post in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a post or making it stay at the top of your blog indefinitely (sticky). The Password protected option allows you to set an arbitrary password for each post. The Private option hides the post from everyone except editors and administrators. Publish (immediately) allows you to set a future or past date and time, so you can schedule a post to be published in the future or backdate a post."
+msgstr "<strong>Opublikuj</strong> &mdash; Możesz ustawić parametry publikacji swojego wpisu w bloku Opublikuj. Dla ustawień: Stan, Dostępność oraz Opublikuj (natychmiast), należy kliknąć na odnośnik Edytuj, aby zobaczyć więcej opcji. Dostępność zawiera opcje ochrony hasłem wpisu oraz pozwala go przykleić na górze strony głównej na czas nieokreślony (przyklejony). Opcja Zabezpieczone hasłem pozwala ustawić dowolne hasło dla dowolnego wpisu. Opcja Prywatne ukrywa wpis przed wszystkimi użytkownikami z wyjątkiem redaktorów i administratorów. Opcja Opublikuj (natychmiast) pozwala ustawić przyszłą lub przeszłą datę i czas publikacji, zatem można zaplanować, kiedy wpis ma zostać opublikowany &mdash; w przyszłości lub z datą wsteczną."
+
+#: classic-edit-form-advanced.php:476
+msgid "You can upload and insert media (images, audio, documents, etc.) by clicking the Add Media button. You can select from the images and files already uploaded to the Media Library, or upload new media to add to your page or post. To create an image gallery, select the images to add and click the &#8220;Create a new gallery&#8221; button."
+msgstr "Możesz wgrywać i dodawać materiały (obrazy, dźwięki, dokumenty itd.) klikając przycisk Dodaj medium. Jeżeli chcesz dodać plik do wpisu lub strony, to możesz wybrać wśród wcześniej dodanych lub po prostu wgrać nowy. W celu utworzenia galerii obrazów, należy wybrać obrazy do dodania oraz kliknąć przycisk &#8222;Utwórz nową galerię&#8221;."
+
+#: classic-edit-form-advanced.php:463
+msgid "For images only, you can click on Edit Image under the thumbnail to expand out an inline image editor with icons for cropping, rotating, or flipping the image as well as for undoing and redoing. The boxes on the right give you more options for scaling the image, for cropping it, and for cropping the thumbnail in a different way than you crop the original image. You can click on Help in those boxes to get more information."
+msgstr "Pod obrazkami dostępny jest odnośnik &#8222;Edytuj obrazek&#8211;, którego kliknięcie powoduje rozwinięcie edytora wraz z przyciskami pozwalającymi na przycinanie, obracanie oraz odbijanie obrazka oraz na cofanie i ponowne wprowadzanie popełnionych zmian. W modułach po prawej dostępne jest więcej możliwości skalowania i przycinania obrazka oraz możliwość przycinania miniatury niezależnie od obrazka. Więcej informacji znajduje się pod odnośnikami &#8222;Pomoc&#8221; znajdującymi się w tych modułach."
+
+#: classic-edit-form-advanced.php:462
+msgid "This screen allows you to edit four fields for metadata in a file within the media library."
+msgstr "Ekran pozwala na edycję czterech pól metadanych w pliku znajdującego się w bibliotece mediów."
+
+#: classic-edit-form-advanced.php:460
+msgid "Overview"
+msgstr "Przegląd"
+
+#: classic-edit-form-advanced.php:454
+msgid "<a href=\"https://codex.wordpress.org/Pages_Screen#Editing_Individual_Pages\">Documentation on Editing Pages</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Pages_Screen#Editing_Individual_Pages\">Dokumentacja: edytowanie stron</a>"
+
+#: classic-edit-form-advanced.php:453
+msgid "<a href=\"https://codex.wordpress.org/Pages_Add_New_Screen\">Documentation on Adding New Pages</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Pages_Add_New_Screen\">Dokumentacja: dodawanie nowych stron</a>"
+
+#: classic-edit-form-advanced.php:447
+msgid "About Pages"
+msgstr "O stronach"
+
+#: classic-edit-form-advanced.php:439 classic-edit-form-advanced.php:455
+#: classic-edit-form-advanced.php:471
+msgid "<a href=\"https://wordpress.org/support/\">Support Forums</a>"
+msgstr "<a href=\"https://pl.wordpress.org/support/\">Forum Pomocy Technicznej</a>"
+
+#: classic-edit-form-advanced.php:438
+msgid "<a href=\"https://codex.wordpress.org/Posts_Add_New_Screen\">Documentation on Writing and Editing Posts</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Posts_Add_New_Screen\">Dokumentacja: tworzenie i edytowanie wpisów</a>"
+
+#: classic-edit-form-advanced.php:437 classic-edit-form-advanced.php:452
+#: classic-edit-form-advanced.php:469
+msgid "For more information:"
+msgstr "Więcej informacji:"
+
+#: classic-edit-form-advanced.php:436
+msgid "You can also create posts with the <a href=\"%s\">Press This bookmarklet</a>."
+msgstr "Tworzenie wpisów możliwe jest także przy pomocy <a href=\"%s\">skryptozakładki &#8222;Press This&#8221;</a>."
+
+#: classic-edit-form-advanced.php:443
+msgid "Creating a Page is very similar to creating a Post, and the screens can be customized in the same way using drag and drop, the Screen Options tab, and expanding/collapsing boxes as you choose. This screen also has the distraction-free writing space, available in both the Visual and Text modes via the Fullscreen buttons. The Page editor mostly works the same as the Post editor, but there are some Page-specific features in the Page Attributes box."
+msgstr "Proces tworzenia strony jest bardzo podobny do tworzenia wpisu, a ich ekrany mogą zostać dostosowane do potrzeb w podobny sposób – poprzez przeciąganie i upuszczanie bloków, zmianę ustawień w zakładce „Opcje ekranu” oraz zwijanie i rozwijanie bloków. Ten ekran posiada także tryb pisania pełnoekranowego, dostępny dzięki przyciskom przejścia do Pełnego ekranu - zarówno w trybie Wizualnym, jak i Tekstowym edytora treści. Edytor stron działa praktycznie tak samo, jak edytor wpisów. Na tym ekranie znajdują się jednak dodatkowe ustawienia, które umieszczone są w bloku „Atrybuty strony”:"
+
+#: classic-edit-form-advanced.php:442
+msgid "Pages are similar to posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest pages under other pages by making one the &#8220;Parent&#8221; of the other, creating a group of pages."
+msgstr "Strony są pod paroma względami podobne do wpisów, ponieważ i one mają tytuł, treść i pewne metadane, jednak różnią się one od nich tym, że nie pojawiają się tam, gdzie pojawiają się wpisy, tylko mają swoje stałe miejsca. Strony nie mogą być kategoryzowane ani tagowane, ale mogą zostać uporządkowane w hierarchię – mogą być podstronami innych stron."
+
+#: classic-edit-form-advanced.php:431
+msgid "Title and Post Editor"
+msgstr "Pole tytułu i edytor wpisu"
+
+#: classic-edit-form-advanced.php:427
+msgid "Keyboard users: When you&#8217;re working in the visual editor, you can use <kbd>Alt + F10</kbd> to access the toolbar."
+msgstr "Użytkownicy skrótów klawiaturowych: Podczas pracy w edytorze wizualnym możecie użyć <kbd>Alt + F10</kbd> w celu uzyskania dostępu do paska narzędzi."
+
+#: classic-edit-form-advanced.php:426
+msgid "You can enable distraction-free writing mode using the icon to the right. This feature is not available for old browsers or devices with small screens, and requires that the full-height editor be enabled in Screen Options."
+msgstr "Możesz włączyć tryb Pisania bez rozpraszania przy pomocy ikony znajdującej się po prawej. Tryb pisania bez rozpraszania nie jest dostępny w starych przeglądarkach i na urządzeniach z małym ekranem oraz wymaga włączenia pełnej wysokości edytora w karcie &bdquo;Opcje ekranu&rdquo;."
+
+#: classic-edit-form-advanced.php:425
+msgid "You can insert media files by clicking the icons above the post editor and following the directions. You can align or edit images using the inline formatting toolbar available in Visual mode."
+msgstr "Można dodawać media przez kliknięcie przycisku nad edytorem treści. Korzystając z formatowania liniowego, dostępnemu w formie przycisków w trybie Wizualnym edytora, można ustawić wyrównanie oraz edytować obrazki."
+
+#: classic-edit-form-advanced.php:424
+msgid "The Text mode allows you to enter HTML along with your post text. Note that &lt;p&gt; and &lt;br&gt; tags are converted to line breaks when switching to the Text editor to make it less cluttered. When you type, a single line break can be used instead of typing &lt;br&gt;, and two line breaks instead of paragraph tags. The line breaks are converted back to tags automatically."
+msgstr "Tryb tekstowy pozwala na użycie kodu HTML w treści wpisu. Pamiętaj, że tagi &lt;p&gt; oraz &lt;br&gt; są konwertowane na nowe linie kiedy przełączasz się do trybu tekstowego, aby uczynić go bardziej czytelnym. Podczas pisania możesz wprowadzać pojedynczą nową linię zamiast znacznika &lt;br&gt;, a dwie nowe linie zamiast znaczników akapitu. Nowe linie są automatycznie konwertowane na odpowiednie znaczniki."
+
+#: classic-edit-form-advanced.php:423
+msgid "Visual mode gives you an editor that is similar to a word processor. Click the Toolbar Toggle button to get a second row of controls."
+msgstr "Tryb wizualny przypomina z wyglądu program do tworzenia dokumentów tekstowych. Kliknij przycisk przełączania widoczności drugiego paska narzędzi, by wyświetlić kolejną linię przycisków formatowania treści."
+
+#: classic-edit-form-advanced.php:422
+msgid "<strong>Post editor</strong> &mdash; Enter the text for your post. There are two modes of editing: Visual and Text. Choose the mode by clicking on the appropriate tab."
+msgstr "<strong>Edytor treści</strong> &mdash; Wprowadź treść wpisu, korzystając z jednego z dwóch trybów edytora: Wizualnego i Tekstowego. Możesz wybrać tryb przez kliknięcie na odpowiednią zakładkę."
+
+#: classic-edit-form-advanced.php:421
+msgid "<strong>Title</strong> &mdash; Enter a title for your post. After you enter a title, you&#8217;ll see the permalink below, which you can edit."
+msgstr "<strong>Tytuł</strong> – Miejsce na tytuł wpisu. Po wprowadzeniu go, pod tym polem pojawi się bezpośredni odnośnik do wpisu, którego treść możesz zmodyfikować."
+
+#: classic-edit-form-advanced.php:417
+msgid "Customizing This Display"
+msgstr "Personalizacja tego ekranu"
+
+#: classic-edit-form-advanced.php:369
+msgid "Author"
+msgstr "Autor"
+
+#: classic-edit-form-advanced.php:366
+msgid "Slug"
+msgstr "Upr. nazwa"
+
+#: classic-edit-form-advanced.php:361
+msgid "Comments"
+msgstr "Komentarze"
+
+#: classic-edit-form-advanced.php:348
+msgid "Discussion"
+msgstr "Dyskusja"
+
+#: classic-edit-form-advanced.php:413
+msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
+msgstr "Choć nie można zmienić pozycji pola tytułu oraz pola edycji wpisu, to można w dowolny sposób wybrać położenie pozostałych modułów. Ich pozycje można zmienić w bardzo prosty sposób, po prostu wystarczy złapać za nagłówek i przeciągnąć w nowe miejsce. Można wybrać moduły, które będą wyświetlane. Należy użyć zakładki Opcje ekranu, żeby wyświetlić panel zarządzania modułami lub wybrać układ pomiędzy dwukolumnowym, a jednokolumnowym."
+
+#: classic-edit-form-advanced.php:333
+msgid "Custom Fields"
+msgstr "Własne pola"
+
+#: classic-edit-form-advanced.php:330
+msgid "Send Trackbacks"
+msgstr "Wyślij trackbacki"
+
+#: classic-edit-form-advanced.php:327
+msgid "Excerpt"
+msgstr "Zajawka"
+
+#: classic-edit-form-advanced.php:301
+msgctxt "post format"
+msgid "Format"
+msgstr "Format"
+
+#: classic-edit-form-advanced.php:297 classic-editor.php:440
+msgid "Publish"
+msgstr "Opublikuj"
+
+#: classic-edit-form-advanced.php:294
+msgid "Metadata"
+msgstr "Metadane"
+
+#: classic-edit-form-advanced.php:290
+msgid "Save"
+msgstr "Zapisz"
+
+#: classic-edit-form-advanced.php:283
+msgid "Revisions"
+msgstr "Starsze wersje"
+
+#: classic-edit-form-advanced.php:259
+msgid "There is an autosave of this post that is more recent than the version below. <a href=\"%s\">View the autosave</a>"
+msgstr "Istnieje automatycznie zapisana wersja tego wpisu, która jest nowsza niż poniższa. <a href=\"%s\">Zobacz automatycznie zapisaną wersję</a>"
+
+#: classic-edit-form-advanced.php:220
+msgid "Media file updated."
+msgstr "Zaktualizowano plik."
+
+#: classic-edit-form-advanced.php:218
+msgid "Page draft updated."
+msgstr "Zaktualizowano szkic strony."
+
+#: classic-edit-form-advanced.php:217
+msgid "Page scheduled for: %s."
+msgstr "Publikacja strony została zaplanowana na %s."
+
+#: classic-edit-form-advanced.php:216
+msgid "Page submitted."
+msgstr "Strona została wysłana."
+
+#: classic-edit-form-advanced.php:215
+msgid "Page saved."
+msgstr "Strona została zapisana."
+
+#: classic-edit-form-advanced.php:214
+msgid "Page published."
+msgstr "Strona została opublikowana."
+
+#. translators: %s: date and time of the revision
+#: classic-edit-form-advanced.php:213
+msgid "Page restored to revision from %s."
+msgstr "Wersja strony z %s została przywrócona"
+
+#: classic-edit-form-advanced.php:208 classic-edit-form-advanced.php:211
+msgid "Page updated."
+msgstr "Strona została zaktualizowana."
+
+#: classic-edit-form-advanced.php:204
+msgid "Post draft updated."
+msgstr "Zaktualizowano szkic wpisu."
+
+#: classic-edit-form-advanced.php:203
+msgid "Post scheduled for: %s."
+msgstr "Publikacja wpisu została zaplanowana na %s."
+
+#: classic-edit-form-advanced.php:202
+msgid "Post submitted."
+msgstr "Wpis został wysłany."
+
+#: classic-edit-form-advanced.php:201
+msgid "Post saved."
+msgstr "Wpis został zapisany."
+
+#: classic-edit-form-advanced.php:200
+msgid "Post published."
+msgstr "Wpis został opublikowany."
+
+#. translators: %s: date and time of the revision
+#: classic-edit-form-advanced.php:199
+msgid "Post restored to revision from %s."
+msgstr "Wersja wpisu z %s została przywrócona."
+
+#: classic-edit-form-advanced.php:196 classic-edit-form-advanced.php:210
+msgid "Custom field deleted."
+msgstr "Własne pole zostało usunięte."
+
+#: classic-edit-form-advanced.php:195 classic-edit-form-advanced.php:209
+msgid "Custom field updated."
+msgstr "Własne pole zostało zaktualizowane."
+
+#: classic-edit-form-advanced.php:194 classic-edit-form-advanced.php:197
+msgid "Post updated."
+msgstr "Wpis został zaktualizowany."
+
+#. translators: Publish box date format, see https://secure.php.net/date
+#: classic-edit-form-advanced.php:190
+msgid "M j, Y @ H:i"
+msgstr "j M Y \\o H:i"
+
+#: classic-edit-form-advanced.php:184
+msgid "View page"
+msgstr "Wyświetl stronę"
+
+#: classic-edit-form-advanced.php:172 classic-edit-form-advanced.php:178
+msgid "Preview page"
+msgstr "Podgląd strony"
+
+#: classic-edit-form-advanced.php:166
+msgid "View post"
+msgstr "Zobacz wpis"
+
+#: classic-edit-form-advanced.php:154 classic-edit-form-advanced.php:160
+msgid "Preview post"
+msgstr "Podejrzyj wpis"
+
+#: classic-editor.php:274
+msgid "(Classic)"
+msgstr "(Klasyczny edytor)"
+
+#. Description of the plugin/theme
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen layout (TinyMCE, meta boxes, etc.). Supports the older plugins that extend this screen."
+msgstr "Przywraca klasyczny edytor WordPressa wraz ze starym widokiem edycji wpisu (TinyMCE, meta boxy, itp.). Zapewnia wsparcie dla starszych wtyczek, które rozszerzają ten ekran."
