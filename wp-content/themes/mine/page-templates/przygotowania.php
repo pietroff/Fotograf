@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Full Width Template
+ * Template Name: Przygotowania
  *
  * This is the most generic template file in a WordPress theme and one
  * of the two required files for a theme (the other being style.css).
