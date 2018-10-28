@@ -45,8 +45,8 @@ mine_header_title($post_title);
                     } elseif (is_singular('post')) {
                         // Previous/next post navigation.
                         the_post_navigation(array(
-                            'next_text' => '<span class="post-title" aria-hidden="true">' . __('Next Post', 'mine') . '</span> <small>%title</small>',
-                            'prev_text' => '<span class="post-title" aria-hidden="true">' . __('Previous Post', 'mine') . '</span> <small>%title</small>',
+                            'next_text' => '<span class="post-title" aria-hidden="true">' . __('Następny Post  >>', 'mine') . '</span> <small></small>',
+                            'prev_text' => '<span class="post-title" aria-hidden="true">' . __('<<  Poprzedni Post', 'mine') . '</span> <small></small>',
                         ));
                     }
                     // if author detail found then display author details
@@ -77,88 +77,22 @@ mine_header_title($post_title);
                         );
                     }
                     $my_query = new wp_query($args);
-                    if ($show_related_post == 0 && $my_query->have_posts()) {
-                        ?>
-                        <div class="section_seperation"></div>
-                        <div class="related_post_section">
-                            <h2 id="related_post_title" class="entry-title"><?php esc_html_e('Related Posts', 'mine'); ?></h2>
-                            <div class="row">
-                                <?php
-                                $no_of_portfolio = sizeof($my_query->posts);
-                                
-                                if($no_of_portfolio == 1 || $no_of_portfolio == 2){
-                                    if($blog_layout == 'right' || $blog_layout == 'left'){
-                                        $port_class = 'col-sm-6 col-md-6';
-                                    } else {
-                                        $port_class = 'col-sm-6 col-md-4';
-                                    }
-                                }elseif($no_of_portfolio == 3) {
-                                    $port_class = 'col-sm-4 col-md-4';
-                                }else {
-                                    $port_class = 'col-sm-3 col-md-3';
-                                }
-                                
-                                while ($my_query->have_posts()) {
-                                    $my_query->the_post(); ?>
-                                    <div class="col-xs-12  <?php print_r($port_class); ?>">
-                                        <div class="related_post">
-                                            <?php if (!post_password_required() && has_post_thumbnail()) { ?>
-                                                <div class="post-thumbnail">
-                                                    <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-                                                        <?php the_post_thumbnail('mine-blog-thumbnail'); ?>
-                                                    </a>           
-                                                </div><?php } elseif (isset($blog_default_image) && $blog_default_image != "") {
-                                                        ?>
-                                                <div class="post-thumbnail">
-                                                    <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-                                                        <?php echo "<img src='" . esc_html($blog_default_image) . "' alt='" . get_the_title() . "'>"; ?>
-                                                    </a>           
-                                                </div><?php }
-                                                    ?>
-                                            <?php if (get_the_title()) { ?>
-                                                <header class="entry-header">
-                                                    <?php the_title(sprintf('<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h3>'); ?>
-                                                </header>  
-                                            <?php } ?>
-                                            <footer class="entry-footer">
-                                                <div class="post-meta">
-                                                    <?php mine_blog_posted_on(); ?>
-                                                    <?php mine_get_blog_post_meta(); ?>
-                                                </div>
-                                            </footer>
-                                        </div>
-                                    </div>
-                                    <?php
-                                }
-                                wp_reset_postdata();
-                                ?>
-                            </div>
-                        </div><?php
-                    }
+                  
                     
                     // If comments are open or we have at least one comment, load up the comment template.
-                    if (comments_open() || get_comments_number()) {
-                        ?>
-                        <div class="section_seperation"></div>
-                        <?php
-                        comments_template();
-                    }
+                    /**  if (comments_open() || get_comments_number()) {
+                        *?>
+                        *<div class="section_seperation"></div>
+                        *<?php
+                        *comments_template();
+                    *}
+                    */ 
                 // End of the loop.
                 endwhile;
                 ?>
             </main><!-- .site-main -->        
         </div><!-- .content-area -->
-        <?php
-        if($blog_layout == 'right' || $blog_layout == 'left'){
-            $sidebar = 'primary-sidebar';
-            if (is_active_sidebar($sidebar)) :
-                ?>
-                <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12 <?php if($blog_layout == 'left'){ echo "col-sm-pull-8"; } ?>">
-                    <?php dynamic_sidebar($sidebar); ?>
-                </div><!-- #secondary --><?php 
-            endif;
-        }
-        ?>
+        
     </div>
 </div>
 <?php get_footer(); ?>

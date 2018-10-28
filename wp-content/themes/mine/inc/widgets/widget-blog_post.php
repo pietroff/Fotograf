@@ -47,9 +47,9 @@ class mine_blogpost_widget extends WP_Widget {
      */
     public function widget($args, $instance) {
 
-        $title = !empty($instance['title']) ? $instance['title'] : '';
+        // $title = !empty($instance['title']) ? $instance['title'] : '';
         $numberofpost = isset($instance['numberofpost']) ? absint($instance['numberofpost']) : '-1';
-        $display_date = isset($instance['display_date']) ? (bool) $instance['display_date'] : false;
+        // $display_date = isset($instance['display_date']) ? (bool) $instance['display_date'] : false;
 
         $before_widget = $args['before_widget'];
         $before_title = $args['before_title'];

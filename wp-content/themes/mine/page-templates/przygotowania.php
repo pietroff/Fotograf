@@ -24,18 +24,34 @@ mine_header_title($page_title);
 <div id="primary" class="content-area fullpage">
     <main id="main" class="site-main" role="main">
         <div class="container">
-            <?php
-            // Start the loop.
-            while (have_posts()) : the_post();
-                // Include the page content template.
-                get_template_part('template-parts/content', 'page');
-                // If comments are open or we have at least one comment, load up the comment template.
-                if (comments_open() || get_comments_number()) {
-                    comments_template();
-                }
-            // End of the loop.
-            endwhile;
-            ?>
+        <div class="row">
+        <?php
+  $nameofkat = $post->post_name;
+  query_posts('cat=5');
+    echo "<div class='linia-pozioma text-center'></div>";
+ 
+    while (have_posts()) : the_post();
+      echo "<div class='col-xs-12 col-sm-4 col-md-4 col-lg-4 margines'>";
+      echo "<a href='".get_permalink()."'>";
+      the_post_thumbnail();
+      echo "</a>";
+      echo "<h3 class='entry-title'>";
+      echo "<a href='".get_permalink()."'>";
+            the_title();
+      echo "</a>";
+      echo "</h3>";
+      echo "<div class='wiecej'>";
+        the_excerpt();
+      echo "</div>";
+      echo "<div class='czytaj-wiecej'>";
+      echo "<a href='".get_permalink()."'> Czytaj więcej";
+      echo "</a>";
+      echo "</div>";
+      echo "</div>";
+   endwhile;
+?>
+</div>
+ 
         </div>
     </main><!-- .site-main -->
 </div>

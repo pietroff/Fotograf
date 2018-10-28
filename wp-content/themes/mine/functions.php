@@ -1156,7 +1156,7 @@ if (!function_exists('mine_blog_read_more')) {
         // read more button display
         if (get_the_excerpt() != "") {
             echo '<div class="read_more">';
-            echo '<a href = "' . esc_attr(get_permalink(get_the_ID())) . '">'.esc_html__('Read More','mine').'</a>';
+            echo '<a href = "' . esc_attr(get_permalink(get_the_ID())) . '">'.esc_html__('Czytaj więcej','mine').'</a>';
             echo '</div>';
         }
     }
