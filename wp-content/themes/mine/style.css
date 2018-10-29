@@ -3346,10 +3346,14 @@ a.post-thumbnail:focus {
     font-family: 'PT Serif', serif;
     line-height: 1;
     margin-bottom: 0;
-    padding: 15px 50px;
+    padding: 0px 50px;
+    margin-top: 40px;
     max-width: 100%;
+    font-size: 28px;
 }
-
+ .entry-content p{
+     font-size: 15px;
+ }
 
 .page-links {
     clear: both;

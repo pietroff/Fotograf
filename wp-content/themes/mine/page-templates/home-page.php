@@ -94,40 +94,54 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
         <div class="container">
             <div class="row">
             
+            <?php
+function custom_get_the_excerpt($post_id) {
+    global $post;  
+    $save_post = $post;
+    $post = get_post( $post_id );
+    setup_postdata( $post );
+    $output = get_the_excerpt();
+    $post = $save_post;
+    return $output;
+}
+?>
+            
             <div class="col-sm-8 col-xs-12 text-center ustawienia-menu-obrazkowego">
             <h2 id="related_post_title" class="widget-title text-center">Fotografia Ślubna</h2>
             <div class="line_title text-center"></div>
                     <div class="line-first col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Przygotowania</div>
+                    <div class="tytul-obrazka"><?php echo get_the_title(105); ?></div>
+                    <div class=""><?php custom_get_the_excerpt(105); ?></div>
                     <figure class="gallery_hover">
                     <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0054-1000x668.jpg" alt="Przygotowania" class="obrazek-menu">
                             <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href=" http://127.0.0.1/Fotografik/?page_id=105"></a>
+                        <a href=" <?php echo esc_url(get_permalink(105)); ?>"></a>
                     </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Ceremonia</div>
+                    <div class="tytul-obrazka"><?php echo get_the_title(111); ?></div>
                     <figure class="gallery_hover">
                     <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0838-1000x667.jpg" alt="Ceremonia" class="obrazek-menu">
                             <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href="http://127.0.0.1/Fotografik/?page_id=111"></a>
+                        <a href="<?php echo esc_url(get_permalink(111)); ?>"></a>
                     </figure>
                     </div>
                     </div>  
                     <div class="line-second col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Wesela</div>
+                    <div class="tytul-obrazka"><?php echo get_the_title(114); ?></div>
+                    <div class=""><?php mine_blog_posted_on(114); ?></div>
                     <figure class="gallery_hover">
                     <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0718-1-1000x667.jpg" alt="Wesela" class="obrazek-menu">
                             <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href=" http://127.0.0.1/Fotografik/?page_id=114"></a>
+                        <a href=" <?php echo esc_url(get_permalink(114)); ?>"></a>
                     </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
