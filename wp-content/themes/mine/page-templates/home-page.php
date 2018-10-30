@@ -88,10 +88,11 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
         </div>
     </div>
 </div>
-<?php
 
+<!-- Funkcja obcinająca do 20 słów  the_excerpt();--> 
+<?php
 function wp_example_excerpt_length( $length ) {
-    return 5;
+    return 20;
 }
 add_filter( 'excerpt_length', 'wp_example_excerpt_length');
 ?>
@@ -105,7 +106,7 @@ add_filter( 'excerpt_length', 'wp_example_excerpt_length');
                     <div class="line-first col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="tytul-obrazka"><?php echo get_the_title(105); ?></div>
-                    <div class=""><?php 
+                    <div class="tekst-obciety"><?php 
                      $nameofkat = $post->post_name;
                      query_posts('page_id=105');
                      while (have_posts()) : the_post();
@@ -113,8 +114,8 @@ add_filter( 'excerpt_length', 'wp_example_excerpt_length');
                      endwhile
                     ?></div>
                     <figure class="gallery_hover">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0054-1000x668.jpg" alt="Przygotowania" class="obrazek-menu">
-                            <figcaption>
+                    <?php the_post_thumbnail(105); ?>
+                    <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
                         <a href=" <?php echo esc_url(get_permalink(105)); ?>"></a>
@@ -122,9 +123,16 @@ add_filter( 'excerpt_length', 'wp_example_excerpt_length');
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="tytul-obrazka"><?php echo get_the_title(111); ?></div>
+                    <div class="tekst-obciety"><?php 
+                     $nameofkat = $post->post_name;
+                     query_posts('page_id=111');
+                     while (have_posts()) : the_post();
+                     the_excerpt();
+                     endwhile
+                    ?></div>
                     <figure class="gallery_hover">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0838-1000x667.jpg" alt="Ceremonia" class="obrazek-menu">
-                            <figcaption>
+                    <?php the_post_thumbnail(111); ?>
+                    <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
                         <a href="<?php echo esc_url(get_permalink(111)); ?>"></a>
@@ -134,9 +142,15 @@ add_filter( 'excerpt_length', 'wp_example_excerpt_length');
                     <div class="line-second col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="tytul-obrazka"><?php echo get_the_title(114); ?></div>
-                    <div class=""><?php mine_blog_posted_on(114); ?></div>
+                    <div class="tekst-obciety"><?php 
+                     $nameofkat = $post->post_name;
+                     query_posts('page_id=114');
+                     while (have_posts()) : the_post();
+                     the_excerpt();
+                     endwhile
+                    ?></div>
                     <figure class="gallery_hover">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0718-1-1000x667.jpg" alt="Wesela" class="obrazek-menu">
+                    <?php the_post_thumbnail(114); ?>
                             <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
@@ -144,13 +158,20 @@ add_filter( 'excerpt_length', 'wp_example_excerpt_length');
                     </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Sesje</div>
+                    <div class="tytul-obrazka"><?php echo get_the_title(117); ?></div>
+                    <div class="tekst-obciety"><?php 
+                     $nameofkat = $post->post_name;
+                     query_posts('page_id=117');
+                     while (have_posts()) : the_post();
+                     the_excerpt();
+                     endwhile
+                    ?></div>
                     <figure class="gallery_hover">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKF4700-2-1000x668.jpg" alt="Sesje" class="obrazek-menu">
+                    <?php the_post_thumbnail(117); ?>
                             <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href=" http://127.0.0.1/Fotografik/?page_id=117"></a>
+                        <a href=" <?php echo esc_url(get_permalink(117)); ?>"></a>
                     </figure>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="margin-bottom:-15px; margin-top:20px;">
@@ -159,67 +180,103 @@ add_filter( 'excerpt_length', 'wp_example_excerpt_length');
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 szerokosc-galerii">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Fotografia wnętrz</div>
+                    <div class="tytul-obrazka"><?php echo get_the_title(67); ?></div>
                     <figure class="gallery_hover">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/architektura-wnetrz.jpg" alt="fotografia wntry" class="obrazek-menu">
-                            <figcaption>
+                    <?php 
+                     $nameofkat = $post->post_name;
+                     query_posts('page_id=67');
+                     while (have_posts()) : the_post();
+                     the_post_thumbnail();
+                     endwhile
+                    ?>
+                    <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href="http://127.0.0.1/Fotografik/?p=59"></a>
+                            <a href=" <?php echo esc_url(get_permalink(67)); ?>"></a>
                     </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Fotografia dziecięca</div>
+                    <div class="tytul-obrazka"><?php echo get_the_title(73); ?></div>
                     <figure class="gallery_hover">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/fotografiadzieciecia.jpg" alt="Fotografia dziecięca" class="obrazek-menu">
-                            <figcaption>
+                    <?php 
+                     $nameofkat = $post->post_name;
+                     query_posts('page_id=73');
+                     while (have_posts()) : the_post();
+                     the_post_thumbnail();
+                     endwhile
+                    ?>
+                    <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href="http://127.0.0.1/Fotografik/?p=59"></a>
-                    </figure>
-                    </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 szerokosc-galerii">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Fotografia eventowa</div>
-                    <figure class="gallery_hover">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/fotografiaeventowa.jpg" alt="Fotografia Eventowa" class="obrazek-menu">
-                            <figcaption>
-                                <h3>Przejdź do galerii</h3>
-                            </figcaption>
-                        <a href="http://127.0.0.1/Fotografik/?p=59"></a>
-                    </figure>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Fotografia kulinarna</div>
-                    <figure class="gallery_hover">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/fotografiakulinarna.jpg" alt="Fotografia kulinarna" class="obrazek-menu">
-                            <figcaption>
-                                <h3>Przejdź do galerii</h3>
-                            </figcaption>
-                        <a href="http://127.0.0.1/Fotografik/?p=59"></a>
+                            <a href=" <?php echo esc_url(get_permalink(73)); ?>"></a>
                     </figure>
                     </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 szerokosc-galerii">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Fotografia portretowa</div>
+                    <div class="tytul-obrazka"><?php echo get_the_title(76); ?></div>
                     <figure class="gallery_hover">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/fotografiaportretowa.jpg" alt="Fotografia portretowa" class="obrazek-menu">
-                            <figcaption>
+                    <?php 
+                     $nameofkat = $post->post_name;
+                     query_posts('page_id=76');
+                     while (have_posts()) : the_post();
+                     the_post_thumbnail();
+                     endwhile
+                    ?>
+                    <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href="http://127.0.0.1/Fotografik/?p=59"></a>
+                            <a href=" <?php echo esc_url(get_permalink(76)); ?>"></a>
                     </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="tytul-obrazka">Fotografia reklamowa</div>
+                    <div class="tytul-obrazka"><?php echo get_the_title(79); ?></div>
                     <figure class="gallery_hover">
-                    <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/fotografiareklamowa.jpg" alt="Fotografia reklamowa" class="obrazek-menu">
-                            <figcaption>
+                    <?php 
+                     $nameofkat = $post->post_name;
+                     query_posts('page_id=79');
+                     while (have_posts()) : the_post();
+                     the_post_thumbnail();
+                     endwhile
+                    ?>
+                    <figcaption>
                                 <h3>Przejdź do galerii</h3>
                             </figcaption>
-                        <a href="http://127.0.0.1/Fotografik/?p=59"></a>
+                            <a href=" <?php echo esc_url(get_permalink(79)); ?>"></a>
+                    </figure>
+                    </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 szerokosc-galerii">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka"><?php echo get_the_title(82); ?></div>
+                    <figure class="gallery_hover">
+                    <?php 
+                     $nameofkat = $post->post_name;
+                     query_posts('page_id=82');
+                     while (have_posts()) : the_post();
+                     the_post_thumbnail();
+                     endwhile
+                    ?>
+                    <figcaption>
+                                <h3>Przejdź do galerii</h3>
+                            </figcaption>
+                            <a href=" <?php echo esc_url(get_permalink(82)); ?>"></a>
+                    </figure>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="tytul-obrazka"><?php echo get_the_title(85); ?></div>
+                    <figure class="gallery_hover">
+                    <?php 
+                     $nameofkat = $post->post_name;
+                     query_posts('page_id=85');
+                     while (have_posts()) : the_post();
+                     the_post_thumbnail();
+                     endwhile
+                    ?>
+                    <figcaption>
+                                <h3>Przejdź do galerii</h3>
+                            </figcaption>
+                            <a href=" <?php echo esc_url(get_permalink(85)); ?>"></a>
                     </figure>
                     </div>
                     </div>
@@ -230,6 +287,29 @@ add_filter( 'excerpt_length', 'wp_example_excerpt_length');
                         <h3>Ostatnio na blogu</h3>
                         <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/circle-black-header.png"  alt="">
                         </div>
+                        <?php
+  $nameofkat = $post->post_name;
+  query_posts('posts_per_page=2');
+    while (have_posts()) : the_post();
+      echo "<div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 margines'>";
+      echo "<a href='".get_permalink()."'>";
+      the_post_thumbnail();
+      echo "</a>";
+      echo "<h3 class='entry-title'>";
+      echo "<a href='".get_permalink()."'>";
+            the_title();
+      echo "</a>";
+      echo "</h3>";
+      echo "<div class='wiecej'>";
+        the_excerpt();
+      echo "</div>";
+      echo "<div class='czytaj-wiecej'>";
+      echo "<a href='".get_permalink()."'> Czytaj więcej";
+      echo "</a>";
+      echo "</div>";
+      echo "</div>";
+   endwhile;
+?>
                         <?php dynamic_sidebar('primary-sidebar'); ?>
                     </div>                                                                   
             </div>

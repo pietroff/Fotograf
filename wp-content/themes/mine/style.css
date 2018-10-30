@@ -2913,7 +2913,7 @@ article > *:last-child {
 }
 
 .post-thumbnail {
-    display: inline-block;
+    display: none;
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
@@ -2928,6 +2928,9 @@ article > *:last-child {
 .post-thumbnail img {
     display: inline-block;
     width: 100%;
+}
+.tekst-obciety a{
+    display: none;
 }
 
 a.post-thumbnail:hover,
@@ -3084,14 +3087,23 @@ a.post-thumbnail:focus {
     border-radius:50%;
     margin-top: 65px;
     margin-left: 8px;
+}.read_more a:hover{
+    background-color: #d9700f;
+    color: #fff;
+}
+.read_more:hover::before{
+    background: #d9700f;
+    border: 3px solid #fff;
 }
 
-.read_more a:focus,
+
+
+/* .read_more a:focus,
 .read_more a:hover {
     background-color: #ffffff !important;
     color: #d9700f;
     border: 2px solid #d9700f;
-}
+} */
 
 .czytaj-wiecej {
     width: auto;
@@ -3145,6 +3157,7 @@ a.post-thumbnail:focus {
 }
 .margines{
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 /* .czytaj-wiecej a:focus,
@@ -3155,7 +3168,7 @@ a.post-thumbnail:focus {
 } */
 
 .entry-footer {
-    display: inline-block;
+    display: none;
     width: 100%;
     margin-bottom: 15px;
 }
@@ -3351,8 +3364,28 @@ a.post-thumbnail:focus {
     max-width: 100%;
     font-size: 28px;
 }
+.page-title::before{
+    content: " ";
+    background-image: url(data:image/png;base64,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);
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 54px;
+    height: 37px;
+    left: 37%;
+    top: -5px;
+    transform: rotate(180deg);
+}
+.home .page-title::before{
+    display: none;
+}
+
  .entry-content p{
      font-size: 15px;
+ }
+
+ .tekst-obciety p{
+     font-size: 13px;
  }
 
 .page-links {
@@ -4459,6 +4492,7 @@ a.arrow-up:focus {
 
 .site .avatar {
     border-radius: 50%;
+    display: none;
 }
 
 .entry-content .wp-smiley,
