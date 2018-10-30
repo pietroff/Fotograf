@@ -88,31 +88,30 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
         </div>
     </div>
 </div>
+<?php
 
+function wp_example_excerpt_length( $length ) {
+    return 5;
+}
+add_filter( 'excerpt_length', 'wp_example_excerpt_length');
+?>
 <div id="primary" class="content-area home-content-area">
     <main id="main" class="site-main" role="main">  
         <div class="container">
             <div class="row">
-            
-            <?php
-function custom_get_the_excerpt($post_id) {
-    global $post;  
-    $save_post = $post;
-    $post = get_post( $post_id );
-    setup_postdata( $post );
-    $output = get_the_excerpt();
-    $post = $save_post;
-    return $output;
-}
-?>
-            
             <div class="col-sm-8 col-xs-12 text-center ustawienia-menu-obrazkowego">
             <h2 id="related_post_title" class="widget-title text-center">Fotografia Ślubna</h2>
             <div class="line_title text-center"></div>
                     <div class="line-first col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="tytul-obrazka"><?php echo get_the_title(105); ?></div>
-                    <div class=""><?php custom_get_the_excerpt(105); ?></div>
+                    <div class=""><?php 
+                     $nameofkat = $post->post_name;
+                     query_posts('page_id=105');
+                     while (have_posts()) : the_post();
+                     the_excerpt();
+                     endwhile
+                    ?></div>
                     <figure class="gallery_hover">
                     <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/SKFotografia0054-1000x668.jpg" alt="Przygotowania" class="obrazek-menu">
                             <figcaption>
