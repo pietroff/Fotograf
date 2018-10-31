@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Wesela
+ * Template Name: Blog
  *
  * This is the most generic template file in a WordPress theme and one
  * of the two required files for a theme (the other being style.css).
@@ -39,7 +39,7 @@ mine_header_title($page_title);
             ?>
         <?php
   $nameofkat = $post->post_name;
-  query_posts('cat=7');
+  query_posts('cat=17');
     echo "<div class='linia-pozioma text-center'></div>";
  
     while (have_posts()) : the_post();

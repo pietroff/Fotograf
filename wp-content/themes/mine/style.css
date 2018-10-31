@@ -3373,7 +3373,7 @@ a.post-thumbnail:focus {
     width: 54px;
     height: 37px;
     left: 37%;
-    top: -5px;
+    top: -8px;
     transform: rotate(180deg);
 }
 .home .page-title::before{
