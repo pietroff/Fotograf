@@ -878,9 +878,7 @@ a:active {
 .main-navigation ul.sub-menu > li a:hover{
     color: #fff !important;
     background-color: #d9700f !important;
-    width: 80%;
-    height: 80%;
-    margin-left: 10%;
+    padding: 9px 45px !important;
 }
 
 .main-navigation ul li.highlight.menu-item {
@@ -2944,6 +2942,7 @@ a.post-thumbnail:focus {
     font-family: 'PT Serif', serif;
     font-size: 18px;
     color: #000000;
+    /* margin-top: 40px; */
 }
 
 .single .entry-content a img {
@@ -3360,7 +3359,7 @@ a.post-thumbnail:focus {
     line-height: 1;
     margin-bottom: 0;
     padding: 0px 50px;
-    margin-top: 40px;
+    margin-top: 60px;
     max-width: 100%;
     font-size: 28px;
 }
@@ -3372,7 +3371,7 @@ a.post-thumbnail:focus {
     text-align: center;
     width: 54px;
     height: 37px;
-    left: 37%;
+    left: 27%;
     top: -8px;
     transform: rotate(180deg);
 }
@@ -5062,4 +5061,8 @@ p > video {
         padding-right: 0;
         padding-top: 12px;
         padding-bottom: 12px;
+    }
+    .border{
+        border-top: 1px solid #ccc;
+        margin-bottom: 30px;
     }

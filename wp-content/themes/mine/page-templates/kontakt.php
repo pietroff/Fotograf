@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: O mnie
+ * Template Name: Kontakt
  *
  * This is the most generic template file in a WordPress theme and one
  * of the two required files for a theme (the other being style.css).
@@ -24,8 +24,18 @@ mine_header_title($page_title);
 <div id="primary" class="content-area fullpage">
     <main id="main" class="site-main" role="main">
         <div class="container border">
-            <div class="margines">
-
+            <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="text-left" style="margin-bottom: 30px; margin-top: 40px;">
+                <?php
+  $nameofkat = $post->post_name;
+  query_posts('page_id=10');
+ 
+    while (have_posts()) : the_post();
+      the_post_thumbnail();
+   endwhile;
+?>
+            </div>
                 <?php
             // Start the loop.
             while (have_posts()) : the_post();
@@ -39,16 +49,10 @@ mine_header_title($page_title);
         endwhile;
         ?>
         </div>
-            <div class="text-right">
-                <?php
-  $nameofkat = $post->post_name;
-  query_posts('page_id=14');
- 
-    while (have_posts()) : the_post();
-      the_post_thumbnail();
-   endwhile;
-?>
-            </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right" style="margin-bottom: 30px; margin-top: 40px;>
+        <?php dynamic_sidebar('primary-sidebar'); ?>
+    </div>
+        </div>
         </div>
     </main><!-- .site-main -->
 </div>

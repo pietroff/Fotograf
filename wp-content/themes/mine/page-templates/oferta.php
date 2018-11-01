@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: O mnie
+ * Template Name: Oferta
  *
  * This is the most generic template file in a WordPress theme and one
  * of the two required files for a theme (the other being style.css).
@@ -25,6 +25,20 @@ mine_header_title($page_title);
     <main id="main" class="site-main" role="main">
         <div class="container border">
             <div class="margines">
+
+                <?php
+  $nameofkat = $post->post_name;
+  query_posts('page_id=114');
+ 
+    while (have_posts()) : the_post();
+      echo "<h3 class='entry-title'>";
+      echo "<a href='".get_permalink()."'>";
+            the_title();
+      echo "</a>";
+      echo "</h3>";
+      
+   endwhile;
+?>
 
                 <?php
             // Start the loop.
