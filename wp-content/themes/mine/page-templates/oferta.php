@@ -26,19 +26,16 @@ mine_header_title($page_title);
         <div class="container border">
             <div class="margines">
 
-                <?php
-  $nameofkat = $post->post_name;
-  query_posts('page_id=114');
- 
-    while (have_posts()) : the_post();
-      echo "<h3 class='entry-title'>";
-      echo "<a href='".get_permalink()."'>";
-            the_title();
-      echo "</a>";
-      echo "</h3>";
-      
-   endwhile;
-?>
+            <a href=" <?php echo esc_url(get_permalink(67)); ?>" class="czytaj-wiecej"><?php echo get_the_title(67); ?></a>
+            <a href=" <?php echo esc_url(get_permalink(73)); ?>"><?php echo get_the_title(73); ?></a>
+            <a href=" <?php echo esc_url(get_permalink(76)); ?>"><?php echo get_the_title(76); ?></a>
+            <a href=" <?php echo esc_url(get_permalink(79)); ?>"><?php echo get_the_title(79); ?></a>
+            <a href=" <?php echo esc_url(get_permalink(82)); ?>"><?php echo get_the_title(82); ?></a>
+            <a href=" <?php echo esc_url(get_permalink(85)); ?>"><?php echo get_the_title(85); ?></a>
+            <a href=" <?php echo esc_url(get_permalink(111)); ?>"><?php echo get_the_title(111); ?></a>
+            <a href=" <?php echo esc_url(get_permalink(114)); ?>"><?php echo get_the_title(114); ?></a>
+            <a href=" <?php echo esc_url(get_permalink(117)); ?>"><?php echo get_the_title(117); ?></a>
+            <a href=" <?php echo esc_url(get_permalink(105)); ?>"><?php echo get_the_title(105); ?></a>
 
                 <?php
             // Start the loop.
