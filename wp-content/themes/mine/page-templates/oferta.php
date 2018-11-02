@@ -25,7 +25,7 @@ mine_header_title($page_title);
     <main id="main" class="site-main" role="main">
         <div class="container border">
             <div class="margines">
-
+            <div class="margines-oferta">
             <div  class="czytaj-wiecej"> <a href=" <?php echo esc_url(get_permalink(67)); ?>"><?php echo get_the_title(67); ?></a></div>
             <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(73)); ?>"><?php echo get_the_title(73); ?></a></div>
             <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(76)); ?>"><?php echo get_the_title(76); ?></a></div>
@@ -36,6 +36,7 @@ mine_header_title($page_title);
             <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(114)); ?>"><?php echo get_the_title(114); ?></a></div>
             <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(117)); ?>"><?php echo get_the_title(117); ?></a></div>
             <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(105)); ?>"><?php echo get_the_title(105); ?></a></div>
+            </div>
 
                 <?php
             // Start the loop.
@@ -50,10 +51,10 @@ mine_header_title($page_title);
         endwhile;
         ?>
         </div>
-            <div class="text-right">
+            <div class="text-center">
                 <?php
   $nameofkat = $post->post_name;
-  query_posts('page_id=14');
+  query_posts('page_id=16');
  
     while (have_posts()) : the_post();
       the_post_thumbnail();
