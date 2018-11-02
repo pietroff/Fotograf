@@ -26,16 +26,16 @@ mine_header_title($page_title);
         <div class="container border">
             <div class="margines">
 
-            <a href=" <?php echo esc_url(get_permalink(67)); ?>" class="czytaj-wiecej"><?php echo get_the_title(67); ?></a>
-            <a href=" <?php echo esc_url(get_permalink(73)); ?>"><?php echo get_the_title(73); ?></a>
-            <a href=" <?php echo esc_url(get_permalink(76)); ?>"><?php echo get_the_title(76); ?></a>
-            <a href=" <?php echo esc_url(get_permalink(79)); ?>"><?php echo get_the_title(79); ?></a>
-            <a href=" <?php echo esc_url(get_permalink(82)); ?>"><?php echo get_the_title(82); ?></a>
-            <a href=" <?php echo esc_url(get_permalink(85)); ?>"><?php echo get_the_title(85); ?></a>
-            <a href=" <?php echo esc_url(get_permalink(111)); ?>"><?php echo get_the_title(111); ?></a>
-            <a href=" <?php echo esc_url(get_permalink(114)); ?>"><?php echo get_the_title(114); ?></a>
-            <a href=" <?php echo esc_url(get_permalink(117)); ?>"><?php echo get_the_title(117); ?></a>
-            <a href=" <?php echo esc_url(get_permalink(105)); ?>"><?php echo get_the_title(105); ?></a>
+            <div  class="czytaj-wiecej"> <a href=" <?php echo esc_url(get_permalink(67)); ?>"><?php echo get_the_title(67); ?></a></div>
+            <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(73)); ?>"><?php echo get_the_title(73); ?></a></div>
+            <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(76)); ?>"><?php echo get_the_title(76); ?></a></div>
+            <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(79)); ?>"><?php echo get_the_title(79); ?></a></div>
+            <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(82)); ?>"><?php echo get_the_title(82); ?></a></div>
+            <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(85)); ?>"><?php echo get_the_title(85); ?></a></div>
+            <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(111)); ?>"><?php echo get_the_title(111); ?></a></div>
+            <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(114)); ?>"><?php echo get_the_title(114); ?></a></div>
+            <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(117)); ?>"><?php echo get_the_title(117); ?></a></div>
+            <div  class="czytaj-wiecej"><a href=" <?php echo esc_url(get_permalink(105)); ?>"><?php echo get_the_title(105); ?></a></div>
 
                 <?php
             // Start the loop.
