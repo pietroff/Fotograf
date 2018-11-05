@@ -1,0 +1,37 @@
+table.wmle_form td{ border:none !important;}
+table.wmle_form td label.error{ color:#900;font-size: 12px; line-height:14px; padding-left:5px;}
+.wmle_test_msg{ font-size:11px; padding-bottom:10px; color:#454545;}
+ul.wmle_list{ list-style-type:square;margin-left: 2em;}
+input.medium, select.medium{ width:300px;}
+#page_parent_holder select{width:300px;}
+input.small, select.small{ width:80px;}
+.hidden{ display:none;}
+.notop{top:0px !important;}
+
+
+/* DOCUMENTATION */
+.documentation_content img{ max-width:100%;}
+.wmle_doc_table thead{ cursor:pointer;}
+.wmle_doc_table tbody{ display:none;}
+
+
+/* PRO VERSION ONLY*/
+ul.edit_settings_form{ }
+ul.edit_settings_form li{ display:block; clear:both; padding:5px 0px 5px 0px;font-size:13px;}
+ul.edit_settings_form li label{ display:inline-block; width:300px;font-size:13px; font-weight:bold;}
+ul.edit_settings_form li input, ul.edit_settings_form li select{ display:inline-block; height:30px; line-height:30px; margin-right:10px;}
+ul.edit_settings_form li select{ margin-top:-1px;}
+ul.edit_settings_form li span.radio-text{ margin-right:25px; display:inline-block;}
+ul.edit_settings_form li input.very_small{width:50px;}
+ul.edit_settings_form li input.small{width:80px;}
+
+ul.edit_settings_form label.error{ display:none !important;}
+ul.edit_settings_form li input.error, ul.edit_settings_form li select.error{ border:1px solid red;}
+ul.edit_settings_form li strong.invalid{ color:red;}
+ul.edit_settings_form li strong.valid{ color:green;}
+
+.taxonomy.checklist ul{ margin:0px; padding:0px;}
+.taxonomy.checklist li{width:50%;display:inline-block;float:left;}
+.wmlp_form{width:100%;}
+.taxonomy.checklist li ul.children li{width:100%;margin-left:23px;float:none;}
+
