@@ -25,7 +25,7 @@ jQuery(document).ready( function() {
 			data: { generic_shortcode_query: generic_shortcode_query},
 			beforeSend : function(){
 				jQuery("img.loading_icon").show();
-				jQuery('.wmle_loadmore_btn').html('Loading...');
+				jQuery('.wmle_loadmore_btn').html('Ładuję zdjęcia...');
 			},
 			success: function(response) {
 				if(response.status == "ok") {
