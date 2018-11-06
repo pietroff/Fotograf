@@ -285,7 +285,7 @@ add_filter( 'excerpt_length', 'wp_example_excerpt_length');
                     <div id="secondary" class="sidebar widget-area col-sm-4 col-xs-12">
                         <div class="text-center">
                         <h3>Ostatnio na blogu</h3>
-                        <img src="http://127.0.0.1/Fotografik/wp-content/uploads/2018/10/circle-black-header.png"  alt="">
+                        <img src="http://slawomirkmiecik.pl/wp-content/uploads/2018/10/circle-black-header.png"  alt="">
                         </div>
                         <?php
   $nameofkat = $post->post_name;
