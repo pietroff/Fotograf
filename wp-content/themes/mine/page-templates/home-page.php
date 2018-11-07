@@ -80,7 +80,8 @@ if(isset($mine_about_avatar) && $mine_about_avatar != ''){
                 <?php
                 if(isset($mine_about_avatar) && $mine_about_avatar != ''){ ?>
                     <div class="col-xs-12 col-sm-8 col-md-8 author_image">
-                        <?php easyrotator_display_rotator('erc_21_1538922273');?>
+                        <?php easyrotator_display_rotator('erc_91_1541571234');?>
+
                     </div><?php
                 }
             }
