@@ -37,6 +37,13 @@ mine_header_title($page_title);
             // End of the loop.
             endwhile;
             ?>
+            <!-- Funkcja obcinająca do 20 słów  the_excerpt();--> 
+<?php
+function wp_example_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'wp_example_excerpt_length');
+?>
         <?php
   $nameofkat = $post->post_name;
   query_posts('cat=17');

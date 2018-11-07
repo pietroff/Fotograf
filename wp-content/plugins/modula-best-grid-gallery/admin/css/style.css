@@ -1408,6 +1408,10 @@ strong {
 .modula .item .jtg-social a {
 	font-size: 17px;
 }
+.modula .items .item > a:hover{
+
+	border: 2px solid #d9700f;
+}
 .all-effects {
 	display: inline-block;
 	margin: 20px 0;

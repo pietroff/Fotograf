@@ -952,6 +952,7 @@ if (!function_exists('mine_header_title')) {
         ?>
         <div class="page-header <?php print_r($header_bg_class); echo  ' '; print_r($header_padding_class); ?>" style="background-image: url(<?php echo esc_html($header_bg_image); ?>);">
             <div class="container">
+            <div class="text-center margines-naglowek"><img src="http://slawomirkmiecik.pl/wp-content/uploads/2018/11/circle-header-down.png"  alt=""></div>
                 <h1 class="page-title"><?php print_r($page_title); ?></h1>
                 <?php 
                 if (!is_front_page() && $mine_disable_breadcrumbs != '1') { ?>
