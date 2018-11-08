@@ -1,0 +1,1203 @@
+@media screen and (min-width: 1px) {
+
+	.modula .items .item h2 {
+		margin:0;
+	}
+	.modula .items .item p {
+		margin:0;
+		padding: 0;
+	}	
+	.modula .figc {
+		color: black;
+		text-align: center;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		padding:2em;
+	}
+
+	.modula .item .jtg-social a {
+		text-decoration: none;
+		color: #fff;
+		display: inline-block;
+		margin:0 10px 0 0;
+		width: 20px;
+		padding: 6px 4px;
+		border: 0;
+		opacity: 0;
+		transition: opacity .3s;
+	}
+	.modula .item:hover .jtg-social a {
+		opacity: 1;
+	}
+
+	/* Individual effects */
+
+	/*---------------*/
+	/***** quiet *****/
+	/*---------------*/
+	.modula .items .effect-quiet .jtg-social {
+		-webkit-transform: translate3d(0,20px,0);
+		transform: translate3d(0,20px,0);
+		position: absolute;
+		bottom: 20px;
+		width: 100%;
+		text-align: center;
+		left: 0;
+		transition:all .3s;
+	}
+	.modula .items .effect-quiet:hover .jtg-social {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+	.modula .item.effect-quiet .figc {
+		display: flex;
+	  	align-items: center;
+	  	justify-content: center;
+	  	height: 100%;
+	}
+	
+	.modula .item.effect-quiet h2 {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,-20px,0);
+		transform: translate3d(0,-20px,0);
+	}
+
+	.modula .item.effect-quiet:hover .figc::before,
+	.modula .item.effect-quiet:hover .figc::after {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	.modula .item.effect-quiet:hover h2,
+	.modula .item.effect-quiet:hover p {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	/*---------------*/
+	/***** seemo *****/
+	/*---------------*/
+	.modula .item.effect-seemo {
+		-webkit-perspective: 1000px;
+		perspective: 1000px;
+	}
+
+	.modula .item.effect-seemo img {
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(0,0,300px);
+		transform: translate3d(0,0,300px);
+	}
+
+	.modula .item.effect-seemo h2 {
+		width: 100%;
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+	}
+	
+	.modula .item.effect-seemo h2 {
+		-webkit-transform: translate3d(0,0px,0) translate3d(0,0,0);
+		transform: translate3d(0,0,0) translate3d(0,0,0);
+	}
+	
+	.modula .item.effect-seemo:hover h2 {
+		-webkit-transform: translate3d(0,-20px,0);
+		transform: translate3d(0,-20px,0);
+	}
+	
+	.modula .item.effect-seemo:hover img {
+		-webkit-transform: translate3d(0,0,0) translate3d(0,0,0);
+		transform: translate3d(0,0,0) translate3d(0,0,0);
+	}
+	
+
+	/*---------------*/
+	/***** appear *****/
+	/*---------------*/
+	.modula .item.effect-appear .figc::before {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 10px;
+		background: #fff;
+		content: '';
+		-webkit-transform: translate3d(0,10px,0);
+		transform: translate3d(0,10px,0);
+	}
+	
+	.modula .item.effect-appear h2 {
+		position: absolute;
+		bottom: 10px;
+		left: 0;
+		padding: 1em 1.5em;
+		width: 100%;
+		text-align: left;
+		-webkit-transform: translate3d(0,-30px,0);
+		transform: translate3d(0,-30px,0);
+	}
+
+	.modula .item.effect-appear h2 i {
+		font-style: normal;
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(0,-30px,0);
+		transform: translate3d(0,-30px,0);
+	}
+	
+	.modula .item.effect-appear .jtg-social a:last-of-type {
+		margin-right: 0;
+	}
+
+	.modula .item.effect-appear .figc::before,
+	.modula .item.effect-appear h2 {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+	}
+
+	.modula .item.effect-appear:hover .figc::before,
+	.modula .item.effect-appear:hover h2,
+	.modula .item.effect-appear:hover h2 i {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	/*---------------*/
+	/***** crafty *****/
+	/*---------------*/
+	.modula .item.effect-crafty h2 {
+		margin: 0 0 10px 0;
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,50%,0);
+		transform: translate3d(0,50%,0);
+	}
+
+	.modula .item.effect-crafty p {
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		margin-bottom: 10px;
+	}
+
+	.modula .item.effect-crafty:hover h2 {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-crafty:hover .figc::before,
+	.modula .item.effect-crafty:hover p {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+
+	/*---------------*/
+	/***** pufrobo *****/
+	/*---------------*/
+
+	.modula .items .effect-pufrobo .jtg-social {
+		opacity: 0;
+		transition: opacity 0.1s;
+		right:30px;
+		position: absolute;
+		bottom:20px;
+		text-align: right;
+		transition:all .3s;
+	}
+	
+	.modula .items .effect-pufrobo:hover .jtg-social {
+		opacity: 1;
+	}
+	
+	.modula .items .effect-pufrobo .jtg-social a:last-of-type {
+		margin-right: 0;	
+	}
+
+	.modula .item.effect-pufrobo p.description {
+		margin-bottom: 2em;
+	}
+
+	.modula .item.effect-pufrobo .figc {
+		text-align: right;
+	}
+
+	.modula .item.effect-pufrobo h2,
+	.modula .item.effect-pufrobo p {
+		position: absolute;
+		right: 30px;
+		left: 30px;
+		padding: 10px 0;
+		text-align: right;
+	}
+
+	.modula .item.effect-pufrobo p {
+		bottom: 20%;  
+		line-height: 1.5;
+		-webkit-transform: translate3d(0,100%,0);
+		transform: translate3d(0,100%,0);
+		letter-spacing: 1px;
+	}
+
+	.modula .item.effect-pufrobo h2 {
+		/*top: 30px;*/
+		top: 10%;
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,20px,0);
+		transform: translate3d(0,20px,0);
+	}
+
+	.modula .item.effect-pufrobo:hover h2 {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-pufrobo h2::after {
+		position: absolute;
+		top: 80%;
+		left: 0;
+		width: 100%;
+		height: 4px;
+		background: #fff;
+		content: '';
+		-webkit-transform: translate3d(0,40px,0);
+		transform: translate3d(0,40px,0);
+	}
+
+	.modula .item.effect-pufrobo h2::after,
+	.modula .item.effect-pufrobo p {
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+	}
+
+	.modula .item.effect-pufrobo:hover h2::after,
+	.modula .item.effect-pufrobo:hover p {
+		margin-top: 10px;
+		margin-bottom: 5px;
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	/*---------------*/
+	/***** hide *****/
+	/*---------------*/
+
+	.modula .items .effect-hide .jtg-social {
+		-webkit-transform: translate3d(0,-20px,0);
+		transform: translate3d(0,-20px,0);
+		position: absolute;
+		bottom: 20px;
+		width: 100%;
+		text-align: center;
+		left: 0;
+		transition:all .3s;
+	}
+	.modula .items .effect-hide:hover .jtg-social {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+	.modula .item.effect-hide .figc {
+		display: flex;
+	  	align-items: center;
+	  	justify-content: center;	  	
+	}
+	
+	.modula .item.effect-hide .figc-inner h2, 
+	.modula .item.effect-hide .figc-inner p {
+		margin: 0 20px;
+	}
+	
+	.modula .item.effect-hide img {
+		opacity: 1;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: scale(1.15);
+		transform: scale(1.15);
+	}
+	
+	.modula .item.effect-hide:hover img {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	.modula .item.effect-hide h2 {		
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,20px,0);
+		transform: translate3d(0,20px,0);
+		margin-bottom: 10px;
+	}
+
+	.modula .item.effect-hide p {
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(0,20px,0) scale(1.1);
+		transform: translate3d(0,20px,0) scale(1.1);
+	} 
+
+	.modula .item.effect-hide:hover h2 {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-hide:hover p {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0) scale(1);
+		transform: translate3d(0,0,0) scale(1);
+	}
+
+	/*---------------*/
+	/***** Milo *****/
+	/*---------------*/
+
+	.modula .item.effect-milo {
+		background: #2e5d5a;
+	}
+
+	.modula .item.effect-milo img {
+		max-width: none;
+		width: -webkit-calc(100% + 60px);
+		width: calc(100% + 60px);
+		opacity: 1;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(-30px,0,0) scale(1.12);
+		transform: translate3d(-30px,0,0) scale(1.12);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	.modula .item.effect-milo:hover img {
+		opacity: 0.5;
+		-webkit-transform: translate3d(0,0,0) scale(1);
+		transform: translate3d(0,0,0) scale(1);
+	}
+
+	.modula .item.effect-milo h2 {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		padding: 1em 1.2em;
+	}
+
+	.modula .item.effect-milo p {
+		padding: 0 10px 0 0;
+		width: 50%;
+		border-right: 1px solid #fff;
+		text-align: right;
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(-40px,0,0);
+		transform: translate3d(-40px,0,0);
+	}
+
+	.modula .item.effect-milo:hover p {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	/*---------------*/
+	/***** Dexter *****/
+	/*---------------*/
+
+	.modula .item.effect-dexter {
+		background: -webkit-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(104,60,19,1) 100%);
+		background: linear-gradient(to bottom, rgba(37,141,200,1) 0%,rgba(104,60,19,1) 100%); 
+	}
+
+	.modula .item.effect-dexter img {
+		-webkit-transition: opacity 0.35s;
+		transition: opacity 0.35s;
+	}
+
+	.modula .item.effect-dexter:hover img {
+		opacity: 0.4;
+	}
+
+	.modula .item.effect-dexter .figc::after {
+		position: absolute;
+		right: 30px;
+		bottom: 30px;
+		left: 30px;
+		height: -webkit-calc(50% - 30px);
+		height: calc(50% - 30px);
+		border: 7px solid #fff;
+		content: '';
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,-100%,0);
+		transform: translate3d(0,-100%,0);
+	}
+
+	.modula .item.effect-dexter:hover .figc::after {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-dexter .figc {
+		padding: 3em;
+		text-align: left;
+	}
+
+	.modula .item.effect-dexter p {
+		position: absolute;
+		right: 60px;
+		bottom: 60px;
+		left: 60px;
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(0,-100px,0);
+		transform: translate3d(0,-100px,0);
+	}
+
+	.modula .item.effect-dexter:hover p {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	/*---------------*/
+	/***** Sarah *****/
+	/*---------------*/
+
+	.modula .item.effect-sarah {
+		background: #42b078;
+	}
+
+	.modula .item.effect-sarah img {
+		max-width: none;
+		width: -webkit-calc(100% + 20px);
+		width: calc(100% + 20px);
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(-10px,0,0);
+		transform: translate3d(-10px,0,0);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	.modula .item.effect-sarah:hover img {
+		opacity: 0.4;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-sarah .figc {
+		text-align: left;
+	}
+
+	.modula .item.effect-sarah h2 {
+		position: relative;
+		overflow: hidden;
+		padding: 0.5em 0;
+	}
+
+	.modula .item.effect-sarah h2::after {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 3px;
+		background: #fff;
+		content: '';
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(-100%,0,0);
+		transform: translate3d(-100%,0,0);
+	}
+
+	.modula .item.effect-sarah:hover h2::after {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-sarah p {
+		padding: 1em 0;
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(100%,0,0);
+		transform: translate3d(100%,0,0);
+	}
+
+	.modula .item.effect-sarah:hover p {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	/*---------------*/
+	/***** fluid-up *****/
+	/*---------------*/
+
+	.modula .item.effect-fluid-up .figc {
+		top: auto;
+		display: block;
+		bottom: 0;
+		padding: 1em;
+		height: 3.75em;
+		background: #fff;
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,100%,0);
+		transform: translate3d(0,100%,0);
+		height:auto !important;	
+	}
+
+	.modula .items .item.effect-fluid-up h2 {
+		float: left;
+		color:#121212;
+	}
+
+	.modula .item.effect-fluid-up p.description {
+		position: absolute;
+		bottom: 6em;
+		text-align: left;
+		text-transform: none;
+		opacity: 0;
+		left:0;
+		margin:0 1em;
+		-webkit-transition: opacity 0.35s;
+		transition: opacity 0.35s;
+		-webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
+	}
+
+	.modula .item.effect-fluid-up h2 {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,200%,0);
+		transform: translate3d(0,200%,0);
+	}
+
+	.modula .item.effect-fluid-up h2 {
+		display: inline-block;
+	}
+
+	.modula .item.effect-fluid-up:hover p.description {
+		opacity: 1;
+	}
+
+	.modula .item:not(.notitle).effect-fluid-up:hover .figc,
+	.modula .item:not(.notitle).effect-fluid-up:hover h2,
+	.modula .item:not(.notitle).effect-fluid-up:hover p.icon-links a {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-fluid-up:hover h2 {
+		-webkit-transition-delay: 0.05s;
+		transition-delay: 0.05s;
+	}
+
+
+	/*---------------*/
+	/***** comodo *****/
+	/*---------------*/
+
+	.modula .items .effect-comodo .jtg-social {
+		position: absolute;
+		bottom: 20px;
+		text-align: center;
+		left: 0;
+		right: 0;
+	}
+	
+	.modula .items .effect-comodo .jtg-social a {
+		display: inline-block;
+	}
+	.modula .items .effect-comodo .jtg-social a:last-of-type {
+		margin-right: 0;	
+	}
+	
+	.modula .item.effect-comodo img {
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: scale(1.12);
+		transform: scale(1.12);
+	}
+
+	.modula .item.effect-comodo:hover img {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	.modula .item.effect-comodo .figc {
+		display: block;
+	}
+
+	.modula .item.effect-comodo h2 {
+		margin-top: 20px;
+	}
+	
+	/* Individual effects */
+	/*-----------------*/
+	/***** catinelle *****/
+	/*-----------------*/
+	.modula .items .effect-catinelle .figc {
+		display: flex;
+	  	align-items: center;
+	  	justify-content: center;	
+	}
+	
+	.modula .items .effect-catinelle .jtg-social {
+		width:60px;
+		transform:scale(2);
+		transition:all .3s;
+	}
+	.modula .items .effect-catinelle .jtg-social a {
+		padding: 0;
+		margin:0 10px 10px 0;
+		font-size: 24px;
+	}
+	.modula .items .effect-catinelle .jtg-social a:nth-child(2n) {
+		margin-right: 0;	
+	}
+	.modula .items .effect-catinelle:hover .jtg-social {
+		width:60px;
+		transform:scale(1);
+	}	
+
+	
+
+	/*-----------------*/
+	/***** Winston *****/
+	/*-----------------*/
+
+	.modula .item.effect-winston {
+		background: #162633;
+		text-align: left;
+	}
+
+	.modula .item.effect-winston img {
+		-webkit-transition: opacity 0.45s;
+		transition: opacity 0.45s;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	.modula .item.effect-winston .figc::before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url(../images/triangle.svg) no-repeat center center;
+		background-size: 100% 100%;
+		content: '';
+		-webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
+		transition: opacity 0.45s, transform 0.45s;
+		-webkit-transform: rotate3d(0,0,1,45deg);
+		transform: rotate3d(0,0,1,45deg);
+		-webkit-transform-origin: 0 100%;
+		transform-origin: 0 100%;
+	}
+
+	.modula .item.effect-winston h2 {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,20px,0);
+		transform: translate3d(0,20px,0);
+	}
+
+	.modula .item.effect-winston p {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		padding: 0 1.5em 7% 0;
+	}
+
+	.modula .item.effect-winston a {
+		margin: 0 10px;
+		color: #5d504f;
+		
+	}
+
+	.modula .item.effect-winston a:hover,
+	.modula .item.effect-winston a:focus {
+		color: #cc6055;
+	}
+
+	.modula .item.effect-winston p a i {
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(0,50px,0);
+		transform: translate3d(0,50px,0);
+	}
+
+	.modula .item.effect-winston:hover img {
+		opacity: 0.6;
+	}
+
+	.modula .item.effect-winston:hover h2 {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-winston:hover .figc::before {
+		opacity: 0.7;
+		-webkit-transform: rotate3d(0,0,1,20deg);
+		transform: rotate3d(0,0,1,20deg);
+	}
+
+	.modula .item.effect-winston:hover p i {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-winston:hover p a:nth-child(3) i {
+		-webkit-transition-delay: 0.05s;
+		transition-delay: 0.05s;
+	}
+
+	.modula .item.effect-winston:hover p a:nth-child(2) i {
+		-webkit-transition-delay: 0.1s;
+		transition-delay: 0.1s;
+	}
+
+	.modula .item.effect-winston:hover p a:first-child i {
+		-webkit-transition-delay: 0.15s;
+		transition-delay: 0.15s;
+	}
+
+	/*-----------------*/
+	/***** Selena *****/
+	/*-----------------*/
+
+	.modula .item.effect-selena {
+		background: #fff;
+	}
+
+	.modula .item.effect-selena img {
+		opacity: 0.95;
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+	}
+
+	.modula .item.effect-selena:hover img {
+		-webkit-transform: scale3d(0.95,0.95,1);
+		transform: scale3d(0.95,0.95,1);
+	}
+
+	.modula .item.effect-selena h2 {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,20px,0);
+		transform: translate3d(0,20px,0);
+	}
+
+	.modula .item.effect-selena p {
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: perspective(1000px) rotate3d(1,0,0,90deg);
+		transform: perspective(1000px) rotate3d(1,0,0,90deg);
+		-webkit-transform-origin: 50% 0%;
+		transform-origin: 50% 0%;
+	}
+
+	.modula .item.effect-selena:hover h2 {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-selena:hover p {
+		opacity: 1;
+		-webkit-transform: perspective(1000px) rotate3d(1,0,0,0);
+		transform: perspective(1000px) rotate3d(1,0,0,0);
+	}
+
+	/*-----------------*/
+	/***** Terry *****/
+	/*-----------------*/
+
+	.modula .item.effect-terry {
+		background: #34495e;
+	}
+
+	.modula .item.effect-terry .figc {
+		padding: 1em;
+	}
+
+	.modula .item.effect-terry .figc::before,
+	.modula .item.effect-terry .figc::after {
+		position: absolute;
+		width: 200%;
+		height: 200%;
+		border-style: solid;
+		border-color: #101010;
+		content: '';
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+	}
+
+	.modula .item.effect-terry .figc::before {
+		right: 0;
+		bottom: 0;
+		border-width: 0 70px 60px 0;
+		-webkit-transform: translate3d(70px,60px,0);
+		transform: translate3d(70px,60px,0);
+	}
+
+	.modula .item.effect-terry .figc::after {
+		top: 0;
+		left: 0;
+		border-width: 15px 0 0 15px;
+		-webkit-transform: translate3d(-15px,-15px,0);
+		transform: translate3d(-15px,-15px,0);
+	}
+
+	.modula .item.effect-terry img,
+	.modula .item.effect-terry p a {
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+	}
+
+	.modula .item.effect-terry img {
+		opacity: 0.85;
+	}
+
+	.modula .item.effect-terry h2 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 0.4em 10px;
+		width: 50%;
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(100%,0,0);
+		transform: translate3d(100%,0,0);
+	}
+
+	@media screen and (max-width: 920px) {
+		.modula .item.effect-terry h2 {
+			padding: 0.75em 10px;
+			
+		}
+	}
+
+	.modula .item.effect-terry p {
+		float: right;
+		clear: both;
+		text-align: left;
+		text-transform: none;
+		
+	}
+
+	.modula .item.effect-terry p a {
+		display: block;
+		margin-bottom: 1em;
+		color: #fff;
+		opacity: 0;
+		-webkit-transform: translate3d(90px,0,0);
+		transform: translate3d(90px,0,0);
+	}
+
+	.modula .item.effect-terry p a:hover,
+	.modula .item.effect-terry p a:focus {
+		color: #f3cf3f;
+	}
+
+	.modula .item.effect-terry:hover .figc::before,
+	.modula .item.effect-terry:hover .figc::after {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-terry:hover img {
+		opacity: 0.6;
+
+	}
+
+	.modula .item.effect-terry:hover h2,
+	.modula .item.effect-terry:hover p a {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-terry:hover p a {
+		opacity: 1;
+	}
+
+	.modula .item.effect-terry:hover p a:first-child {
+		-webkit-transition-delay: 0.025s;
+		transition-delay: 0.025s;
+	}
+
+	.modula .item.effect-terry:hover p a:nth-child(2) {
+		-webkit-transition-delay: 0.05s;
+		transition-delay: 0.05s;
+	}
+
+	.modula .item.effect-terry:hover p a:nth-child(3) {
+		-webkit-transition-delay: 0.075s;
+		transition-delay: 0.075s;
+	}
+
+	.modula .item.effect-terry:hover p a:nth-child(4) {
+		-webkit-transition-delay: 0.1s;
+		transition-delay: 0.1s;
+	}
+
+	/*-----------------*/
+	/***** Phoebe *****/
+	/*-----------------*/
+
+	.modula .item.effect-phoebe {
+		background: #675983;
+	}
+
+	.modula .item.effect-phoebe img {
+		opacity: 0.85;
+		-webkit-transition: opacity 0.35s;
+		transition: opacity 0.35s;
+	}
+
+	.modula .item.effect-phoebe:hover img {
+		opacity: 0.6;
+	}
+
+	.modula .item.effect-phoebe .figc::before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url(../images/triangle2.svg) no-repeat center center;
+		background-size: 100% 100%;
+		content: '';
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: scale3d(5,2.5,1);
+		transform: scale3d(5,2.5,1);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+	}
+
+	.modula .item.effect-phoebe:hover .figc::before {
+		opacity: 0.6;
+		-webkit-transform: scale3d(1,1,1);
+		transform: scale3d(1,1,1);
+	}
+
+	.modula .item.effect-phoebe h2 {
+		margin-top: 1em;
+		-webkit-transition: transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,40px,0);
+		transform: translate3d(0,40px,0);
+	}
+
+	.modula .item.effect-phoebe:hover h2 {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-phoebe p a {
+		color: #fff;		
+		opacity: 0;
+		position: relative;
+		display: inline-block;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+	}
+
+	.modula .item.effect-phoebe p a:first-child {
+		-webkit-transform: translate3d(-60px,-60px,0);
+		transform: translate3d(-60px,-60px,0);
+	}
+
+	.modula .item.effect-phoebe p a:nth-child(2) {
+		-webkit-transform: translate3d(0,60px,0);
+		transform: translate3d(0,60px,0);
+	}
+
+	.modula .item.effect-phoebe p a:nth-child(3) {
+		-webkit-transform: translate3d(60px,-60px,0);
+		transform: translate3d(60px,-60px,0);
+	}
+
+	.modula .item.effect-phoebe:hover p a {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	/*-----------------*/
+	/***** reflex *****/
+	/*-----------------*/	
+	.modula .item.effect-reflex img {
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: scale3d(1.05,1.05,1);
+		transform: scale3d(1.05,1.05,1);
+	}
+
+	.modula .item.effect-reflex .figc {
+		display: block;
+	}
+	.modula .item.effect-reflex .figc-inner {
+		margin:20px;
+	}
+	
+	.modula .item.effect-reflex .figc-inner h2,
+	.modula .item.effect-reflex .figc-inner p {
+		border-left: 3px solid #fff;
+		padding-left: 10px;
+	}
+	.modula .item.effect-reflex .figc-inner p {
+		text-align: left;
+		margin-top:0px;
+		opacity: 0;
+		transition: opacity .3s;
+	}
+	.modula .item.effect-reflex:hover .figc-inner p {
+		opacity: 1
+	}
+
+	.modula .item.effect-reflex h2 {
+		text-align: left;
+	}
+
+	.modula .item.effect-reflex .jtg-social {
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+	}
+
+	.modula .item.effect-reflex:hover img {
+		-webkit-transform: scale3d(1,1,1);
+		transform: scale3d(1,1,1);
+	}
+
+	
+
+	/*-----------------*/
+	/***** curtain *****/
+	/*-----------------*/
+
+	.modula .items .effect-curtain .jtg-social {	
+		position: static;
+		text-align: left;
+		margin-top: 2.5em;
+		margin-left: 1em;	
+	}
+	
+	.modula .items .effect-curtain h2 {
+		text-align: left;
+	}
+
+	.modula .items .item.effect-curtain .figc {
+		z-index: 1;
+		text-align: left;
+		display: block;
+	}
+	
+	.modula .items .item.effect-curtain .figc-inner {
+		position: absolute;
+		top:30px;
+		left:35px;	
+	}
+
+	.modula .item.effect-curtain .figc::before {
+		position: absolute;
+		top: 0;
+		right: 35px;
+		left: 35px;
+		z-index: -1;
+		height: 60px;
+		background: #fff;
+		content: '';
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(0,70px,0) scale3d(1,0.023,1) ;
+		transform: translate3d(0,70px,0) scale3d(1,0.023,1);
+		-webkit-transform-origin: 50% 0;
+		transform-origin: 50% 0;
+	}
+
+	.modula .item.effect-curtain:hover p {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	.modula .item.effect-curtain:hover .figc::before {
+		opacity: 0.7;
+		-webkit-transform: translate3d(0,5em,0) scale3d(1,1,1) ;
+		transform: translate3d(0,5em,0) scale3d(1,1,1);
+	}
+
+
+	/*---------------*/
+	/***** lens *****/
+	/*---------------*/	
+	.modula .item .figc {
+		display: flex;
+	  	align-items: center;
+	  	justify-content: center;
+	}
+
+	.modula .item.effect-lens img,
+	.modula .item.effect-lens p {
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+	}
+
+	.modula .item.effect-lens:hover img {
+		-webkit-transform: scale3d(2,2,1);
+		transform: scale3d(2,2,1);
+	}
+
+	.modula .item.effect-lens h2 {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: scale3d(0.8,0.8,1);
+		transform: scale3d(0.8,0.8,1);
+		-webkit-transform-origin: 50% 100%;
+		transform-origin: 50% 100%;
+	}
+	
+	.modula .item.effect-lens .jtg-social {
+		position: absolute;
+		bottom: 20px;
+		left: 0;
+		right: 0;
+	}
+	
+	.modula .item.effect-lens p {
+		text-align: center;		
+		opacity: 0;
+		-webkit-transform: scale3d(0.8,0.8,1);
+		transform: scale3d(0.8,0.8,1);
+		-webkit-transform-origin: 50% -100%;
+		transform-origin: 50% -100%;
+		margin-top: 10px;
+	}
+
+	.modula .item.effect-lens:hover h2,
+	.modula .item.effect-lens:hover p {
+		opacity: 1;
+		-webkit-transform: scale3d(1,1,1);
+		transform: scale3d(1,1,1);
+	}
+}

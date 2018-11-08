@@ -1,0 +1,648 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-03 19:11+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Mikado.php:241
+msgid "Mikado >> Tutorial"
+msgstr ""
+
+#: Mikado.php:241
+msgid "Tutorial"
+msgstr ""
+
+#: Mikado.php:242
+msgid "Mikado >> Add Gallery"
+msgstr ""
+
+#: Mikado.php:242
+msgid "Add Gallery"
+msgstr ""
+
+#: Mikado.php:243
+msgid "Mikado >> Edit Gallery"
+msgstr ""
+
+#: Mikado.php:243
+msgid "Edit Gallery"
+msgstr ""
+
+#: admin/add-gallery.php:2 admin/add-images.php:2 admin/edit-gallery.php:2
+#: admin/overview.php:2
+msgid "You are not allowed to call this page directly."
+msgstr ""
+
+#: admin/add-gallery.php:15
+msgid "Add New Gallery"
+msgstr ""
+
+#: admin/add-gallery.php:21
+msgid "Name of the gallery"
+msgstr ""
+
+#: admin/add-gallery.php:26
+msgid "Description of the gallery"
+msgstr ""
+
+#: admin/add-gallery.php:31
+msgid "Previous"
+msgstr ""
+
+#: admin/add-gallery.php:32
+msgid "Next"
+msgstr ""
+
+#: admin/add-images.php:14
+msgid "Add Images"
+msgstr ""
+
+#: admin/add-images.php:20
+msgid "Select a gallery to add or edit its images"
+msgstr ""
+
+#: admin/add-images.php:24 admin/add-images.php:32 admin/edit-gallery.php:28
+#: admin/edit-gallery.php:36 admin/overview.php:79 admin/overview.php:87
+#: admin/include/edit-gallery.php:53
+msgid "Gallery Name"
+msgstr ""
+
+#: admin/add-images.php:25 admin/add-images.php:33 admin/edit-gallery.php:29
+#: admin/edit-gallery.php:37 admin/edit-gallery.php:84
+#: admin/edit-gallery.php:91 admin/overview.php:81 admin/overview.php:89
+#: admin/overview.php:122 admin/overview.php:127
+#: admin/include/edit-gallery.php:158
+msgid "Description"
+msgstr ""
+
+#: admin/add-images.php:51 admin/edit-gallery.php:55
+msgid "Select Gallery"
+msgstr ""
+
+#: admin/add-images.php:63
+msgid "About choosing a proper image size:"
+msgstr ""
+
+#: admin/add-images.php:63
+msgid ""
+"Mikado doesn't scale down the images\n"
+"            when there's enough space, it gives you the freedom to choose "
+"your favourite size for each image."
+msgstr ""
+
+#: admin/add-images.php:66
+msgid ""
+"So you should use images that are smaller than the container, choose the"
+msgstr ""
+
+#: admin/add-images.php:66
+msgid "thumbnail"
+msgstr ""
+
+#: admin/add-images.php:66 admin/adv.php:12
+msgid "or"
+msgstr ""
+
+#: admin/add-images.php:67
+msgid "medium"
+msgstr ""
+
+#: admin/add-images.php:67
+msgid "size, for example."
+msgstr ""
+
+#: admin/add-images.php:77 admin/add-images.php:86
+msgid "Image"
+msgstr ""
+
+#: admin/add-images.php:78 admin/add-images.php:87
+msgid "Action on click"
+msgstr ""
+
+#: admin/add-images.php:79 admin/add-images.php:88 admin/edit-gallery.php:151
+#: admin/include/edit-gallery.php:157
+msgid "Caption"
+msgstr ""
+
+#: admin/add-images.php:80 admin/add-images.php:89
+msgid "Sort Order"
+msgstr ""
+
+#: admin/add-images.php:106 admin/add-images.php:107
+msgid "Choose images"
+msgstr ""
+
+#: admin/add-images.php:114
+msgid "None"
+msgstr ""
+
+#: admin/add-images.php:115
+msgid "Zoom"
+msgstr ""
+
+#: admin/add-images.php:118
+msgid "Go to URL:"
+msgstr ""
+
+#: admin/add-images.php:138
+msgid "Gallery Images"
+msgstr ""
+
+#: admin/add-images.php:143
+msgid "Switch Gallery"
+msgstr ""
+
+#: admin/add-images.php:145
+msgid "Edit existing images in this gallery"
+msgstr ""
+
+#: admin/add-images.php:151 admin/add-images.php:158
+msgid "Preview"
+msgstr ""
+
+#: admin/adv.php:4
+msgid "Hey, do you already know"
+msgstr ""
+
+#: admin/adv.php:6
+msgid "Aviary Advanced Image Editor for WordPress"
+msgstr ""
+
+#: admin/adv.php:7
+msgid ""
+"It's the best image editing tool for WordPress, you can resize, crop, adjust "
+"colors, add Instagram like\n"
+"\t\teffects and much more!"
+msgstr ""
+
+#: admin/adv.php:11
+msgid "Go to Aviary for WordPress"
+msgstr ""
+
+#: admin/adv.php:12
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/edit-gallery.php:22
+msgid "Edit Galleries"
+msgstr ""
+
+#: admin/edit-gallery.php:24
+msgid "Select a gallery to edit its properties"
+msgstr ""
+
+#: admin/edit-gallery.php:67
+msgid "Gallery:"
+msgstr ""
+
+#: admin/edit-gallery.php:72
+msgid "General"
+msgstr ""
+
+#: admin/edit-gallery.php:82 admin/edit-gallery.php:89
+msgid "Attribute Name"
+msgstr ""
+
+#: admin/edit-gallery.php:83 admin/edit-gallery.php:90
+msgid "Value"
+msgstr ""
+
+#: admin/edit-gallery.php:97
+msgid "Update Gallery"
+msgstr ""
+
+#: admin/edit-gallery.php:109
+msgid "Images"
+msgstr ""
+
+#: admin/edit-gallery.php:117
+msgid "Add images"
+msgstr ""
+
+#: admin/edit-gallery.php:118
+msgid "For multiple selections:"
+msgstr ""
+
+#: admin/edit-gallery.php:119
+msgid "Drag images to change order."
+msgstr ""
+
+#: admin/edit-gallery.php:122
+msgid "Bulk Actions"
+msgstr ""
+
+#: admin/edit-gallery.php:124
+msgid "Select all"
+msgstr ""
+
+#: admin/edit-gallery.php:125
+msgid "Deselect all"
+msgstr ""
+
+#: admin/edit-gallery.php:126
+msgid "Toggle selection"
+msgstr ""
+
+#: admin/edit-gallery.php:127
+msgid "Remove"
+msgstr ""
+
+#: admin/edit-gallery.php:128
+msgid "Assign filters"
+msgstr ""
+
+#: admin/edit-gallery.php:134 admin/edit-gallery.php:184
+msgid "Cancel"
+msgstr ""
+
+#: admin/edit-gallery.php:135
+msgid "Proceed"
+msgstr ""
+
+#: admin/edit-gallery.php:157
+msgid "Alignment"
+msgstr ""
+
+#: admin/edit-gallery.php:159
+msgid "left"
+msgstr ""
+
+#: admin/edit-gallery.php:160
+msgid "center"
+msgstr ""
+
+#: admin/edit-gallery.php:161
+msgid "right"
+msgstr ""
+
+#: admin/edit-gallery.php:165
+msgid "middle"
+msgstr ""
+
+#: admin/edit-gallery.php:166
+msgid "bottom"
+msgstr ""
+
+#: admin/edit-gallery.php:170 admin/include/edit-gallery.php:170
+msgid "Link"
+msgstr ""
+
+#: admin/edit-gallery.php:174
+msgid "Default target"
+msgstr ""
+
+#: admin/edit-gallery.php:175
+msgid "Open in same page"
+msgstr ""
+
+#: admin/edit-gallery.php:176
+msgid "Open in _blank"
+msgstr ""
+
+#: admin/edit-gallery.php:185 admin/overview.php:154
+msgid "Save"
+msgstr ""
+
+#: admin/overview.php:10
+msgid "Gallery has been deleted."
+msgstr ""
+
+#: admin/overview.php:39
+msgid "Gallery options have been updated."
+msgstr ""
+
+#: admin/overview.php:75
+msgid "This is a listing of all galleries"
+msgstr ""
+
+#: admin/overview.php:80 admin/overview.php:88
+msgid "Gallery Short Code"
+msgstr ""
+
+#: admin/overview.php:107
+msgid "Delete Gallery"
+msgstr ""
+
+#: admin/overview.php:115
+msgid "Default Options"
+msgstr ""
+
+#: admin/overview.php:120 admin/overview.php:125
+msgid "Attribute"
+msgstr ""
+
+#: admin/overview.php:121 admin/overview.php:126
+msgid "Default Value"
+msgstr ""
+
+#: admin/overview.php:131
+msgid "Image size"
+msgstr ""
+
+#: admin/tutorial.php:4
+msgid "Video tutorial"
+msgstr ""
+
+#: admin/include/edit-gallery.php:59
+msgid ""
+"This name is the internal name for the gallery.<br />Please avoid non-letter "
+"characters such as"
+msgstr ""
+
+#: admin/include/edit-gallery.php:59
+msgid "etc."
+msgstr ""
+
+#: admin/include/edit-gallery.php:62
+msgid "Gallery Description"
+msgstr ""
+
+#: admin/include/edit-gallery.php:68
+msgid "This description is for internal use."
+msgstr ""
+
+#: admin/include/edit-gallery.php:72
+msgid "Gallery width"
+msgstr ""
+
+#: admin/include/edit-gallery.php:78
+msgid "Width of the gallery in pixels or percentage."
+msgstr ""
+
+#: admin/include/edit-gallery.php:81
+msgid "Gallery height"
+msgstr ""
+
+#: admin/include/edit-gallery.php:87
+msgid "Height of the gallery in pixels"
+msgstr ""
+
+#: admin/include/edit-gallery.php:90
+msgid "Keep same area on resize"
+msgstr ""
+
+#: admin/include/edit-gallery.php:100
+msgid "Margin"
+msgstr ""
+
+#: admin/include/edit-gallery.php:110
+msgid "Filters"
+msgstr ""
+
+#: admin/include/edit-gallery.php:115
+msgid "Add filter"
+msgstr ""
+
+#: admin/include/edit-gallery.php:122
+msgid "Select the lightbox manager"
+msgstr ""
+
+#: admin/include/edit-gallery.php:126
+msgid "No link"
+msgstr ""
+
+#: admin/include/edit-gallery.php:127
+msgid "Direct link to image"
+msgstr ""
+
+#: admin/include/edit-gallery.php:128
+msgid "Attachment page"
+msgstr ""
+
+#: admin/include/edit-gallery.php:131
+msgid "Magnific popup"
+msgstr ""
+
+#: admin/include/edit-gallery.php:132
+msgid "ColorBox"
+msgstr ""
+
+#: admin/include/edit-gallery.php:133
+msgid "Pretty Photo"
+msgstr ""
+
+#: admin/include/edit-gallery.php:134
+msgid "FancyBox"
+msgstr ""
+
+#: admin/include/edit-gallery.php:135
+msgid "SwipeBox"
+msgstr ""
+
+#: admin/include/edit-gallery.php:136
+msgid "LightBox"
+msgstr ""
+
+#: admin/include/edit-gallery.php:142
+msgid "Open links in _blank"
+msgstr ""
+
+#: admin/include/edit-gallery.php:145 admin/include/edit-gallery.php:264
+#: admin/include/edit-gallery.php:274 admin/include/edit-gallery.php:284
+#: admin/include/edit-gallery.php:294 admin/include/edit-gallery.php:304
+msgid "Off"
+msgstr ""
+
+#: admin/include/edit-gallery.php:152
+msgid "WordPress caption field"
+msgstr ""
+
+#: admin/include/edit-gallery.php:155
+msgid "Don't use captions"
+msgstr ""
+
+#: admin/include/edit-gallery.php:156
+msgid "Title"
+msgstr ""
+
+#: admin/include/edit-gallery.php:161
+msgid "Wordpress field to use as caption when importing images"
+msgstr ""
+
+#: admin/include/edit-gallery.php:164
+msgid "Caption icon"
+msgstr ""
+
+#: admin/include/edit-gallery.php:168
+msgid "Lens"
+msgstr ""
+
+#: admin/include/edit-gallery.php:169
+msgid "Lens (plus)"
+msgstr ""
+
+#: admin/include/edit-gallery.php:171
+msgid "Heart"
+msgstr ""
+
+#: admin/include/edit-gallery.php:172
+msgid "Heart empty"
+msgstr ""
+
+#: admin/include/edit-gallery.php:173
+msgid "Camera"
+msgstr ""
+
+#: admin/include/edit-gallery.php:174
+msgid "Camera retro"
+msgstr ""
+
+#: admin/include/edit-gallery.php:175
+msgid "Picture"
+msgstr ""
+
+#: admin/include/edit-gallery.php:176
+msgid "Star"
+msgstr ""
+
+#: admin/include/edit-gallery.php:177
+msgid "Star empty"
+msgstr ""
+
+#: admin/include/edit-gallery.php:178
+msgid "Sun"
+msgstr ""
+
+#: admin/include/edit-gallery.php:179
+msgid "Arrows"
+msgstr ""
+
+#: admin/include/edit-gallery.php:180
+msgid "Hand"
+msgstr ""
+
+#: admin/include/edit-gallery.php:186
+msgid "Caption icon color"
+msgstr ""
+
+#: admin/include/edit-gallery.php:191
+msgid "Caption effect"
+msgstr ""
+
+#: admin/include/edit-gallery.php:194
+msgid "Fade"
+msgstr ""
+
+#: admin/include/edit-gallery.php:195
+msgid "Slide from top"
+msgstr ""
+
+#: admin/include/edit-gallery.php:196
+msgid "Slide from bottom"
+msgstr ""
+
+#: admin/include/edit-gallery.php:197
+msgid "Slide from left"
+msgstr ""
+
+#: admin/include/edit-gallery.php:198
+msgid "Slide from right"
+msgstr ""
+
+#: admin/include/edit-gallery.php:204
+msgid "Caption effect easing"
+msgstr ""
+
+#: admin/include/edit-gallery.php:216
+msgid "Caption color"
+msgstr ""
+
+#: admin/include/edit-gallery.php:222
+msgid "Caption background color"
+msgstr ""
+
+#: admin/include/edit-gallery.php:227
+msgid "Caption effect duration"
+msgstr ""
+
+#: admin/include/edit-gallery.php:239
+msgid "Caption opacity"
+msgstr ""
+
+#: admin/include/edit-gallery.php:251
+msgid "Effect on page scroll"
+msgstr ""
+
+#: admin/include/edit-gallery.php:261
+msgid "Shuffle images"
+msgstr ""
+
+#: admin/include/edit-gallery.php:268
+msgid "Choose \"Yes\" if you want to shuffle the gallery at each page reload"
+msgstr ""
+
+#: admin/include/edit-gallery.php:271
+msgid "Add Twitter icon"
+msgstr ""
+
+#: admin/include/edit-gallery.php:281
+msgid "Add Facebook icon"
+msgstr ""
+
+#: admin/include/edit-gallery.php:291
+msgid "Add Google Plus icon"
+msgstr ""
+
+#: admin/include/edit-gallery.php:301
+msgid "Add Pinterest icon"
+msgstr ""
+
+#: admin/include/edit-gallery.php:304
+msgid "On"
+msgstr ""
+
+#: admin/include/edit-gallery.php:311
+msgid "Border size"
+msgstr ""
+
+#: admin/include/edit-gallery.php:323
+msgid "Border radius"
+msgstr ""
+
+#: admin/include/edit-gallery.php:336
+msgid "Border color"
+msgstr ""
+
+#: admin/include/edit-gallery.php:341
+msgid "Shadow size"
+msgstr ""
+
+#: admin/include/edit-gallery.php:354
+msgid "Shadow color"
+msgstr ""
+
+#: admin/include/edit-gallery.php:359
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/include/edit-gallery.php:366
+msgid "Write just the code without using the &lt;style&gt; tag."
+msgstr ""
+
+#: admin/include/edit-gallery.php:370
+msgid "Custom Javascript"
+msgstr ""
+
+#: admin/include/edit-gallery.php:377
+msgid ""
+"This script will be called after the gallery initialization. Useful for "
+"custom lightboxes."
+msgstr ""
+
+#: admin/include/edit-gallery.php:380
+msgid ""
+"Write just the code without using the &lt;script&gt;&lt;/script&gt; tags"
+msgstr ""

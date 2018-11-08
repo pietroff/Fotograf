@@ -1,0 +1,46 @@
+<?php
+
+function get_image_size_links($id) {
+    $result = array();
+    $sizes = get_intermediate_image_sizes();
+    $sizes[] = 'full';
+
+    foreach ( $sizes as $size ) 
+    {
+        $image = wp_get_attachment_image_src( $id, $size );
+        if ( !empty( $image ) && ( true == $image[3] || 'full' == $size ) )
+            $result["$image[1]x$image[2]"] = $image[0];
+    }
+
+    return $result;
+}
+
+?>    
+<div id="image-panel">
+    <figure>
+        
+    </figure>
+    <div class="right">
+        <div>
+            <select class="select js-select">
+            <?php foreach(get_image_size_links($image->imageId) as $k => $v) : ?>
+                <option <?php print $v == $image->imagePath ? "selected" : "" ?> value="<?php print $v ?>"><?php print $k ?></option>
+            <?php endforeach ?>
+            </select>
+        </div>
+        <div class="field">
+             <div class="text">
+                <textarea name="caption"></textarea>
+            </div>
+        </div>
+       
+        <div>
+            <input type="radio" name="click_action" <?php print $image->zoom == "F" && strlen($image->link) == 0 ? "checked" : "" ?> value="" /> <?php _e('None','modula-gallery')?><br />
+            <input type="radio" name="click_action" value="zoom" <?php print $image->zoom == "T" ? "checked" : "" ?> /> <?php _e('Zoom','modula-gallery')?><br />
+            <div class="text dark">
+                <input type="radio" name="click_action" value="url" <?php print strlen($image->link) > 0 ? "checked" : "" ?> /> <?php _e('Go to URL:','modula-gallery')?>                                     
+                <input type="text" size="20" value="<?php print $image->link ?>" name="url" <?php print strlen($image->link) == 0 ? "disabled" : "" ?> />
+            </div>
+        </div>
+    </div>
+</div>

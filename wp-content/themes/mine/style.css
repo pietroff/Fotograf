@@ -2625,7 +2625,7 @@ input[type="search"].search-field {
     float: none;
     text-align: center;
     vertical-align: bottom;
-    background: #fff;
+    /* background: #fff; */
     padding-bottom: 0px;
 }
 
