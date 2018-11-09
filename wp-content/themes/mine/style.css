@@ -4777,6 +4777,17 @@ p > video {
     margin-bottom: 0;
 }
 
+/* .jednakowa-wysokosc-obrazka {
+    width: 30%;
+    margin: 0 2.5%;
+}
+.jednakowa-wysokosc-obrazka > img {
+    width: 30%;
+    height: 20%;
+    padding-top: 56.25%;
+    display: block;
+} */
+
 /**
  * 14.0 - Media Queries
  */

@@ -50,7 +50,7 @@ add_filter( 'excerpt_length', 'wp_example_excerpt_length');
     echo "<div class='linia-pozioma text-center'></div>";
  
     while (have_posts()) : the_post();
-      echo "<div class='col-xs-12 col-sm-4 col-md-4 col-lg-4 margines'>";
+      echo "<div class='col-xs-12 col-sm-4 col-md-4 col-lg-4 margines jednakowa-wysokosc-obrazka'>";
       echo "<a href='".get_permalink()."'>";
       the_post_thumbnail();
       echo "</a>";
