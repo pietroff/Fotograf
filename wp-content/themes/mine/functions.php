@@ -2144,7 +2144,7 @@ if (!function_exists('mine_blog_image')) {
                     if (has_post_thumbnail()) {
                         the_post_thumbnail('mine-blog-thumbnail');
                     } elseif (isset($blog_default_image) && $blog_default_image != "") {
-                        echo "<img src='".esc_html($blog_default_image)."' alt='". get_the_title()."'>";
+                        echo "<img src='".esc_html($blog_default_image)."' alt='". get_the_title()."' width='360' height='240'>";
                     } 
                 if (!is_single()) { ?>
                     </a><?php
