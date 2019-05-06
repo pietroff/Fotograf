@@ -5104,3 +5104,30 @@ p > video {
         border-top: 1px solid #ccc;
         margin-bottom: 30px;
     }
+
+    .flexslider .slides > li {
+        border: 0px solid rgba(44, 44, 44, 0.1)!important;
+    }
+    .flexslider {
+       
+        box-shadow: 0 0px 0px rgba(0,0,0,.2);
+        -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.2);
+        -moz-box-shadow: 0 0px 0px rgba(0,0,0,.2);
+        -o-box-shadow: 0 0px 0px rgba(0,0,0,.2);
+        zoom: 1;
+    }
+    .author_image img {
+        border: 0px solid #ffffff;
+        box-shadow: 1px 1px 5px rgba(44, 44, 44, 0.1);
+    }
+    .flexslider-hg.flexslider ul.slides img {
+        width: 100%;
+        display: block;
+        margin-top: 14px;
+    }
+    .flexslider-hg.flexslider ul.slides li {
+        z-index: 0!important;
+    }
+    .items{
+        z-index: 0!important;
+    }
